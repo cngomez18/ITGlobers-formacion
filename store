@@ -1,0 +1,11 @@
+16:02:13.741 - [32minfo[39m: Hello! I will help you generate basic files and folders for your app.  
+[?25l[36m?[39m [1mChoose where do you want to start from[22m [2m...[22m 
+[36m>[39m [36m[4mstore[24m[39m
+  edition app
+  checkout-ui-settings
+  service-worker-example
+  Cancel[5A[46G[5B[2K[F[2K[F[2K[F[2K[F[2K[F[2K[1G[32m√[39m [1mChoose where do you want to start from[22m [2m·[22m [36mstore[39m[4D
+[?25l[2K[1G[36m?[39m [1mYou are about to create the new folder C:\Users\kity-\Desktop\ITGlobers\ITGlobers-formacion/-. Do you want to continue?[22m [90m»[39m [90m(Y/n)[39m[2K[1G[2K[1G[32m√[39m [1mYou are about to create the new folder C:\Users\kity-\Desktop\ITGlobers\ITGlobers-formacion/-. Do you want to continue?[22m [90m...[39m yes
+[?25h16:02:17.334 - [32minfo[39m: Cloning minimum-boilerplate-theme from vtex-apps.  
+16:02:20.288 - [32minfo[39m: Run cd - and vtex link to start developing!  
+[?25h
