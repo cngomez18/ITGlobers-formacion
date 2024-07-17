@@ -1,0 +1,74 @@
+{
+    "slider-layout#text-test": {
+        "title": "slider images home",    
+        "props": {
+        "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "carousel"
+        },
+        "children": [
+            "image#example__1","image#example__2","image#example__3"
+        ]
+    },
+
+    "rich-text#1": {
+        "title": "slider test text one",    
+        "props": {
+        "text": "Test1"
+        }
+    },
+    "rich-text#2": {
+        "title": "slider test text two", 
+        "props": {
+        "text": "Test2"
+        }
+    },
+    "rich-text#3": {
+        "title": "slider test text three", 
+        "props": {
+        "text": "Test3"
+        }
+    },
+    "image#example__1": {
+        "title": "image one",
+        "props": {
+          "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+          "maxHeight": 24
+        }
+    },
+    "image#example__2": {
+        "title": "image two",
+        "props": {
+          "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+          "maxHeight": 24
+        }
+    },
+    "image#example__3": {
+        "title": "image three",
+        "props": {
+          "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+          "maxHeight": 24
+        }
+    }
+    /*
+    "flex-layout.row#test__one--slider-home": {
+        "title": "Slider row test one",
+        "children": [
+            "flex-layout.col#text__one--slider-home"
+        ],
+        "props": {}
+    },
+    "flex-layout.col#test__one--slider-home": {
+        "title": "Slider col test one",
+        "children": [ 
+
+        ],
+        "props":{}
+    }
+        */
+}
