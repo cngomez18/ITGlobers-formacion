@@ -12,14 +12,16 @@
         "blockClass": "carousel"
         },
         "children": [
-            "image#example__1","image#example__2","image#example__3"
+            "flex-layout.row#test__one--slider-home",
+            "image#example__2",
+            "image#example__3"
         ]
     },
 
     "rich-text#1": {
         "title": "slider test text one",    
         "props": {
-        "text": "Test1"
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel eros non eros ultrices accumsan. Duis nisi leo, vehicula a felis at, maximus mattis elit. Maecenas imperdiet sagittis augue, in dictum lacus rutrum vel. Vivamus congue efficitur dapibus. Phasellus ac risus sit amet nisi hendrerit vehicula vel a augue. Etiam maximus malesuada libero, at tempor nisl viverra sed. Duis metus dolor, scelerisque accumsan lorem eget, semper luctus elit. Integer at odio a justo viverra dictum a vel risus. Morbi bibendum quam non lacus aliquam, at ultrices nisi molestie. Nulla gravida interdum tortor a ultricies. Fusce condimentum in justo et sagittis."
         }
     },
     "rich-text#2": {
@@ -37,38 +39,49 @@
     "image#example__1": {
         "title": "image one",
         "props": {
-          "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-          "maxHeight": 24
+          "src": "assets/img/a-poster.jpg",
+          "maxHeight": "100px"
         }
     },
     "image#example__2": {
         "title": "image two",
         "props": {
-          "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-          "maxHeight": 24
+          "src": "assets/img/a-poster.jpg",
+          "maxHeight": "100px"
         }
     },
     "image#example__3": {
         "title": "image three",
         "props": {
-          "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-          "maxHeight": 24
+          "src": "assets/img/a-poster.jpg",
+          "maxHeight": "100px"
         }
-    }
-    /*
+    },
+
     "flex-layout.row#test__one--slider-home": {
         "title": "Slider row test one",
         "children": [
-            "flex-layout.col#text__one--slider-home"
+            "flex-layout.col#test__one--slider-home",
+            "flex-layout.col#test__two--slider-home"
         ],
         "props": {}
     },
     "flex-layout.col#test__one--slider-home": {
         "title": "Slider col test one",
         "children": [ 
-
+            "image#example__1"
         ],
-        "props":{}
+        "props":{
+            "width":"50%"
+        }
+    },
+    "flex-layout.col#test__two--slider-home": {
+        "title": "Slider col test two",
+        "children": [ 
+            "rich-text#1"
+        ],
+        "props":{
+            "width":"50%"
+        }
     }
-        */
 }
