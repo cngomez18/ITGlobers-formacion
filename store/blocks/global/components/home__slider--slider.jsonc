@@ -12,7 +12,7 @@
         "blockClass": "carousel"
         },
         "children": [
-            "flex-layout.row#test__one--slider-home",
+            "image#example__2",
             "image#example__2",
             "image#example__3"
         ]
@@ -39,21 +39,21 @@
     "image#example__1": {
         "title": "image one",
         "props": {
-          "src": "assets/img/a-poster.jpg",
+          "src": "assets/img/home/slider1.png",
           "maxHeight": "100px"
         }
     },
     "image#example__2": {
         "title": "image two",
         "props": {
-          "src": "assets/img/a-poster.jpg",
+          "src": "assets/img/home/slider1.png",
           "maxHeight": "100px"
         }
     },
     "image#example__3": {
         "title": "image three",
         "props": {
-          "src": "assets/img/a-poster.jpg",
+          "src": "assets/img/home/slider1.png",
           "maxHeight": "100px"
         }
     },

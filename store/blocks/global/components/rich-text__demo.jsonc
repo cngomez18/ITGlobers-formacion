@@ -37,7 +37,10 @@
           "text": "HOLA MUNDO",
           "textAlignment": "CENTER",
           "textPosition": "CENTER",
-          "font": "t-heading-1"
+          "font": "t-heading-1",
+          "blockClass":[
+            "font__hola-mundo"
+          ]
         }
     }
 
