@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#home__section--1":{
+        "title": "Desktop",
+        "children": [
+            "rich-text#section--1"
+        ]
+        
+    },
+    "rich-text#section--1":{
+        "title":"Text favorites at desktop",
+        "props":{
+            "text":"Favoritos en Desktop",
+            "font": "t-heading-2",
+            "textAligment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+
+}

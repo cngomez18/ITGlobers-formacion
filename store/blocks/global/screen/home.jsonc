@@ -1,8 +1,18 @@
 {
   "store.home": { 
     "blocks": [
+      "modal-trigger#example",
+      "responsive-layout.desktop#home__section--1",
+      "responsive-layout.phone#home__section--1",
+      "responsive-layout.tablet#home__section--1",
+      "responsive-layout.mobile#home__section--1"
+      /*
       "flex-layout.row#banner__one--home",
-      "slider-layout#text-test" 
+      "slider-layout#telefono",
+      "slider-layout#monitor",
+      "slider-layout#telefono",
+      "slider-layout#monitor"   
+      */
     ]
   }
   

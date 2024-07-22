@@ -1,0 +1,13 @@
+{
+    "responsive-layout.desktop#home__section--1" : {
+        "title" : "Home section one Desktop",
+        "children":[
+            "flex-layout.row#home__section--1",
+            "flex-layout.row#banner__one--home",
+            "slider-layout#telefono",
+            "slider-layout#monitor",
+            "slider-layout#telefono",
+            "slider-layout#monitor"
+        ]
+    }
+}
