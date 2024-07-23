@@ -2,107 +2,31 @@
     "flex-layout.row#banner__one--home": {
         "title": "Banner row one home",
         "children": [
-           "flex-layout.col#banner__one--home",
-           "flex-layout.col#banner__two--home",
-           "flex-layout.col#banner__three--home"
+           "flex-layout.col#banner__promo--home"
         ],
         "props": {
             "top": "168px"
         }
     },
-    "flex-layout.col#banner__one--home":{
-        "title": "Banner promo img left",
-        "children":[
-            "image#promo__left"
-        ],
-        "props": {
-
-        }
-    },
-    "flex-layout.col#banner__two--home":{
-        "title": "Banner promo text btn ",
-        "children":[
-            "rich-text#watch-1",
-            "rich-text#watch-2",
-            "rich-text#watch-3",
-            "rich-text#watch-4"
-        ],
-        "props": {
-            "blockClass":[
-                "banner__two--title"
-            ]
-        }
-    },
-    "flex-layout.col#banner__three--home":{
+    "flex-layout.col#banner__promo--home":{
         "title": "Banner promo img right",
         "children":[
-            "image#promo__right"
+            "image#promo"
         ],
         "props": {
 
         }
     },
-//\n ULTRA \n An amazing product \n Button
-    "rich-text#watch-1": {
-        "title": "banner text", 
-        "props": {
-        "text": "iWATCH ",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "font": "t-heading-1",
-        "blockClass": [
-            "font__banner"
-        ]
-        }
-    },
-"rich-text#watch-2": {
-        "title": "banner text", 
-        "props": {
-        "text": "ULTRA ",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "font": "t-heading-1",
-        "blockClass": [
-            "font__banner2"
-        ]
-        }
-    },"rich-text#watch-3": {
-        "title": "banner text", 
-        "props": {
-        "text": "An amazing product ",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "font": "t-heading-1",
-        "blockClass": [
-            "font__banner3"
-        ]
-        }
-    },"rich-text#watch-4": {
-        "title": "banner text", 
-        "props": {
-        "text": "btn ",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "font": "t-heading-1",
-        "blockClass": [
-            "font__banner"
-        ]
-        }
-    },
-    "image#promo__left": {
-        "title": "image left",
-        "props": {
-          "src": "assets/img/home/watch-left.png",
-          "width": "464px",
-          "height": "422px"
-        }
-    },
-    "image#promo__right": {
+    "image#promo": {
         "title": "image right",
         "props": {
-          "src": "assets/img/home/watch-right.png",
-          "width": "414px",
-          "height": "422px"
+            "src": "assets/img/home/Desktop-promo.png",
+            "width": "100%",
+            "height": "Fixed (422px)px",
+            "top": "168px",
+            "gap": "0px",
+            "opacity": "0px",
+            "url": "#"
         }
     }
 }

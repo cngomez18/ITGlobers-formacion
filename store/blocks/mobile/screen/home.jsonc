@@ -2,7 +2,8 @@
     "responsive-layout.mobile#home__section--1" : {
         "title" : "Home section one Mobile",
         "children":[
-            "flex-layout.row#mobile__home__section--1"
+            "flex-layout.row#mobile__banner__one--home",
+            "flex-layout.row#Home__slider--order"
         ]
     }
 }

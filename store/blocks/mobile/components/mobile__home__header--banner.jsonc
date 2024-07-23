@@ -1,0 +1,76 @@
+{
+    "flex-layout.row#mobile__banner__one--home": {
+        "title": "Banner row one home",
+        "children": [
+           "flex-layout.col#mobile__banner__one--home"
+        ],
+        "props": {
+            "top": "168px"
+        }
+    },
+    "flex-layout.col#mobile__banner__one--home":{
+        "title": "Banner promo img left",
+        "children":[
+            "image#mobile__promo__left"
+        ],
+        "props": {
+
+        }
+    },
+    "image#mobile__promo__left": {
+        "title": "image left",
+        "props": {
+          "src": "assets/img/home/Mobile-promo.png",
+          "width": "100%",
+          "height": "100%",
+          "url":"#"
+        }
+    }
+//\n ULTRA \n An amazing product \n Button
+   /* "rich-text#watch-1": {
+        "title": "banner text", 
+        "props": {
+        "text": "iWATCH ",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "t-heading-1",
+        "blockClass": [
+            "font__banner"
+        ]
+        }
+    },
+    "rich-text#watch-2": {
+        "title": "banner text", 
+        "props": {
+        "text": "ULTRA ",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "t-heading-1",
+        "blockClass": [
+            "font__banner2"
+        ]
+        }
+    },"rich-text#watch-3": {
+        "title": "banner text", 
+        "props": {
+        "text": "An amazing product ",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "t-heading-1",
+        "blockClass": [
+            "font__banner3"
+        ]
+        }
+    },"rich-text#watch-4": {
+        "title": "banner text", 
+        "props": {
+        "text": "btn ",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "t-heading-1",
+        "blockClass": [
+            "font__banner"
+        ]
+        }
+    },*/
+}
