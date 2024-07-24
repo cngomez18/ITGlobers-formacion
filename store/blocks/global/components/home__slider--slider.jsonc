@@ -1,6 +1,19 @@
 {
+    "flex-layout.row#Home__slider--order":{
+        "children":[
+            "flex-layout.col#Home__slider--order"
+        ]
+    },
+    "flex-layout.col#Home__slider--order":{
+        "children":[
+            "slider-layout#telefono",
+            "slider-layout#monitor",
+            "slider-layout#telefono",
+            "slider-layout#monitor" 
+        ]
+    },
     "slider-layout#telefono": {
-        "title": "slider images home",    
+        "title": "slider images telefono home",    
         "props": {
         "itemsPerPage": {
             "desktop": 3,
@@ -14,29 +27,17 @@
         "blockClass": "carousel"
         },
         "children": [
-            "image#example__2",
-            "image#example__2",
-            "image#example__2",
-            "image#example__2",
-            "image#example__2"
+            "flex-layout.col#card-promo",
+            "flex-layout.col#card-promo",
+            "flex-layout.col#card-promo",
+            "flex-layout.col#card-promo",
+            "flex-layout.col#card-promo",
+            "flex-layout.col#card-promo",
+            "flex-layout.col#card-promo"
         ]
     },
-    "image#example__1": {
-        "title": "image one",
-        "props": {
-          "src": "assets/img/home/monitor.png",
-          "maxHeight": "100%"
-        }
-    },
-    "image#example__2": {
-        "title": "image two",
-        "props": {
-          "src": "assets/img/home/telefono.png",
-          "maxHeight": "100%"
-        }
-    },
     "slider-layout#monitor": {
-        "title": "slider images home",    
+        "title": "slider images monitor home",    
         "props": {
         "itemsPerPage": {
             "desktop": 5,
@@ -49,25 +50,113 @@
         "blockClass": "carousel"
         },
         "children": [
-            "image#example__1",
-            "image#example__1",
-            "image#example__1",
-            "image#example__1",
-            "image#example__1",
-            "image#example__1"
+            "image#monitor",
+            "image#monitor",
+            "image#monitor",
+            "image#monitor",
+            "image#monitor",
+            "image#monitor"
         ]
     },
-     "flex-layout.row#Home__slider--order":{
+    "flex-layout.col#card-promo":{
+        "props":{
+            "preventVerticalStretch":false,
+            "blockClass":[
+                "slider__card-promo"
+            ]
+        },
         "children":[
-            "flex-layout.col#Home__slider--order"
+            "image#telefono",
+            "flex-layout.row#spacer-card",
+            "flex-layout.row#card-holder",
+            "flex-layout.row#spacer-card",
+            "flex-layout.row#card-btn-img-holder",
+            "flex-layout.row#spacer-card"
+
         ]
     },
-    "flex-layout.col#Home__slider--order":{
+    "rich-text#card-promo-heading":{
+        "props":{
+            "title":"heading card promo",
+            "text":"Heading",
+            "font":"t-heading-5",
+            "blockClass":[
+                "slider__card-promo"
+            ]
+        }
+    },
+    "rich-text#card-promo-body":{
+        "props":{
+            "title":"body card promo",
+            "text":"Builder platform is made by, buildership platform is made by... ",
+            "font":"t-body",
+            "blockClass":[
+                "slider__card-promo"
+            ]
+        }
+    },
+    "image#monitor": {
+        "title": "image one monitor",
+        "props": {
+          "src": "assets/img/home/monitor.png",
+          "maxHeight": "100%"
+        }
+    },
+    "image#telefono": {
+        "title": "image two telefono",
+        "props": {
+          "src": "assets/img/home/telefono.png",
+          "maxHeight": "100%"
+        }
+    },
+    "image#prize":{
+        "props":{
+            "src":"assets/img/home/sello-infoCard.png"
+        }
+    },
+    "image#btn":{
+        "props":{
+            "src":"assets/img/home/btn-infoCard.png"
+        }
+    },
+    "flex-layout.row#spacer-card": {
+        "props": {
+            "marginTop":"4"
+        }
+    },
+    "flex-layout.row#card-holder": {
+        "props": {
+            "fullWidth": true
+        },
         "children":[
-            "slider-layout#telefono",
-            "slider-layout#monitor",
-            "slider-layout#telefono",
-            "slider-layout#monitor" 
+            "flex-layout.col#card-text-holder",
+            "flex-layout.col#card-text-prize"
         ]
-    }
+    },
+    "flex-layout.row#card-btn-img-holder":{
+        "props":{
+
+        },
+        "children":[
+            "image#btn"
+        ]
+    } ,
+    "flex-layout.col#card-text-holder": {
+        "props": {
+            "marginLeft": 2
+        },
+        "children":[
+            "rich-text#card-promo-heading",
+            "rich-text#card-promo-body"
+        ]
+    },
+    "flex-layout.col#card-text-prize": {
+        "props": {
+           "width":"18%"
+        },
+        "children":[
+            "image#prize"
+        ]
+    }    
+    
 }

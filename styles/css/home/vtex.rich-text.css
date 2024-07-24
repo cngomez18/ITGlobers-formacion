@@ -36,3 +36,8 @@
     overflow: hidden;
     padding: 0 10px;
 }
+/*
+.container--slider__card-promo{
+    background-color: #FF8324;
+    max-height: 80px;
+}
