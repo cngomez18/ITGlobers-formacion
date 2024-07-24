@@ -30,3 +30,9 @@
 .container--font__banner{
     height: 60px;
 }
+
+.navbar-item{
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0 10px;
+}

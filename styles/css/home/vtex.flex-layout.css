@@ -3,3 +3,19 @@
     background-color: #F0F0F2;
     ;
 }
+/*
+.flexRowContent--row__desktop{
+    background-color:beige;
+    justify-content: space-between;
+}
+.flexColChild--col__navbar{
+    background-color: aqua;
+    
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.flexRowContent--desktop__navbar{
+    justify-content: space-between;
+}
+*/
