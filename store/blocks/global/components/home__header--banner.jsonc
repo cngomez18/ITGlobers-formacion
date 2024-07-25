@@ -17,6 +17,8 @@
 
         }
     },
+
+    //------should be an info card, try img left then info card
     "image#promo": {
         "title": "image right",
         "props": {

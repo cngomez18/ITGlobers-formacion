@@ -1,35 +1,38 @@
-
-.flexColChild--banner__two--title{
+.flexColChild--banner__two--title {
     background-color: #F0F0F2;
     ;
 }
-.flexCol--slider__card-promo{
-    background-color: beige;
-    justify-content: space-between;
-    width: Fixed (324px)px;
-    height: Hug (336.46px)px;
-    gap: 0px;
-    border-radius: 12px;
 
-    
+.flexCol--slider__card-promo {
+    background-color: beige;
+    justify-content : space-between;
+    width           : Fixed (324px)px;
+    height          : Hug (336.46px)px;
+    gap             : 0px;
+    border-radius   : 12px;
+
 }
-.flexColChild--slider__card-promo{
-    padding: 0px 0px 0px 0px;
+
+.flexColChild--slider__card-promo {
+    padding     : 0px 0px 0px 0px;
     padding-left: 5px;
 }
+
 /*
-.flexRowContent--row__desktop{
-    background-color:beige;
-    justify-content: space-between;
+.flexRowContent--row__desktop {
+    background-color: beige;
+    justify-content : space-between;
 }
-.flexColChild--col__navbar{
+
+.flexColChild--col__navbar {
     background-color: aqua;
-    
+
     justify-content: space-between;
-    width: 100%;
-    
+    width          : 100%;
+
 }
-.flexRowContent--desktop__navbar{
+
+.flexRowContent--desktop__navbar {
     justify-content: space-between;
 }
 */

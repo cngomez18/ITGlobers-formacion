@@ -6,10 +6,14 @@
     },
     "flex-layout.col#Home__slider--order":{
         "children":[
+            "rich-text#amazing-product",
             "slider-layout#telefono",
-            "slider-layout#monitor",
+            "rich-text#amazing-product",
+            "list-context.product-list",
+            "rich-text#amazing-product",
             "slider-layout#telefono",
-            "slider-layout#monitor" 
+            "rich-text#amazing-product",
+            "list-context.product-list"
         ]
     },
     "slider-layout#telefono": {
