@@ -1,9 +1,5 @@
-.flexColChild--banner__two--title {
-    background-color: #F0F0F2;
-    ;
-}
 
-.flexCol--slider__card-promo {
+.flexCol--global__slider__info-card {
     background-color:#F0F0F2;
     justify-content : space-between;
     width           : Fixed (324px)px;
@@ -13,26 +9,7 @@
 
 }
 
-.flexColChild--slider__card-promo {
+.flexColChild--global__slider__info-card--text {
     padding     : 0px 0px 0px 0px;
     padding-left: 5px;
 }
-
-/*
-.flexRowContent--row__desktop {
-    background-color: beige;
-    justify-content : space-between;
-}
-
-.flexColChild--col__navbar {
-    background-color: aqua;
-
-    justify-content: space-between;
-    width          : 100%;
-
-}
-
-.flexRowContent--desktop__navbar {
-    justify-content: space-between;
-}
-*/
