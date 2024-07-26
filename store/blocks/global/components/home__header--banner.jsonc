@@ -22,7 +22,7 @@
     "image#promo": {
         "title": "image right",
         "props": {
-            "src": "assets/img/home/Desktop-promo.png",
+            "src": "assets/img/home/desktop-promo.png",
             "width": "100%",
             "height": "Fixed (422px)px",
             "top": "168px",

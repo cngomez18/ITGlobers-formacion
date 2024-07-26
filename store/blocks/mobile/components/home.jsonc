@@ -2,7 +2,6 @@
     "flex-layout.row#mobile__home__section--1":{
         "title": "Mobile",
         "children": [
-            "rich-text#mobile__section--1"
         ],
         "props":{
             "marginTop": 10,
@@ -11,15 +10,6 @@
             "borderColor": "danger"
         }
         
-    },
-    "rich-text#mobile__section--1":{
-        "title":"Text favorites at mobile",
-        "props":{
-            "text":"Favoritos en Mobile",
-            "font": "t-heading-3",
-            "textAligment": "CENTER",
-            "textPosition": "CENTER"
-        }
     }
 
 }

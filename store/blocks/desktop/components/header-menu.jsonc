@@ -90,7 +90,7 @@
         "props": {
             "title": "Logo food",
             "href": "/",
-            "url":"assets/img/header/Category-food.png",
+            "url":"assets/img/header/global__home__header--category-food.png",
             "width": "Fixed (70px)px",
             "height": "Fixed (47px)px",
             "gap": "4px",
@@ -103,7 +103,7 @@
         "props": {
             "title": "Logo fit",
             "href": "/",
-            "url":"assets/img/header/Category-fit.png",
+            "url":"assets/img/header/global__home__header--category-fit.png",
             "width": "Fixed (70px)px",
             "height": "Fixed (47px)px",
             "gap": "4px",
@@ -116,7 +116,7 @@
         "props": {
             "title": "Logo artico",
             "href": "/",
-            "url":"assets/img/header/Category-ice.png",
+            "url":"assets/img/header/global__home__header--category-ice.png",
             "width": "Fixed (70px)px",
             "height": "Fixed (47px)px",
             "gap": "4px",
@@ -129,7 +129,7 @@
         "props": {
             "title": "Logo pool",
             "href": "/",
-            "url":"assets/img/header/Category-pool.png",
+            "url":"assets/img/header/global__home__header--category-pool.png",
             "width": "Fixed (70px)px",
             "height": "Fixed (47px)px",
             "gap": "4px",
@@ -142,7 +142,7 @@
         "props": {
             "title": "Logo hotel",
             "href": "/",
-            "url":"assets/img/header/Category-hotel.png",
+            "url":"assets/img/header/global__home__header--category-hotel.png",
             "width": "Fixed (70px)px",
             "height": "Fixed (47px)px",
             "gap": "4px",
@@ -155,7 +155,7 @@
         "props": {
             "title": "Logo house",
             "href": "/",
-            "url":"assets/img/header/Category-house.png",
+            "url":"assets/img/header/global__home__header--category-house.png",
             "width": "Fixed (70px)px",
             "height": "Fixed (47px)px",
             "gap": "4px",
@@ -168,7 +168,7 @@
         "props": {
             "title": "Logo spa",
             "href": "/",
-            "url":"assets/img/header/Category-spa.png",
+            "url":"assets/img/header/global__home__header--category-spa.png",
             "width": "Fixed (70px)px",
             "height": "Fixed (47px)px",
             "gap": "4px",
@@ -181,7 +181,7 @@
         "props": {
             "title": "Logo closet",
             "href": "/",
-            "url":"assets/img/header/Category-closet.png",
+            "url":"assets/img/header/global__home__header--category-closet.png",
             "width": "Fixed (70px)px",
             "height": "Fixed (47px)px",
             "gap": "4px",
@@ -194,7 +194,7 @@
         "props": {
             "title": "Logo beach",
             "href": "/",
-            "url":"assets/img/header/Category-beach.png",
+            "url":"assets/img/header/global__home__header--category-beach.png",
             "width": "Fixed (70px)px",
             "height": "Fixed (47px)px",
             "gap": "4px",
@@ -207,7 +207,7 @@
         "props": {
             "title": "Logo hiking",
             "href": "/",
-            "url":"assets/img/header/Category-hiking.png",
+            "url":"assets/img/header/global__home__header--category-hiking.png",
             "width": "Fixed (70px)px",
             "height": "Fixed (47px)px",
             "gap": "4px",
@@ -220,7 +220,7 @@
         "props": {
             "title": "Logo delivery",
             "href": "/",
-            "url":"assets/img/header/Category-delivery.png",
+            "url":"assets/img/header/global__home__header--category-delivery.png",
             "width": "Fixed (70px)px",
             "height": "Fixed (47px)px",
             "gap": "4px",
@@ -233,7 +233,7 @@
         "props": {
             "title": "Logo beer",
             "href": "/",
-            "url":"assets/img/header/Category-beer.png",
+            "url":"assets/img/header/global__home__header--category-beer.png",
             "width": "Fixed (70px)px",
             "height": "Fixed (47px)px",
             "gap": "4px",

@@ -20,7 +20,7 @@
     "image#mobile__promo__left": {
         "title": "image left",
         "props": {
-          "src": "assets/img/home/Mobile-promo.png",
+          "src": "assets/img/home/mobile__home__info-card.png",
           "width": "100%",
           "height": "100%",
           "url":"#"

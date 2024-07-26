@@ -40,28 +40,6 @@
             "flex-layout.col#card-promo"
         ]
     },
-    "slider-layout#monitor": {
-        "title": "slider images monitor home",    
-        "props": {
-        "itemsPerPage": {
-            "desktop": 5,
-            "tablet": 2,
-            "phone": 2
-        },
-        "infinite": true,
-        "centerMode":"to-the-left",
-        "showNavigationArrows": "desktopOnly",
-        "blockClass": "carousel"
-        },
-        "children": [
-            "image#monitor",
-            "image#monitor",
-            "image#monitor",
-            "image#monitor",
-            "image#monitor",
-            "image#monitor"
-        ]
-    },
     "flex-layout.col#card-promo":{
         "props":{
             "preventVerticalStretch":false,
@@ -99,28 +77,21 @@
             ]
         }
     },
-    "image#monitor": {
-        "title": "image one monitor",
-        "props": {
-          "src": "assets/img/home/monitor.png",
-          "maxHeight": "100%"
-        }
-    },
     "image#telefono": {
         "title": "image two telefono",
         "props": {
-          "src": "assets/img/home/telefono.png",
+          "src": "assets/img/home/global__home__info-card--phone.png",
           "maxHeight": "100%"
         }
     },
     "image#prize":{
         "props":{
-            "src":"assets/img/home/sello-infoCard.png"
+            "src":"assets/img/home/global__home__info-card--prize.png"
         }
     },
     "image#btn":{
         "props":{
-            "src":"assets/img/home/btn-infoCard.png"
+            "src":"assets/img/home/global__home__info-card--fake-btn.png"
         }
     },
     "flex-layout.row#spacer-card": {

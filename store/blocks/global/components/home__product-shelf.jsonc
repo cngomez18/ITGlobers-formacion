@@ -29,7 +29,6 @@
     },
     "product-summary-image": {
         "props": {
-            "src":"assets/img/home/monitor.png",
             "showBadge": true,   
             "height": 220
         }
