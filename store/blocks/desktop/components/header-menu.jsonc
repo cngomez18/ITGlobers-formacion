@@ -1,15 +1,16 @@
 {
     "sticky-layout#desktop": {
+        "title": " desktop sticky layout header",
         "props": {
             "blockClass": "sticky-header"
         },
         "children": [
             "flex-layout.row#desktop",
-            //"flex-layout.row#desktop__navbar",
-            "flex-layout.row#desktop__categories"
+            "flex-layout.row#desktop__header__categories"
         ]
     },
     "flex-layout.row#desktop": {
+        "title": " desktop row navbar flex-layout",
         "props": {
             "horizontalAlign": "center",
             "verticalAlign": "center",
@@ -22,16 +23,15 @@
             ]
         },
         "children": [
-            "flex-layout.col#logo-desktop",
+            "flex-layout.col#desktop__logo",
             "search-bar",
-            "flex-layout.col#navbar",
-            //"flex-layout.col#spacer",
-            //"locale-switcher",
+            "flex-layout.col#desktop__navbar--col",
             "login",
             "minicart.v2"
         ]
     },
-    "flex-layout.col#logo-desktop": {
+    "flex-layout.col#desktop__logo": {
+        "title": " desktop col logo flex-layout",
         "props": {
             "verticalAlign": "middle"
         },
@@ -39,7 +39,8 @@
             "logo"
         ]
     },
-    "flex-layout.col#navbar":{
+    "flex-layout.col#desktop__navbar--col":{
+        "title":" desktop col navbar ",
         "props":{
             "fullWidth": true,
             "rowGap":"5",
@@ -48,10 +49,11 @@
             ]
         },
         "children":[
-            "flex-layout.row#desktop__navbar"
+            "flex-layout.row#desktop__navbar--row"
         ]
     },
-    "flex-layout.row#desktop__navbar":{
+    "flex-layout.row#desktop__navbar--row":{
+        "title": " desktop text row navbar ",
         "props": {
             "horizontalAlign": "center",
             "fullWidth": true,
@@ -60,14 +62,15 @@
             ]
         },
         "children": [
-            "rich-text#tendencia",
-            "rich-text#coleccion",
-            "rich-text#ofertas",
-            "rich-text#cyber-monday",
-            "rich-text#never"
+            "rich-text#desktop__navbar--tendencia",
+            "rich-text#desktop__navbar--coleccion",
+            "rich-text#desktop__navbar--ofertas",
+            "rich-text#desktop__navbar--cyber-monday",
+            "rich-text#desktop__navbar--never"
         ]
     },
-    "flex-layout.row#desktop__categories":{
+    "flex-layout.row#desktop__header__categories":{
+        "title": "desktop header categories",
         "props": {
             "horizontalAlign": "center"
         },
@@ -88,7 +91,7 @@
     },
     "logo#food": {
         "props": {
-            "title": "Logo food",
+            "title": "Logo category food",
             "href": "/",
             "url":"assets/img/header/global__home__header--category-food.png",
             "width": "Fixed (70px)px",
@@ -101,7 +104,7 @@
     },
     "logo#fit": {
         "props": {
-            "title": "Logo fit",
+            "title": "Logo category fit",
             "href": "/",
             "url":"assets/img/header/global__home__header--category-fit.png",
             "width": "Fixed (70px)px",
@@ -114,7 +117,7 @@
     },
     "logo#ice": {
         "props": {
-            "title": "Logo artico",
+            "title": "Logo category ice",
             "href": "/",
             "url":"assets/img/header/global__home__header--category-ice.png",
             "width": "Fixed (70px)px",
@@ -127,7 +130,7 @@
     },
     "logo#pool": {
         "props": {
-            "title": "Logo pool",
+            "title": "Logo category pool",
             "href": "/",
             "url":"assets/img/header/global__home__header--category-pool.png",
             "width": "Fixed (70px)px",
@@ -140,7 +143,7 @@
     },
     "logo#hotel": {
         "props": {
-            "title": "Logo hotel",
+            "title": "Logo category hotel",
             "href": "/",
             "url":"assets/img/header/global__home__header--category-hotel.png",
             "width": "Fixed (70px)px",
@@ -153,7 +156,7 @@
     },
     "logo#house": {
         "props": {
-            "title": "Logo house",
+            "title": "Logo category house",
             "href": "/",
             "url":"assets/img/header/global__home__header--category-house.png",
             "width": "Fixed (70px)px",
@@ -166,7 +169,7 @@
     },
     "logo#spa": {
         "props": {
-            "title": "Logo spa",
+            "title": "Logo category spa",
             "href": "/",
             "url":"assets/img/header/global__home__header--category-spa.png",
             "width": "Fixed (70px)px",
@@ -179,7 +182,7 @@
     },
     "logo#closet": {
         "props": {
-            "title": "Logo closet",
+            "title": "Logo category closet",
             "href": "/",
             "url":"assets/img/header/global__home__header--category-closet.png",
             "width": "Fixed (70px)px",
@@ -192,7 +195,7 @@
     },
     "logo#beach": {
         "props": {
-            "title": "Logo beach",
+            "title": "Logo category beach",
             "href": "/",
             "url":"assets/img/header/global__home__header--category-beach.png",
             "width": "Fixed (70px)px",
@@ -205,7 +208,7 @@
     },
     "logo#hiking": {
         "props": {
-            "title": "Logo hiking",
+            "title": "Logo category hiking",
             "href": "/",
             "url":"assets/img/header/global__home__header--category-hiking.png",
             "width": "Fixed (70px)px",
@@ -218,7 +221,7 @@
     },
     "logo#delivery": {
         "props": {
-            "title": "Logo delivery",
+            "title": "Logo category delivery",
             "href": "/",
             "url":"assets/img/header/global__home__header--category-delivery.png",
             "width": "Fixed (70px)px",
@@ -231,7 +234,7 @@
     },
     "logo#beer": {
         "props": {
-            "title": "Logo beer",
+            "title": "Logo category beer",
             "href": "/",
             "url":"assets/img/header/global__home__header--category-beer.png",
             "width": "Fixed (70px)px",
@@ -242,9 +245,9 @@
 
         }
     },
-    "rich-text#tendencia":{
+    "rich-text#desktop__navbar--tendencia":{
         "props":{
-            "title": "tendencia",
+            "title": "desktop navbar text tendencia",
             "text": "Tendencias de ITGlobers",
             "font": "t-small",
             "textPosition": "CENTER",
@@ -255,36 +258,36 @@
             ]
         }
     },
-    "rich-text#coleccion":{
+    "rich-text#desktop__navbar--coleccion":{
         "props":{
-            "title": "coleccion",
+            "title": "desktop navbar text coleccion",
             "text": "Colección del mes",
             "font": "t-small",
             "textPosition": "CENTER",
             "textAlignment": "CENTER"
         }
     },
-    "rich-text#ofertas":{
+    "rich-text#desktop__navbar--ofertas":{
         "props":{
-            "title": "ofertas",
+            "title": "desktop navbar text ofertas",
             "text": "Ofertas del mes",
             "font": "t-small",
             "textPosition": "CENTER",
             "textAlignment": "CENTER"
         }
     },
-    "rich-text#cyber-monday":{
+    "rich-text#desktop__navbar--cyber-monday":{
         "props":{
-            "title": "cyber monday",
+            "title": "desktop navbar text cyber monday",
             "text": "Cyber Monday",
             "font": "t-small",
             "textPosition": "CENTER",
             "textAlignment": "CENTER"
         }
     },
-    "rich-text#never":{
+    "rich-text#desktop__navbar--never":{
         "props":{
-            "title": "never say never",
+            "title": "desktop navbar text never say never",
             "text": "Never say never",
             "font": "t-small",
             "textPosition": "CENTER",

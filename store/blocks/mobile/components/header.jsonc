@@ -1,10 +1,12 @@
 {
     "sticky-layout#mobile": {
+        "title": "mobile sticky layout",
         "children": [
             "flex-layout.row#mobile"
         ]
     },
     "flex-layout.row#mobile": {
+        "title": "mobile flex layout header",
         "children": [
             "drawer",
             "logo",
