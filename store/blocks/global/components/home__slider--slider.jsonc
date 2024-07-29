@@ -93,12 +93,24 @@
             "src":"assets/img/home/global__home__info-card--prize.png"
         }
     },
+    "rich-text#global__info-card--btn":{
+        "props":{
+            "text": "[![Ver precio](assets/img/home/global__home__info-card--fake-btn.png)](#)",
+            "blockClass":[
+                "global__slider__info-card--btn"
+            ]
+        }
+        
+
+    },
+    //----------------------
     "image#global__info-card--btn":{
         "title": "global btn img info-card",
         "props":{
             "src":"assets/img/home/global__home__info-card--fake-btn.png"
         }
     },
+    //------------------------
     "flex-layout.row#spacer__info-card": {
         "title": "global info-card spacer",
         "props": {
@@ -121,7 +133,7 @@
 
         },
         "children":[
-            "image#global__info-card--btn"
+            "rich-text#global__info-card--btn"
         ]
     } ,
     "flex-layout.col#global__home__info-card--text-holder": {
