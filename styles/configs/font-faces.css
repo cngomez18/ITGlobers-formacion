@@ -1,10 +1,19 @@
 @font-face {
     font-family: 'Lexend';
-    font-style : normal;
+    font-style : bold;
     src        : url(/assets/fonts/Lexend/Lexend-VariableFont_wght.ttf),
         format('ttf'),
-        local('Lexend');
+        local('Lexend-Bold');
 }
+
+@font-face {
+    font-family: 'Lexend';
+    font-style : medium;
+    src        : url(/assets/fonts/Lexend/Lexend-VariableFont_wght.ttf),
+        format('ttf'),
+        local('Lexend-Medium');
+}
+
 
 @font-face {
     font-family: 'Lato';
@@ -16,13 +25,21 @@
 
 @font-face {
     font-family: 'Lato';
+    font-style : medium;
+    src        : url(/assets/fonts/Lato/Lato-Regular.ttf),
+        format('ttf'),
+        local('Lato-Medium');
+
+}
+
+@font-face {
+    font-family: 'Lato';
     font-style : normal;
     src        : url(/assets/fonts/Lato/Lato-Regular.ttf),
         format('ttf'),
         local('Lato-Regular');
 
 }
-
 @font-face {
     font-family: 'Lato';
     font-style : light;
