@@ -1,0 +1,102 @@
+{
+    "list-context.image-list#global__header__categories": {
+        "children": ["slider-layout#global__header__categories"],
+        "props": {
+          "height": 56,
+          "images": [
+            {
+                "image": "assets/img/header/global__home__header--category-food.png",
+                "width": "Fixed (70px)px",
+                "height": "Fixed (47px)px",
+                "link": "#"
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-fit.png",
+                "width": "Fixed (70px)px",
+                "height": "Fixed (47px)px",
+                "link": "#"
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-ice.png",
+                "width": "Fixed (70px)px",
+                "height": "Fixed (47px)px",
+                "link": "#"
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-pool.png",
+                "width": "Fixed (70px)px",
+                "height": "Fixed (47px)px",
+                "link": "#"
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-hotel.png",
+                "width": "Fixed (70px)px",
+                "height": "Fixed (47px)px",
+                "link": "#"
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-house.png",
+                "width": "Fixed (70px)px",
+                "height": "Fixed (47px)px",
+                "link": "#"
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-spa.png",
+                "width": "Fixed (70px)px",
+                "height": "Fixed (47px)px",
+                "link": "#"
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-closet.png",
+                "width": "Fixed (70px)px",
+                "height": "Fixed (47px)px",
+                "link": "#"
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-beach.png",
+                "width": "Fixed (70px)px",
+                "height": "Fixed (47px)px",
+                "link": "#"
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-hiking.png",
+                "width": "Fixed (70px)px",
+                "height": "Fixed (47px)px",
+                "link": "#"
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-delivery.png",
+                "width": "Fixed (70px)px",
+                "height": "Fixed (47px)px",
+                "link": "#"
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-beer.png",
+                "width": "Fixed (70px)px",
+                "height": "Fixed (47px)px",
+                "link": "https://candelagomez--itgloberspartnercl.myvtex.com/"
+            }
+          ]
+        }
+    },
+    "slider-layout#global__header__categories": {
+        "title": "slider global header categories",    
+        "props": {
+        "itemsPerPage": {
+            "desktop": 12,
+            "tablet": 6,
+            "phone": 4
+        },
+        "infinite": false,
+        "centerMode":"to-the-left",
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never",
+        "fullWidth":false,
+        "usePagination":true,
+        "blockClass": "carousel"
+        },
+        "children": [
+            
+        ]
+    }
+}

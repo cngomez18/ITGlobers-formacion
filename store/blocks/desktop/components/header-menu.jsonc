@@ -6,7 +6,7 @@
         },
         "children": [
             "flex-layout.row#desktop",
-            "flex-layout.row#desktop__header__categories"
+            "list-context.image-list#global__header__categories"
         ]
     },
     "flex-layout.row#desktop": {
@@ -23,17 +23,29 @@
             ]
         },
         "children": [
+            "flex-layout.col#desktop__drawer",
             "flex-layout.col#desktop__logo",
             "search-bar",
             "flex-layout.col#desktop__navbar--col",
-            "login",
-            "minicart.v2"
+            "minicart.v2",
+            "login"
+        ]
+    },
+    "flex-layout.col#desktop__drawer": {
+        "title": " desktop col drawer flex-layout",
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "drawer"
         ]
     },
     "flex-layout.col#desktop__logo": {
         "title": " desktop col logo flex-layout",
         "props": {
-            "verticalAlign": "middle"
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
         },
         "children": [
             "logo"
@@ -68,182 +80,6 @@
             "rich-text#desktop__navbar--cyber-monday",
             "rich-text#desktop__navbar--never"
         ]
-    },
-    "flex-layout.row#desktop__header__categories":{
-        "title": "desktop header categories",
-        "props": {
-            "horizontalAlign": "center"
-        },
-        "children":[
-            "logo#food",
-            "logo#fit",
-            "logo#ice",
-            "logo#pool",
-            "logo#hotel",
-            "logo#house",
-            "logo#spa",
-            "logo#closet",
-            "logo#beach",
-            "logo#hiking",
-            "logo#delivery",
-            "logo#beer"
-        ]
-    },
-    "logo#food": {
-        "props": {
-            "title": "Logo category food",
-            "href": "/",
-            "url":"assets/img/header/global__home__header--category-food.png",
-            "width": "Fixed (70px)px",
-            "height": "Fixed (47px)px",
-            "gap": "4px",
-            "border": "0px 0px 1px 0px",
-            "opacity": "0px"
-
-        }
-    },
-    "logo#fit": {
-        "props": {
-            "title": "Logo category fit",
-            "href": "/",
-            "url":"assets/img/header/global__home__header--category-fit.png",
-            "width": "Fixed (70px)px",
-            "height": "Fixed (47px)px",
-            "gap": "4px",
-            "border": "0px 0px 1px 0px",
-            "opacity": "0px"
-
-        }
-    },
-    "logo#ice": {
-        "props": {
-            "title": "Logo category ice",
-            "href": "/",
-            "url":"assets/img/header/global__home__header--category-ice.png",
-            "width": "Fixed (70px)px",
-            "height": "Fixed (47px)px",
-            "gap": "4px",
-            "border": "0px 0px 1px 0px",
-            "opacity": "0px"
-
-        }
-    },
-    "logo#pool": {
-        "props": {
-            "title": "Logo category pool",
-            "href": "/",
-            "url":"assets/img/header/global__home__header--category-pool.png",
-            "width": "Fixed (70px)px",
-            "height": "Fixed (47px)px",
-            "gap": "4px",
-            "border": "0px 0px 1px 0px",
-            "opacity": "0px"
-
-        }
-    },
-    "logo#hotel": {
-        "props": {
-            "title": "Logo category hotel",
-            "href": "/",
-            "url":"assets/img/header/global__home__header--category-hotel.png",
-            "width": "Fixed (70px)px",
-            "height": "Fixed (47px)px",
-            "gap": "4px",
-            "border": "0px 0px 1px 0px",
-            "opacity": "0px"
-
-        }
-    },
-    "logo#house": {
-        "props": {
-            "title": "Logo category house",
-            "href": "/",
-            "url":"assets/img/header/global__home__header--category-house.png",
-            "width": "Fixed (70px)px",
-            "height": "Fixed (47px)px",
-            "gap": "4px",
-            "border": "0px 0px 1px 0px",
-            "opacity": "0px"
-
-        }
-    },
-    "logo#spa": {
-        "props": {
-            "title": "Logo category spa",
-            "href": "/",
-            "url":"assets/img/header/global__home__header--category-spa.png",
-            "width": "Fixed (70px)px",
-            "height": "Fixed (47px)px",
-            "gap": "4px",
-            "border": "0px 0px 1px 0px",
-            "opacity": "0px"
-
-        }
-    },
-    "logo#closet": {
-        "props": {
-            "title": "Logo category closet",
-            "href": "/",
-            "url":"assets/img/header/global__home__header--category-closet.png",
-            "width": "Fixed (70px)px",
-            "height": "Fixed (47px)px",
-            "gap": "4px",
-            "border": "0px 0px 1px 0px",
-            "opacity": "0px"
-
-        }
-    },
-    "logo#beach": {
-        "props": {
-            "title": "Logo category beach",
-            "href": "/",
-            "url":"assets/img/header/global__home__header--category-beach.png",
-            "width": "Fixed (70px)px",
-            "height": "Fixed (47px)px",
-            "gap": "4px",
-            "border": "0px 0px 1px 0px",
-            "opacity": "0px"
-
-        }
-    },
-    "logo#hiking": {
-        "props": {
-            "title": "Logo category hiking",
-            "href": "/",
-            "url":"assets/img/header/global__home__header--category-hiking.png",
-            "width": "Fixed (70px)px",
-            "height": "Fixed (47px)px",
-            "gap": "4px",
-            "border": "0px 0px 1px 0px",
-            "opacity": "0px"
-
-        }
-    },
-    "logo#delivery": {
-        "props": {
-            "title": "Logo category delivery",
-            "href": "/",
-            "url":"assets/img/header/global__home__header--category-delivery.png",
-            "width": "Fixed (70px)px",
-            "height": "Fixed (47px)px",
-            "gap": "4px",
-            "border": "0px 0px 1px 0px",
-            "opacity": "0px"
-
-        }
-    },
-    "logo#beer": {
-        "props": {
-            "title": "Logo category beer",
-            "href": "/",
-            "url":"assets/img/header/global__home__header--category-beer.png",
-            "width": "Fixed (70px)px",
-            "height": "Fixed (47px)px",
-            "gap": "4px",
-            "border": "0px 0px 1px 0px",
-            "opacity": "0px"
-
-        }
     },
     "rich-text#desktop__navbar--tendencia":{
         "props":{
