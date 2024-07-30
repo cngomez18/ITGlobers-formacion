@@ -1,0 +1,298 @@
+{
+    "sticky-layout#desktop": {
+        "title": " desktop sticky layout header",
+        "props": {
+            "blockClass": "sticky-header"
+        },
+        "children": [
+            "flex-layout.row#desktop",
+            "flex-layout.row#desktop__header__categories"
+        ]
+    },
+    "flex-layout.row#desktop": {
+        "title": " desktop row navbar flex-layout",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "colJustify":"around",
+            "blockClass":[
+                "row__desktop"
+            ]
+        },
+        "children": [
+            "flex-layout.col#desktop__logo",
+            "search-bar",
+            "flex-layout.col#desktop__navbar--col",
+            "login",
+            "minicart.v2"
+        ]
+    },
+    "flex-layout.col#desktop__logo": {
+        "title": " desktop col logo flex-layout",
+        "props": {
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "logo"
+        ]
+    },
+    "flex-layout.col#desktop__navbar--col":{
+        "title":" desktop col navbar ",
+        "props":{
+            "fullWidth": true,
+            "rowGap":"5",
+            "blockClass":[
+                "col__navbar"
+            ]
+        },
+        "children":[
+            "flex-layout.row#desktop__navbar--row"
+        ]
+    },
+    "flex-layout.row#desktop__navbar--row":{
+        "title": " desktop text row navbar ",
+        "props": {
+            "horizontalAlign": "center",
+            "fullWidth": true,
+            "blockClass":[
+                "desktop__navbar"
+            ]
+        },
+        "children": [
+            "rich-text#desktop__navbar--tendencia",
+            "rich-text#desktop__navbar--coleccion",
+            "rich-text#desktop__navbar--ofertas",
+            "rich-text#desktop__navbar--cyber-monday",
+            "rich-text#desktop__navbar--never"
+        ]
+    },
+    "flex-layout.row#desktop__header__categories":{
+        "title": "desktop header categories",
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children":[
+            "logo#food",
+            "logo#fit",
+            "logo#ice",
+            "logo#pool",
+            "logo#hotel",
+            "logo#house",
+            "logo#spa",
+            "logo#closet",
+            "logo#beach",
+            "logo#hiking",
+            "logo#delivery",
+            "logo#beer"
+        ]
+    },
+    "logo#food": {
+        "props": {
+            "title": "Logo category food",
+            "href": "/",
+            "url":"assets/img/header/global__home__header--category-food.png",
+            "width": "Fixed (70px)px",
+            "height": "Fixed (47px)px",
+            "gap": "4px",
+            "border": "0px 0px 1px 0px",
+            "opacity": "0px"
+
+        }
+    },
+    "logo#fit": {
+        "props": {
+            "title": "Logo category fit",
+            "href": "/",
+            "url":"assets/img/header/global__home__header--category-fit.png",
+            "width": "Fixed (70px)px",
+            "height": "Fixed (47px)px",
+            "gap": "4px",
+            "border": "0px 0px 1px 0px",
+            "opacity": "0px"
+
+        }
+    },
+    "logo#ice": {
+        "props": {
+            "title": "Logo category ice",
+            "href": "/",
+            "url":"assets/img/header/global__home__header--category-ice.png",
+            "width": "Fixed (70px)px",
+            "height": "Fixed (47px)px",
+            "gap": "4px",
+            "border": "0px 0px 1px 0px",
+            "opacity": "0px"
+
+        }
+    },
+    "logo#pool": {
+        "props": {
+            "title": "Logo category pool",
+            "href": "/",
+            "url":"assets/img/header/global__home__header--category-pool.png",
+            "width": "Fixed (70px)px",
+            "height": "Fixed (47px)px",
+            "gap": "4px",
+            "border": "0px 0px 1px 0px",
+            "opacity": "0px"
+
+        }
+    },
+    "logo#hotel": {
+        "props": {
+            "title": "Logo category hotel",
+            "href": "/",
+            "url":"assets/img/header/global__home__header--category-hotel.png",
+            "width": "Fixed (70px)px",
+            "height": "Fixed (47px)px",
+            "gap": "4px",
+            "border": "0px 0px 1px 0px",
+            "opacity": "0px"
+
+        }
+    },
+    "logo#house": {
+        "props": {
+            "title": "Logo category house",
+            "href": "/",
+            "url":"assets/img/header/global__home__header--category-house.png",
+            "width": "Fixed (70px)px",
+            "height": "Fixed (47px)px",
+            "gap": "4px",
+            "border": "0px 0px 1px 0px",
+            "opacity": "0px"
+
+        }
+    },
+    "logo#spa": {
+        "props": {
+            "title": "Logo category spa",
+            "href": "/",
+            "url":"assets/img/header/global__home__header--category-spa.png",
+            "width": "Fixed (70px)px",
+            "height": "Fixed (47px)px",
+            "gap": "4px",
+            "border": "0px 0px 1px 0px",
+            "opacity": "0px"
+
+        }
+    },
+    "logo#closet": {
+        "props": {
+            "title": "Logo category closet",
+            "href": "/",
+            "url":"assets/img/header/global__home__header--category-closet.png",
+            "width": "Fixed (70px)px",
+            "height": "Fixed (47px)px",
+            "gap": "4px",
+            "border": "0px 0px 1px 0px",
+            "opacity": "0px"
+
+        }
+    },
+    "logo#beach": {
+        "props": {
+            "title": "Logo category beach",
+            "href": "/",
+            "url":"assets/img/header/global__home__header--category-beach.png",
+            "width": "Fixed (70px)px",
+            "height": "Fixed (47px)px",
+            "gap": "4px",
+            "border": "0px 0px 1px 0px",
+            "opacity": "0px"
+
+        }
+    },
+    "logo#hiking": {
+        "props": {
+            "title": "Logo category hiking",
+            "href": "/",
+            "url":"assets/img/header/global__home__header--category-hiking.png",
+            "width": "Fixed (70px)px",
+            "height": "Fixed (47px)px",
+            "gap": "4px",
+            "border": "0px 0px 1px 0px",
+            "opacity": "0px"
+
+        }
+    },
+    "logo#delivery": {
+        "props": {
+            "title": "Logo category delivery",
+            "href": "/",
+            "url":"assets/img/header/global__home__header--category-delivery.png",
+            "width": "Fixed (70px)px",
+            "height": "Fixed (47px)px",
+            "gap": "4px",
+            "border": "0px 0px 1px 0px",
+            "opacity": "0px"
+
+        }
+    },
+    "logo#beer": {
+        "props": {
+            "title": "Logo category beer",
+            "href": "/",
+            "url":"assets/img/header/global__home__header--category-beer.png",
+            "width": "Fixed (70px)px",
+            "height": "Fixed (47px)px",
+            "gap": "4px",
+            "border": "0px 0px 1px 0px",
+            "opacity": "0px"
+
+        }
+    },
+    "rich-text#desktop__navbar--tendencia":{
+        "props":{
+            "title": "desktop navbar text tendencia",
+            "text": "Tendencias de ITGlobers",
+            "font": "t-small",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "blockClass":[
+                "navbar-item"
+
+            ]
+        }
+    },
+    "rich-text#desktop__navbar--coleccion":{
+        "props":{
+            "title": "desktop navbar text coleccion",
+            "text": "Colección del mes",
+            "font": "t-small",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER"
+        }
+    },
+    "rich-text#desktop__navbar--ofertas":{
+        "props":{
+            "title": "desktop navbar text ofertas",
+            "text": "Ofertas del mes",
+            "font": "t-small",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER"
+        }
+    },
+    "rich-text#desktop__navbar--cyber-monday":{
+        "props":{
+            "title": "desktop navbar text cyber monday",
+            "text": "Cyber Monday",
+            "font": "t-small",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER"
+        }
+    },
+    "rich-text#desktop__navbar--never":{
+        "props":{
+            "title": "desktop navbar text never say never",
+            "text": "Never say never",
+            "font": "t-small",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER"
+        }
+    }
+    
+}

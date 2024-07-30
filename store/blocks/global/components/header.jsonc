@@ -1,14 +1,16 @@
 {
     "flex-layout.col#spacer": {
+        "title": "global spacer",
         "props": {
             "width": "grow"
         }
     },
     "logo": {
+        "title": "logo global ",
         "props": {
-            "title": "Logo",
+            "title": "Logo global itg",
             "href": "/",
-            "url":"assets/img/header/logo.png",
+            "url":"assets/img/header/global__home__header--logo.png",
             "width": "32px",
             "height":"16px"
         }

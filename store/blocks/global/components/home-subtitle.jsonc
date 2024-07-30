@@ -1,0 +1,9 @@
+{
+    "rich-text#global__home__text--amazing-product":{
+        "title": "global home text subtitle amazing product",
+        "props":{
+            "text": "An amazing product",
+            "font": "t-heading-4"
+        }
+    }
+}

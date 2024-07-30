@@ -1,15 +1,15 @@
 {
-    "flex-layout.row#banner__one--home": {
-        "title": "Banner row one home",
+    "flex-layout.row#desktop__home__info-card": {
+        "title": "desktop home info-card",
         "children": [
-           "flex-layout.col#banner__promo--home"
+           "flex-layout.col#desktop__home__info-card--img"
         ],
         "props": {
             "top": "168px"
         }
     },
-    "flex-layout.col#banner__promo--home":{
-        "title": "Banner promo img right",
+    "flex-layout.col#desktop__home__info-card--img":{
+        "title": "desktop home info-card img col",
         "children":[
             "image#promo"
         ],
@@ -17,10 +17,12 @@
 
         }
     },
+
+    //------should be an info card, try img left then info card
     "image#promo": {
-        "title": "image right",
+        "title": "desktop home info-card img ",
         "props": {
-            "src": "assets/img/home/Desktop-promo.png",
+            "src": "assets/img/home/desktop-promo.png",
             "width": "100%",
             "height": "Fixed (422px)px",
             "top": "168px",

@@ -1,6 +1,25 @@
 {
-    "slider-layout#telefono": {
-        "title": "slider images home",    
+    "flex-layout.row#home__slider--order":{
+        "title": "global home slider order row",
+        "children":[
+            "flex-layout.col#home__slider--order"
+        ]
+    },
+    "flex-layout.col#home__slider--order":{
+        "title": "global home slider order col",
+        "children":[
+            "rich-text#global__home__text--amazing-product",
+            "slider-layout#global__info-card",
+            "rich-text#global__home__text--amazing-product",
+            "list-context.product-list",
+            "rich-text#global__home__text--amazing-product",
+            "slider-layout#global__info-card",
+            "rich-text#global__home__text--amazing-product",
+            "list-context.product-list"
+        ]
+    },
+    "slider-layout#global__info-card": {
+        "title": "slider images info-card home",    
         "props": {
         "itemsPerPage": {
             "desktop": 3,
@@ -14,60 +33,127 @@
         "blockClass": "carousel"
         },
         "children": [
-            "image#example__2",
-            "image#example__2",
-            "image#example__2",
-            "image#example__2",
-            "image#example__2"
+            "flex-layout.col#global__info-card",
+            "flex-layout.col#global__info-card",
+            "flex-layout.col#global__info-card",
+            "flex-layout.col#global__info-card",
+            "flex-layout.col#global__info-card",
+            "flex-layout.col#global__info-card",
+            "flex-layout.col#global__info-card"
         ]
     },
-    "image#example__1": {
-        "title": "image one",
+    "flex-layout.col#global__info-card":{
+        "title": "global home info-card col holder",
+        "props":{
+            "preventVerticalStretch":false,
+            "blockClass":[
+                "global__slider__info-card"
+            ]
+        },
+        "children":[
+            "image#global__info-card--img",
+            "flex-layout.row#spacer__info-card",
+            "flex-layout.row#global__home__info-card--holder",
+            "flex-layout.row#spacer__info-card",
+            "flex-layout.row#global__home__info-card--btn-holder",
+            "flex-layout.row#spacer__info-card"
+
+        ]
+    },
+    "rich-text#global__info-card-heading":{
+        "title":"global text info-card heading",
+        "props":{
+            "text":"Heading",
+            "font":"t-heading-5",
+            "blockClass":[
+                "global__slider__info-card--text"
+            ]
+        }
+    },
+    "rich-text#global__info-card-body":{
+        "title":"global text info-card body",
+        "props":{
+            "text":"Builder platform is made by, buildership platform is made by... ",
+            "font":"t-body",
+            "blockClass":[
+                "global__slider__info-card--text"
+            ]
+        }
+    },
+    "image#global__info-card--img": {
+        "title": "global img info-card",
         "props": {
-          "src": "assets/img/home/monitor.png",
+          "src": "assets/img/home/global__home__info-card--phone.png",
           "maxHeight": "100%"
         }
     },
-    "image#example__2": {
-        "title": "image two",
-        "props": {
-          "src": "assets/img/home/telefono.png",
-          "maxHeight": "100%"
+    "image#global__info-card--prize":{
+        "title": "global prize img info-card",
+        "props":{
+            "src":"assets/img/home/global__home__info-card--prize.png"
         }
     },
-    "slider-layout#monitor": {
-        "title": "slider images home",    
+    "rich-text#global__info-card--btn":{
+        "props":{
+            "text": "[![Ver precio](assets/img/home/global__home__info-card--fake-btn.png)](#)",
+            "blockClass":[
+                "global__slider__info-card--btn"
+            ]
+        }
+        
+
+    },
+    //----------------------
+    "image#global__info-card--btn":{
+        "title": "global btn img info-card",
+        "props":{
+            "src":"assets/img/home/global__home__info-card--fake-btn.png"
+        }
+    },
+    //------------------------
+    "flex-layout.row#spacer__info-card": {
+        "title": "global info-card spacer",
         "props": {
-        "itemsPerPage": {
-            "desktop": 5,
-            "tablet": 2,
-            "phone": 2
+            "marginTop":"4"
+        }
+    },
+    "flex-layout.row#global__home__info-card--holder": {
+        "title": "global home info-card row holder",
+        "props": {
+            "fullWidth": true
         },
-        "infinite": true,
-        "centerMode":"to-the-left",
-        "showNavigationArrows": "desktopOnly",
-        "blockClass": "carousel"
-        },
-        "children": [
-            "image#example__1",
-            "image#example__1",
-            "image#example__1",
-            "image#example__1",
-            "image#example__1",
-            "image#example__1"
+        "children":[
+            "flex-layout.col#global__home__info-card--text-holder",
+            "flex-layout.col#global__home__info-card--prize-holder"
         ]
     },
-     "flex-layout.row#Home__slider--order":{
+    "flex-layout.row#global__home__info-card--btn-holder":{
+        "title": "global home info-card btn row holder",
+        "props":{
+
+        },
         "children":[
-            "flex-layout.col#Home__slider--order"
+            "rich-text#global__info-card--btn"
+        ]
+    } ,
+    "flex-layout.col#global__home__info-card--text-holder": {
+        "title": "global home info-card text col holder",
+        "props": {
+            "marginLeft": 2
+        },
+        "children":[
+            "rich-text#global__info-card-heading",
+            "rich-text#global__info-card-body"
         ]
     },
-    "flex-layout.col#Home__slider--order":{
+    "flex-layout.col#global__home__info-card--prize-holder": {
+        "title": "global home info-card prize col holder",
+        "props": {
+           "width":"18%"
+        },
         "children":[
-            "slider-layout#telefono",
-            "slider-layout#monitor",
-            "slider-layout#telefono",
-            "slider-layout#monitor" 
+            "image#global__info-card--prize"
         ]
-    }
+    }    
+    
 }
