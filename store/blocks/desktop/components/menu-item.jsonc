@@ -1,0 +1,101 @@
+{
+    "vtex.menu@2.x:menu#websites": {
+        "title":"menu desktop",
+        "children": [
+            "menu-item#shop"
+        ]
+    },
+    "menu-item#shop": {
+        "title":"desktop menu item shop",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://github.com/vtex-apps/mega-menu",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Departamento"
+            },
+            "iconProps": {
+                "id": "bnd-logo",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": ["vtex.menu@2.x:submenu#shop"] // Defining a submenu
+    },
+    "vtex.menu@2.x:submenu#shop": {
+        "children": [
+            "vtex.menu@2.x:menu#sub__menu--category"
+        ]
+    },
+    "vtex.menu@2.x:menu#sub__menu--category": {
+        "children": [
+            "menu-item#category",
+            "menu-item#category",
+            "menu-item#category"
+        ]
+    },
+    "menu-item#category": {
+        "title":"desktop menu item category",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://github.com/vtex-apps/mega-menu",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Category"
+            },
+            "iconProps": {
+                "id": "bnd-logo",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": ["vtex.menu@2.x:submenu#sub__category"] 
+    },
+    "vtex.menu@2.x:submenu#sub__category": {
+        "children": [
+            "vtex.menu@2.x:menu#sub__menu--sub-category"
+        ]
+    },
+    "vtex.menu@2.x:menu#sub__menu--sub-category": {
+        "children": [
+            "menu-item#sub-category"
+        ]
+    },
+    "menu-item#sub-category": {
+        "title":"desktop menu item category",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://github.com/vtex-apps/mega-menu",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Sub Category"
+            },
+            "iconProps": {
+                "id": "bnd-logo",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    }
+}
