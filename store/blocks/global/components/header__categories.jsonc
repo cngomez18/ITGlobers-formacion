@@ -1,0 +1,126 @@
+{
+    "list-context.image-list#global__header__categories": {
+        "children": ["slider-layout#global__header__categories"],
+        "props": {
+          "height": 56,
+          "images": [
+            {
+                "image": "assets/img/header/global__home__header--category-food.png",
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-fit.png",
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-ice.png",
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-pool.png",
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-hotel.png",
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-house.png",
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-spa.png",
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-closet.png",
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-beach.png",
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-hiking.png",
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-delivery.png",
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
+            },
+            {
+                "image": "assets/img/header/global__home__header--category-beer.png",
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
+            }
+          ]
+        }
+    },
+    "slider-layout#global__header__categories": {
+        "title": "slider global header categories",    
+        "props": {
+        "itemsPerPage": {
+            "desktop": 12,
+            "tablet": 6,
+            "phone": 4
+        },
+        "infinite": false,
+        "centerMode":"to-the-left",
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never",
+        "fullWidth":false,
+        "usePagination":true,
+        "blockClass": "carousel"
+        },
+        "children": [
+            
+        ]
+    }
+}

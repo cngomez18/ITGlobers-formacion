@@ -1,18 +1,23 @@
 {
     "sticky-layout#mobile": {
         "title": "mobile sticky layout",
+        "props":{
+            "blockClass": "sticky-header"
+        },
         "children": [
-            "flex-layout.row#mobile"
+            "flex-layout.row#mobile",
+            "list-context.image-list#global__header__categories"     
         ]
     },
     "flex-layout.row#mobile": {
         "title": "mobile flex layout header",
         "children": [
-            "drawer",
-            "logo",
+            "flex-layout.col#mobile__drawer",
+            "flex-layout.col#mobile__logo",
             "flex-layout.col#spacer",
-            "login",
-            "minicart.v2"
+            "search-bar",
+            "minicart.v2",
+            "login"
         ],
         "props": {
             "blockClass": "main-header-mobile",
@@ -20,5 +25,25 @@
             "preserveLayoutOnMobile": true,
             "fullWidth": true
         }
-  }
+    },
+    "flex-layout.col#mobile__drawer": {
+        "title": " mobile col drawer flex-layout",
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "drawer"
+        ]
+    },
+    "flex-layout.col#mobile__logo": {
+        "title": " mobile col logo flex-layout",
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "logo"
+        ]
+    }
 }

@@ -17,5 +17,16 @@
     },
     "drawer": {
         "children": []
+    },
+    "search-bar":{
+        "props":{
+            "maxWidth": 280,
+            "placeholder": "Search products..."
+        }
+    },
+    "login":{
+        "props":{
+            "iconLabel": "Login"
+        }
     }
 }
