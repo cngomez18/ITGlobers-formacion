@@ -6,75 +6,99 @@
           "images": [
             {
                 "image": "assets/img/header/global__home__header--category-food.png",
-                "width": "Fixed (70px)px",
-                "height": "Fixed (47px)px",
-                "link": "#"
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
             },
             {
                 "image": "assets/img/header/global__home__header--category-fit.png",
-                "width": "Fixed (70px)px",
-                "height": "Fixed (47px)px",
-                "link": "#"
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
             },
             {
                 "image": "assets/img/header/global__home__header--category-ice.png",
-                "width": "Fixed (70px)px",
-                "height": "Fixed (47px)px",
-                "link": "#"
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
             },
             {
                 "image": "assets/img/header/global__home__header--category-pool.png",
-                "width": "Fixed (70px)px",
-                "height": "Fixed (47px)px",
-                "link": "#"
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
             },
             {
                 "image": "assets/img/header/global__home__header--category-hotel.png",
-                "width": "Fixed (70px)px",
-                "height": "Fixed (47px)px",
-                "link": "#"
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
             },
             {
                 "image": "assets/img/header/global__home__header--category-house.png",
-                "width": "Fixed (70px)px",
-                "height": "Fixed (47px)px",
-                "link": "#"
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
             },
             {
                 "image": "assets/img/header/global__home__header--category-spa.png",
-                "width": "Fixed (70px)px",
-                "height": "Fixed (47px)px",
-                "link": "#"
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
             },
             {
                 "image": "assets/img/header/global__home__header--category-closet.png",
-                "width": "Fixed (70px)px",
-                "height": "Fixed (47px)px",
-                "link": "#"
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
             },
             {
                 "image": "assets/img/header/global__home__header--category-beach.png",
-                "width": "Fixed (70px)px",
-                "height": "Fixed (47px)px",
-                "link": "#"
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
             },
             {
                 "image": "assets/img/header/global__home__header--category-hiking.png",
-                "width": "Fixed (70px)px",
-                "height": "Fixed (47px)px",
-                "link": "#"
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
             },
             {
                 "image": "assets/img/header/global__home__header--category-delivery.png",
-                "width": "Fixed (70px)px",
-                "height": "Fixed (47px)px",
-                "link": "#"
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
             },
             {
                 "image": "assets/img/header/global__home__header--category-beer.png",
-                "width": "Fixed (70px)px",
-                "height": "Fixed (47px)px",
-                "link": "https://candelagomez--itgloberspartnercl.myvtex.com/"
+                "maxWidth": "70px",
+                "maxHeight": "40px",
+                "link": {
+                    "url": "#"
+                }
             }
           ]
         }
