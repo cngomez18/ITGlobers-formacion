@@ -1,14 +1,13 @@
-
 .flexCol--global__slider__info-card {
-    background-color:#F0F0F2;
+    background-color: #FFFFFF;
     justify-content : space-between;
-    width           : Fixed (324px)px;
-    height          : Hug (336.46px)px;
+    width           : 324px;
+    height          : 336.46px;
     gap             : 0px;
     border-radius   : 12px;
 
 }
 
 .flexColChild--global__slider__info-card--text {
-    padding     : 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }

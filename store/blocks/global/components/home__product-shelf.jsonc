@@ -57,7 +57,7 @@
         "infinite": true,
         "centerMode":"to-the-left",
         "showNavigationArrows": "desktopOnly",
-        "blockClass": "carousel"
+        "blockClass": "global__product-shelf"
         },
         "children": []
   }
