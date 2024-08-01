@@ -1,0 +1,9 @@
+.container :global(.vtex-button) {
+    background-color: #1D2734;
+    width           : 80px;
+    height          : 40px;
+    padding         : 10px;
+    border-radius   : 40px;
+    border          : 1px;
+    align-content   : center;
+}
