@@ -56,6 +56,8 @@
         "props":{
             "fullWidth": true,
             "rowGap":"5",
+            "horizontalAlign":"center",
+            "verticalAlign":"middle",
             "blockClass":[
                 "col__navbar"
             ]
@@ -74,61 +76,64 @@
             ]
         },
         "children": [
-            "rich-text#desktop__navbar--tendencia",
-            "rich-text#desktop__navbar--coleccion",
-            "rich-text#desktop__navbar--ofertas",
-            "rich-text#desktop__navbar--cyber-monday",
-            "rich-text#desktop__navbar--never"
+            "link#destktop__navbar--tendencia",
+            "link#destktop__navbar--coleccion",
+            "link#destktop__navbar--ofertas",
+            "link#destktop__navbar--cyber-monday",
+            "link#destktop__navbar--never"
         ]
     },
-    "rich-text#desktop__navbar--tendencia":{
-        "props":{
-            "title": "desktop navbar text tendencia",
-            "text": "Tendencias de ITGlobers",
-            "font": "t-small",
-            "textPosition": "CENTER",
-            "textAlignment": "CENTER",
-            "blockClass":[
-                "navbar-item"
 
+    "link#destktop__navbar--tendencia":{
+        "props":{
+            "label": "Tendencias de ITGlobers",
+            "href":"#",
+            "displayMode": "anchor",
+            "blockClass":[
+                "desktop__navbar--links"
             ]
         }
     },
-    "rich-text#desktop__navbar--coleccion":{
+    "link#destktop__navbar--coleccion":{
         "props":{
-            "title": "desktop navbar text coleccion",
-            "text": "Colección del mes",
-            "font": "t-small",
-            "textPosition": "CENTER",
-            "textAlignment": "CENTER"
+            "label": "Colección del mes",
+            "href":"#",
+            "displayMode": "anchor",
+            "blockClass":[
+                "desktop__navbar--links"
+            ]
         }
     },
-    "rich-text#desktop__navbar--ofertas":{
+    "link#destktop__navbar--ofertas":{
         "props":{
-            "title": "desktop navbar text ofertas",
-            "text": "Ofertas del mes",
-            "font": "t-small",
-            "textPosition": "CENTER",
-            "textAlignment": "CENTER"
+            "label": "Ofertas del mes",
+            "href":"#",
+            "displayMode": "anchor",
+            "blockClass":[
+                "desktop__navbar--links"
+            ]
         }
     },
-    "rich-text#desktop__navbar--cyber-monday":{
+    "link#destktop__navbar--cyber-monday":{
         "props":{
-            "title": "desktop navbar text cyber monday",
-            "text": "Cyber Monday",
-            "font": "t-small",
-            "textPosition": "CENTER",
-            "textAlignment": "CENTER"
+            "label": "Cyber Monday",
+            "href":"#",
+            "displayMode": "anchor",
+            "blockClass":[
+                "desktop__navbar--links"
+            ]
         }
     },
-    "rich-text#desktop__navbar--never":{
+    "link#destktop__navbar--never":{
         "props":{
-            "title": "desktop navbar text never say never",
-            "text": "Never say never",
-            "font": "t-small",
-            "textPosition": "CENTER",
-            "textAlignment": "CENTER"
+            "label": "Never say never",
+            "href":"#",
+            "displayMode": "anchor",
+            "blockClass":[
+                "desktop__navbar--links"
+            ]
         }
     }
+    //---------------
     
 }

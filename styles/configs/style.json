@@ -394,10 +394,10 @@
         "letterSpacing": "0"
       },
       "action--small": {
-        "fontFamily": "Lexend-Medium, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "400",
+        "fontFamily": "Lexend-Bold, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontWeight": "300",
         "fontSize": "14px",
-        "textTransform": "uppercase",
+        "textTransform": "capitalize",
         "letterSpacing": "0"
       },
       "action--large": {
