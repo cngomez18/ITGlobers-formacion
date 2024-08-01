@@ -108,7 +108,10 @@
             "buttonProps":{
                 "variant": "primary",
                 "size": "regular"
-            }
+            },
+            "blockClass":[
+                "global__info-card"
+            ]
         }
     },
     "flex-layout.row#global__home__info-card--holder": {
