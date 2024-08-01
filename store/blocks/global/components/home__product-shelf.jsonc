@@ -57,7 +57,12 @@
         "infinite": true,
         "centerMode":"to-the-left",
         "showNavigationArrows": "desktopOnly",
-        "blockClass": "carousel"
+        "centerModeSlidesGap":8,
+        "arrowSize":20,
+        "blockClass": [
+            "global__product-shelf",
+            "global__home--slider"
+        ]
         },
         "children": []
   }

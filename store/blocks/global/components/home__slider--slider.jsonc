@@ -29,8 +29,13 @@
         "infinite": true,
         "centerMode":"to-the-left",
         "showNavigationArrows": "desktopOnly",
+        "centerModeSlidesGap":20,
         "fullWidth":false,
-        "blockClass": "carousel"
+        "arrowSize":20,
+        "blockClass": [
+            "global__info-card",
+            "global__home--slider"    
+        ]
         },
         "children": [
             "flex-layout.col#global__info-card",
@@ -42,6 +47,9 @@
             "flex-layout.col#global__info-card"
         ]
     },
+
+    //-------------------------
+
     "flex-layout.col#global__info-card":{
         "title": "global home info-card col holder",
         "props":{
@@ -52,11 +60,9 @@
         },
         "children":[
             "image#global__info-card--img",
-            "flex-layout.row#spacer__info-card",
-            "flex-layout.row#global__home__info-card--holder",
-            "flex-layout.row#spacer__info-card",
-            "flex-layout.row#global__home__info-card--btn-holder",
-            "flex-layout.row#spacer__info-card"
+            "flex-layout.row#global__home__info-card--holder",    
+            "flex-layout.row#global__home__info-card--btn-holder"
+        
 
         ]
     },
@@ -66,7 +72,7 @@
             "text":"Heading",
             "font":"t-heading-5",
             "blockClass":[
-                "global__slider__info-card--text"
+                "global__slider__info-card--text-heading"
             ]
         }
     },
@@ -74,9 +80,9 @@
         "title":"global text info-card body",
         "props":{
             "text":"Builder platform is made by, buildership platform is made by... ",
-            "font":"t-body",
+            "font":"t-small",
             "blockClass":[
-                "global__slider__info-card--text"
+                "global__slider__info-card--text-body"
             ]
         }
     },
@@ -84,7 +90,8 @@
         "title": "global img info-card",
         "props": {
           "src": "assets/img/home/global__home__info-card--phone.png",
-          "maxHeight": "100%"
+          "maxHeight": "100%",
+          "maxWidth": "100%"
         }
     },
     "image#global__info-card--prize":{
@@ -93,34 +100,22 @@
             "src":"assets/img/home/global__home__info-card--prize.png"
         }
     },
-    "rich-text#global__info-card--btn":{
+    "link#global__info-card-button":{
         "props":{
-            "text": "[![Ver precio](assets/img/home/global__home__info-card--fake-btn.png)](#)",
-            "blockClass":[
-                "global__slider__info-card--btn"
-            ]
-        }
-        
-
-    },
-    //----------------------
-    "image#global__info-card--btn":{
-        "title": "global btn img info-card",
-        "props":{
-            "src":"assets/img/home/global__home__info-card--fake-btn.png"
-        }
-    },
-    //------------------------
-    "flex-layout.row#spacer__info-card": {
-        "title": "global info-card spacer",
-        "props": {
-            "marginTop":"4"
+            "label": "Ver precio",
+            "href":"#",
+            "displayMode": "button",
+            "buttonProps":{
+                "variant": "primary",
+                "size": "regular"
+            }
         }
     },
     "flex-layout.row#global__home__info-card--holder": {
         "title": "global home info-card row holder",
         "props": {
-            "fullWidth": true
+            "fullWidth": true,
+            "preserveLayoutOnMobile": true
         },
         "children":[
             "flex-layout.col#global__home__info-card--text-holder",
@@ -133,7 +128,7 @@
 
         },
         "children":[
-            "rich-text#global__info-card--btn"
+            "link#global__info-card-button"
         ]
     } ,
     "flex-layout.col#global__home__info-card--text-holder": {
