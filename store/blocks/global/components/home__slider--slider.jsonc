@@ -29,8 +29,13 @@
         "infinite": true,
         "centerMode":"to-the-left",
         "showNavigationArrows": "desktopOnly",
+        "centerModeSlidesGap":20,
         "fullWidth":false,
-        "blockClass": "global__info-card"
+        "arrowSize":20,
+        "blockClass": [
+            "global__info-card",
+            "global__home--slider"    
+        ]
         },
         "children": [
             "flex-layout.col#global__info-card",
