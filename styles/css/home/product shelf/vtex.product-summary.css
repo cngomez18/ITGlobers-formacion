@@ -8,16 +8,19 @@
     text-align : left;
 }
 
-.priceContainer {
+.priceContainer :global(.vtex-store-components-3-x-sellingPrice){
     font-family: Lexend;
     font-size  : 24px;
     font-weight: 600;
     line-height: 28.8px;
-    text-align : left;
     padding    : 0px;
     margin     : 0px;
 }
 
+:global(.vtex-product-summary-2-x-priceContainer){
+    text-align : left !important;
+    align-items: start;
+}
 .price_listPriceContainer {
     padding   : 0px;
     margin    : 0px;
