@@ -7,3 +7,17 @@
     border          : 1px;
     align-content   : center;
 }
+
+.label {
+    display    : inline;
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 17.5px;
+    text-align : left;
+    color      : white;
+    padding    : 0px;
+    width      : 37px;
+    height     : 18px;
+
+}

@@ -9,6 +9,6 @@
     justify-content: center;
 }
 
-.label--desktop__navbar--links{
-    color: #1D2734
+.link--desktop__navbar--links :hover {
+    text-decoration: underline;
 }

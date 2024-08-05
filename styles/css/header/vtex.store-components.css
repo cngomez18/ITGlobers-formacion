@@ -1,8 +1,8 @@
 .searchBarContainer :global(.vtex-input-prefix__group) {
     background-color: #F5F4F6 !important;
-    
-    height          : 40px;
-    border-radius   : 40px !important;
+
+    height       : 40px;
+    border-radius: 40px !important;
 }
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
@@ -13,4 +13,24 @@
     line-height     : 15px;
     text-align      : left;
     color           : #1D2734;
+}
+
+@media (max-width:425px) {
+
+    .searchBarContainer :global(.vtex-input-prefix__group ) {
+        background-color: white !important;
+        max-width       : 70px;
+        height          : 40px;
+        border          : none !important;
+    }
+    .searchBarContainer :global(.vtex-store-components-3-x-suffixWrapper) {
+        background-color: white !important;
+    }
+
+    .searchBarContainer :global(.vtex-input__suffix){
+        background-color: white !important;
+    }
+    .searchBarContainer :global(.vtex-styleguide-9-x-input) {
+        background-color: white !important;
+    }
 }
