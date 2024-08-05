@@ -1,0 +1,27 @@
+.productHighlightText--global__product-highlight-text {
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align : left;
+    color      : #FA2080;
+
+}
+
+.productHighlightWrapper {
+    text-align    : left;
+    padding       : 0px;
+    padding-bottom: 5px;
+    margin        : 0px;
+}
+
+@media (max-width:375px) {
+    .productHighlightText--global__product-highlight-text {
+
+        font-size  : 12px;
+        font-weight: 400;
+        line-height: 12.76px;
+        font-family: Lexend;
+        text-align : left;
+    }
+}
