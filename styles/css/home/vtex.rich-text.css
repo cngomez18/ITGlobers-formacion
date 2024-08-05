@@ -27,3 +27,15 @@
     line-height: 14.52px;
     text-align : left;
 }
+
+@media (max-width:375px) {
+    .paragraph--global__slider__info-card--text-body {
+        font-family: Lexend;
+        font-size  : 10px !important;
+        font-weight: 300;
+        line-height: 10.84px;
+        text-align : left;
+        color      : #1D2734;
+    }
+    
+}
