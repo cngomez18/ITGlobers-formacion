@@ -380,9 +380,9 @@
         "letterSpacing": "0"
       },
       "mini": {
-        "fontFamily": "Lato-Light, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "400",
-        "fontSize": "14px",
+        "fontFamily": "Lexend-Medium, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontWeight": "300",
+        "fontSize": "12px",
         "textTransform": "initial",
         "letterSpacing": "0"
       },

@@ -1,14 +1,17 @@
 .paginationDot {
-    height       : 3px !important;
+    height       : 1.41px !important;
     width        : 50px !important;
     border-radius: 0%;
 }
 
 .paginationDot--isActive {
     background-color: #1D2734;
-    height          : 3px !important;
+    height          : 1.41px !important;
     width           : 50px !important;
     border-radius   : 0%;
+    background-image: url('/assets/svg/nav-dot.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .sliderLayoutContainer--global__info-card {
@@ -18,3 +21,5 @@
 .sliderLayoutContainer--global__product-shelf {
     padding: 50px;
 }
+/*
+class="vtex-slider-layout-0-x-paginationDot vtex-slider-layout-0-x-paginationDot--global__info-card vtex-slider-layout-0-x-paginationDot--global__home--slider vtex-slider-layout-0-x-paginationDot--isActive vtex-slider-layout-0-x-paginationDot--global__info-card--isActive vtex-slider-layout-0-x-paginationDot--global__home--slider--isActive bg-emphasis grow dib br-100 pa2 mr2 ml2 bw0 pointer outline-0"

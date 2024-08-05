@@ -6,7 +6,7 @@
         },
         "children": [
             "flex-layout.row#desktop",
-            "list-context.image-list#global__header__categories"
+            "flex-layout.row#global__header__categories"
         ]
     },
     "flex-layout.row#desktop": {
