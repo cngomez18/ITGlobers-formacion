@@ -30,12 +30,18 @@
 
 @media (max-width:375px) {
     .paragraph--global__slider__info-card--text-body {
-        font-family: Lexend;
-        font-size  : 10px !important;
-        font-weight: 300;
-        line-height: 10.84px;
-        text-align : left;
-        color      : #1D2734;
+        font-family       : Lexend;
+        font-size         : 10px !important;
+        font-weight       : 300;
+        line-height       : 10.84px;
+        text-align        : left;
+        color             : #1D2734;
+        overflow          : hidden;
+        text-overflow     : ellipsis;
+        display           : -webkit-box;
+        -webkit-line-clamp: 1;
+        line-clamp        : 1;
+        -webkit-box-orient: vertical;
     }
-    
+
 }
