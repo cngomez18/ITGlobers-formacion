@@ -78,10 +78,10 @@
   },
   "semanticColors": {
     "background": {
-      "base": "#ffffff",
+      "base": "#F5F4F6",
       "base--inverted": "#1D2734",
-      "action-primary": "#ffffff",
-      "action-secondary": "#FFFFFF",
+      "action-primary": "#F5F4F6",
+      "action-secondary": "#F5F4F6",
       "emphasis": "#f71963",
       "disabled": "#f2f4f5",
       "success": "#52D256",
@@ -113,8 +113,8 @@
       "muted-5": "#F6F6F6"
     },
     "active-background": {
-      "action-primary": "#ffffff",
-      "action-secondary": "#FF8324",
+      "action-primary": "#F5F4F6",
+      "action-secondary": "#F5F4F6",
       "emphasis": "#dd1659",
       "success": "#52D256",
       "success--faded": "#C3FFC5",
@@ -162,7 +162,7 @@
       "warning--faded": "#fff6e0"
     },
     "active-text": {
-      "link": "1D2734",
+      "link": "#1D2734",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -380,9 +380,9 @@
         "letterSpacing": "0"
       },
       "mini": {
-        "fontFamily": "Lato-Light, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "400",
-        "fontSize": "14px",
+        "fontFamily": "Lexend-Medium, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontWeight": "300",
+        "fontSize": "12px",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
@@ -394,10 +394,10 @@
         "letterSpacing": "0"
       },
       "action--small": {
-        "fontFamily": "Lexend-Medium, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "400",
+        "fontFamily": "Lexend-Bold, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontWeight": "300",
         "fontSize": "14px",
-        "textTransform": "uppercase",
+        "textTransform": "capitalize",
         "letterSpacing": "0"
       },
       "action--large": {

@@ -1,0 +1,23 @@
+.container :global(.vtex-button) {
+    background-color: #1D2734;
+    width           : 80px;
+    height          : 40px;
+    padding         : 10px;
+    border-radius   : 40px;
+    border          : 1px;
+    align-content   : center;
+}
+
+.label {
+    display    : inline;
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 17.5px;
+    text-align : left;
+    color      : white;
+    padding    : 0px;
+    width      : 37px;
+    height     : 18px;
+
+}

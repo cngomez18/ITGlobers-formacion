@@ -2,7 +2,40 @@
     justify-content: center;
 }
 
-.container--global__slider__info-card--text {
+.container--global__slider__info-card--text-heading {
     text-align  : left;
     padding-left: 15px;
+}
+
+.container--global__slider__info-card--text-body {
+    text-align  : left;
+    padding-left: 15px;
+}
+
+.paragraph--global__slider__info-card--text-heading {
+    font-family: Lexend;
+    font-size  : 16px;
+    font-weight: 600;
+    line-height: 14.52px;
+    text-align : left;
+}
+
+.paragraph--global__slider__info-card--text-body {
+    font-family: Lexend;
+    font-size  : 12px;
+    font-weight: 300;
+    line-height: 14.52px;
+    text-align : left;
+}
+
+@media (max-width:375px) {
+    .paragraph--global__slider__info-card--text-body {
+        font-family: Lexend;
+        font-size  : 10px !important;
+        font-weight: 300;
+        line-height: 10.84px;
+        text-align : left;
+        color      : #1D2734;
+    }
+    
 }

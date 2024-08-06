@@ -3,7 +3,7 @@
         "blocks": [
             "product-summary.shelf#home-slider"
         ],
-        "children":[
+        "children": [
             "slider-layout#product-shelf"
         ]
     },
@@ -13,54 +13,89 @@
             "product-summary-description",
             "product-summary-space",
             "product-summary-price",
-            "add-to-cart-button"
+            "vtex.product-highlights@2.x:product-highlights",
+            "add-to-cart-button"     
         ]
     },
     "add-to-cart-button": {
         "props": {
             "isOneClickBuy": false,
             "text": "Comprar",
-            "blockClass":[
+            "blockClass": [
                 "global__home__shelf--buyButton"
             ]
         }
     },
-    "product-summary-description":{
-        "props":{
-            "text":"Descripción del producto en hasta tres líneas de texto explicativo"
+    "icon#add-to-cart": {
+        "props": {
+            "id": "hpa-add-to-cart",
+            "size": 14
+        }
+    },
+    "product-summary-description": {
+        "props": {
+            "text": "Descripción del producto en hasta tres líneas de texto explicativo"
         }
     },
     "product-summary-image": {
         "props": {
-            "showBadge": true,   
+            "showBadge": true,
             "width": "178px",
             "height": "140px"
-
         }
     },
-    "product-summary-price":{
-
-        "props":{
+    "product-summary-price": {
+        "props": {
             "showInstallments": false,
             "showListPrice": true,
-            "showLabels":false
+            "showLabels": false
         }
     },
-      
+    "vtex.product-highlights@2.x:product-highlights": {
+        "props": {
+            "type": "collection"
+        },
+        "children": [
+            "product-highlight-wrapper"
+        ]
+    },
+    "product-highlight-wrapper": {
+        "children": [
+            "product-highlight-text",
+            "icon#flash"
+        ]
+    },
+    "product-highlight-text": {
+        "props": {
+            "message": "{highlightName}",
+            "blockClass": [
+                "global__product-highlight-text"
+            ]
+        }
+    },
+    "icon#flash":{
+        "props":{
+            "id": "bnd-flash",
+            "size": 13
+        }
+    },
     "slider-layout#product-shelf": {
         "props": {
             "itemsPerPage": {
                 "desktop": 5,
-                "tablet": 1,
+                "tablet": 2,
                 "phone": 1
             },
-        "infinite": true,
-        "centerMode":"to-the-left",
-        "showNavigationArrows": "desktopOnly",
-        "blockClass": "carousel"
+            "infinite": true,
+            "centerMode": "to-the-left",
+            "showNavigationArrows": "desktopOnly",
+            "centerModeSlidesGap": 8,
+            "arrowSize": 20,
+            "blockClass": [
+                "global__product-shelf",
+                "global__home--slider"
+            ]
         },
         "children": []
-  }
-
-        
+    }
 }
