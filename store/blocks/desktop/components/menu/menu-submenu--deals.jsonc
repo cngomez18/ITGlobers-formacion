@@ -1,0 +1,19 @@
+{
+    "vtex.menu@2.x:submenu#subcategories--deals": {
+        "children": [
+            "vtex.menu@2.x:menu#sub__menu--category-deals"
+        ]
+    },
+    "vtex.menu@2.x:menu#sub__menu--category-deals": {
+        
+        "props":{
+            "orientation":"horizontal",
+            "onMountBehavior":"open"
+        },
+        "children":[
+            "menu-item#deals__subcategory--deals",
+            "menu-item#deals__subcategory--end-of-year",
+            "menu-item#deals__subcategory--more-deals"
+        ]
+    }
+}
