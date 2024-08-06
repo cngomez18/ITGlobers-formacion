@@ -29,8 +29,10 @@
                 "tagTitle": "Deals",
                 "text": "Deals"
             } 
-              
-        }
+        },
+        "blocks":[
+            "vtex.menu@2.x:submenu#subcategories--all-deals"
+        ]
     },
     "menu-item#deals__subcategory--end-of-year": {
         "title":"desktop menu item deals sub category  end of year clearance ",
@@ -46,7 +48,10 @@
                 "text": "End Of Year Clearance"
             } 
               
-        }
+        },
+        "blocks":[
+            "vtex.menu@2.x:submenu#subcategories--end-of-year"
+        ]
     },
     "menu-item#deals__subcategory--more-deals": {
         "title":"desktop menu item deals sub category more deals",
@@ -62,7 +67,10 @@
                 "text": "More Deals"
             } 
               
-        }
+        },
+        "blocks":[
+            "vtex.menu@2.x:submenu#subcategories--more-deals"
+        ]
     },
     
     "menu-item#deals__subcategory--shop-all": {
@@ -81,8 +89,6 @@
               
         }
     },
-
-
     "menu-item#deals__subcategory--toys": {
         "title":"desktop menu item deals sub category toys",
         "props": {
