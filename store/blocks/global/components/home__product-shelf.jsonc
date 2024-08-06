@@ -9,6 +9,7 @@
     },
     "product-summary.shelf#home-slider": {
         "children": [
+            "add-to-list-btn",
             "product-summary-image",
             "product-summary-description",
             "product-summary-space",
