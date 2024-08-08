@@ -1,21 +1,4 @@
 {
-
-    "menu-item#deals__subcategory--shop-all-deals": {
-        "title":"desktop menu item deals sub category shop all deals ",
-        "props": {
-            "id": "menu-item-shop",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": false,
-                "tagTitle": "Shop All Deals",
-                "text": "Shop All Deals"
-            } 
-              
-        }
-    },
     "menu-item#deals__subcategory--deals": {
         "title":"desktop menu item deals sub category  deals ",
         "props": {
@@ -73,6 +56,23 @@
         ]
     },
     
+    //_---------------------------------
+    "menu-item#deals__subcategory--shop-all-deals": {
+        "title":"desktop menu item deals sub category shop all deals ",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop All Deals",
+                "text": "Shop All Deals"
+            } 
+              
+        }
+    },
     "menu-item#deals__subcategory--shop-all": {
         "title":"desktop menu item deals sub category  shop all",
         "props": {

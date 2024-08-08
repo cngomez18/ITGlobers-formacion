@@ -20,6 +20,22 @@
 
     //--------------------------------
 
+    "menu-item#category--all-categories": {
+        "title":"desktop menu item all categories ",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "All Categories",
+                "text": "All Categories"
+            }
+              
+        }
+    },
     "menu-item#category--grocery": {
         "title":"desktop menu item category grocery",
         "props": {

@@ -5,7 +5,6 @@
             "blockClass": "sticky-header"
         },
         "children": [
-            "vtex.menu@2.x:menu#websites",
             "flex-layout.row#desktop",
             "flex-layout.row#global__header__categories"
         ]
@@ -24,7 +23,7 @@
             ]
         },
         "children": [
-            "flex-layout.col#desktop__drawer",
+            "vtex.menu@2.x:menu#websites",
             "flex-layout.col#desktop__logo",
             "search-bar",
             "flex-layout.col#desktop__navbar--col",

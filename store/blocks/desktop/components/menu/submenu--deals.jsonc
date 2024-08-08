@@ -1,5 +1,11 @@
 {
     "vtex.menu@2.x:submenu#subcategories--deals": {
+        "props":{
+            "orientation":"horizontal",
+            "blockClass":[
+                "submenu--deals"
+            ]
+        },
         "children": [
             "vtex.menu@2.x:menu#sub__menu--category-deals"
         ]

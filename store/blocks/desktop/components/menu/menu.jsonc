@@ -13,21 +13,20 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "https://github.com/vtex-apps/mega-menu",
+                "href": "#",
                 "noFollow": false,
                 "tagTitle": "Shop",
-                "text": "Departamento"
+                "text": "[Menu]"
             },
             "iconProps": {
-                "id": "bnd-logo",
-                "size": 16,
-                "viewBox": "0 0 16 16",
+                "id": "hpa-hamburguer-menu",
+                "size": 20,
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
             },
             "iconToTheRight": true
         },
-        "blocks": ["vtex.menu@2.x:submenu#shop"] // Defining a submenu
+        "blocks": ["vtex.menu@2.x:submenu#shop"] 
     },
     "vtex.menu@2.x:submenu#shop": {
         "children": [
@@ -39,6 +38,7 @@
             "orientation":"vertical"
         },
         "children": [
+            "menu-item#category--all-categories",
             "menu-item#category--deals",
             "menu-item#category--grocery",
             "menu-item#category--new-year-goals",
