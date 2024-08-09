@@ -1,4 +1,3 @@
-
 .menuItem {
     font-family: Lexend;
     font-size  : 12px;
@@ -7,10 +6,23 @@
     text-align : left;
 
 }
-.styledLink{
+
+.styledLink {
     font-family: Lexend;
     font-size  : 12px;
     font-weight: 300;
     line-height: 15px;
     text-align : left;
 }
+
+.submenuWrapper--submenu--deals--isOpen {
+    background-color: #FFE6D3;
+}
+
+/*
+.menuItem--submenu--deals{
+    background-color: aqua;
+}
+class="vtex-menu-2-x-menuItem list vtex-menu-2-x-menuItem vtex-menu-2-x-menuItem--isOpen"
+
+class="vtex-menu-2-x-submenuWrapper vtex-menu-2-x-submenuWrapper--isOpen absolute left-0 bg-base pt4 pb4 bw1 bb b--muted-3 z-2 flex"

@@ -14,7 +14,10 @@
         
         "props":{
             "orientation":"horizontal",
-            "onMountBehavior":"open"
+            "onMountBehavior":"open",
+            "blockClass":[
+                "submenu--deals"
+            ]
         },
         "children":[
             "menu-item#deals__subcategory--deals",
@@ -24,6 +27,11 @@
     },
     //---------------------------------
     "vtex.menu@2.x:submenu#subcategories--all-deals": {
+        "props":{
+            "blockClass":[
+                "submenu--deals"
+            ]
+        },
         "children": [
             "vtex.menu@2.x:menu#sub__menu--category-all-deals"
         ]
@@ -32,7 +40,10 @@
         
         "props":{
             "orientation":"vertical",
-            "onMountBehavior":"open"
+            "onMountBehavior":"open",
+            "blockClass":[
+                "submenu--deals"
+            ]
         },
         "children":[
             "menu-item#deals__subcategory--shop-all-deals",
@@ -58,6 +69,11 @@
     },
     //---------------------------------
     "vtex.menu@2.x:submenu#subcategories--end-of-year": {
+        "props":{
+            "blockClass":[
+                "submenu--deals"
+            ]
+        },
         "children": [
             "vtex.menu@2.x:menu#sub__menu--category-end-of-year"
         ]
@@ -66,7 +82,10 @@
         
         "props":{
             "orientation":"vertical",
-            "onMountBehavior":"open"
+            "onMountBehavior":"open",
+            "blockClass":[
+                "submenu--deals"
+            ]
         },
         "children":[
             "menu-item#deals__subcategory--shop-all",
@@ -79,6 +98,11 @@
     },
     //---------------------------------
     "vtex.menu@2.x:submenu#subcategories--more-deals": {
+        "props":{
+            "blockClass":[
+                "submenu--deals"
+            ]
+        },
         "children": [
             "vtex.menu@2.x:menu#sub__menu--more-deals"
         ]

@@ -11,7 +11,10 @@
                 "noFollow": false,
                 "tagTitle": "Deals",
                 "text": "Deals"
-            } 
+            } ,
+            "blockClass":[
+                "submenu--deals"
+            ]
         },
         "blocks":[
             "vtex.menu@2.x:submenu#subcategories--all-deals"
