@@ -30,7 +30,7 @@
 }
 
 .wishlistIcon :global(.vtex-wish-list-1-x-outline){
-    background: url(/assets/svg/heart.svg) !important;
+    background: url(assets/svg/heart.svg) !important;
     outline-color: #1D2734;
     color        : #1D2734;
 }
