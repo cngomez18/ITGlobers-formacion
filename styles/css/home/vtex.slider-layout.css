@@ -11,31 +11,31 @@
 }
 
 .paginationDot::after {
-    width: 44px;
-    height: 2px;
-    content: "";
-    font-size: 0;
+    width           : 44px;
+    height          : 2px;
+    content         : "";
+    font-size       : 0;
     background-color: #1d273466;
-    position: absolute;
+    position        : absolute;
 }
 
 .paginationDot--isActive::before {
-    content: "";
-    position: absolute;
-    right: -8px;
-    width: 16px;
-    height: 16px;
+    content         : "";
+    position        : absolute;
+    right           : -8px;
+    width           : 16px;
+    height          : 16px;
     background-color: #1d2734;
-    border-radius: 50%;
+    border-radius   : 50%;
 }
 
 .paginationDot--isActive::after {
-    width: 44px;
-    height: 2px;
-    content: "";
-    font-size: 0;
+    width           : 44px;
+    height          : 2px;
+    content         : "";
+    font-size       : 0;
     background-color: #1d2734;
-    position: absolute;
+    position        : absolute;
 }
 
 .sliderLayoutContainer--global__info-card {
@@ -47,11 +47,12 @@
 }
 
 
-@media  (max-width: 1260px){
-    .paginationDot{
+@media (max-width: 1260px) {
+    .paginationDot {
         margin: 0;
     }
-    .paginationDot::after{
+
+    .paginationDot::after {
         position: relative;
     }
 }
