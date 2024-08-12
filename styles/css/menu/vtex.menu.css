@@ -15,11 +15,52 @@
     text-align : left;
 }
 
-.submenuWrapper--submenu--deals--isOpen {
-    background-color: #FFE6D3;
+
+.submenuWrapper--general-menu {
+    width           : 220px;
+    max-height      : 647px;
+    border-radius   : 0px 0px 0px 16px;
 }
 
+.submenuWrapper--submenu--deals--isOpen {
+    background-color: #FFE6D3;
+
+}
+
+.submenuContainer--submenu--deals {
+    position: absolute;
+    top     : 0px;
+    left    : 220px;
+}
+
+.submenuWrapper--sub-submenu--deals--isOpen {
+    position        : absolute;
+    background-color: #FFE6D3;
+    top             : 0px;
+    left            : auto;
+    border-radius   : 0px 0px 16px 0px;
+    width           : 220px;
+    max-height      : 647px;
+
+}
+.styledLinkContent--submenu--deals--row{
+    font-weight: bold;
+}
 /*
+vtex-menu-2-x-styledLinkContent flex justify-between nowrap
+
+vtex-menu-2-x-submenuWrapper vtex-menu-2-x-submenuWrapper--sub-submenu--deals vtex-menu-2-x-submenuWrapper--isOpen vtex-menu-2-x-submenuWrapper--sub-submenu--deals--isOpen absolute left-0 bg-base pt4 pb4 bw1 bb b--muted-3 z-2 flex
+
+class="vtex-menu-2-x-submenuWrapper vtex-menu-2-x-submenuWrapper--submenu--deals vtex-menu-2-x-submenuWrapper--isOpen vtex-menu-2-x-submenuWrapper--submenu--deals--isOpen absolute left-0 bg-base pt4 pb4 bw1 bb b--muted-3 z-2 flex"
+
+class="vtex-menu-2-x-submenuContainer vtex-menu-2-x-submenuContainer--submenu--deals relative"
+
+vtex-menu-2-x-submenuWrapper vtex-menu-2-x-submenuWrapper--submenu--deals vtex-menu-2-x-submenuWrapper--isOpen vtex-menu-2-x-submenuWrapper--submenu--deals--isOpen absolute left-0 bg-base pt4 pb4 bw1 bb b--muted-3 z-2 flex
+
+vtex-menu-2-x-submenuContainer vtex-menu-2-x-submenuContainer--submenu--deals relative
+
+class="vtex-menu-2-x-submenuWrapper vtex-menu-2-x-submenuWrapper--general-menu vtex-menu-2-x-submenuWrapper--isOpen vtex-menu-2-x-submenuWrapper--general-menu--isOpen absolute left-0 bg-base pt4 pb4 bw1 bb b--muted-3 z-2 flex"
+
 .menuItem--submenu--deals{
     background-color: aqua;
 }

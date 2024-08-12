@@ -13,7 +13,7 @@
                 "text": "Deals"
             } ,
             "blockClass":[
-                "submenu--deals"
+                "submenu--deals--row"
             ]
         },
         "blocks":[
@@ -32,7 +32,10 @@
                 "noFollow": false,
                 "tagTitle": "End Of Year Clearance",
                 "text": "End Of Year Clearance"
-            } 
+            },
+            "blockClass":[
+                "submenu--deals--row"
+            ]
               
         },
         "blocks":[
@@ -51,7 +54,10 @@
                 "noFollow": false,
                 "tagTitle": "More Deals",
                 "text": "More Deals"
-            } 
+            },
+            "blockClass":[
+                "submenu--deals--row"
+            ]
               
         },
         "blocks":[

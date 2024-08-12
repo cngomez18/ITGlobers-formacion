@@ -29,6 +29,11 @@
         "blocks": ["vtex.menu@2.x:submenu#shop"] 
     },
     "vtex.menu@2.x:submenu#shop": {
+        "props":{
+            "blockClass":[
+                "general-menu"
+            ]
+        },
         "children": [
             "vtex.menu@2.x:menu#sub__menu--category"
         ]
