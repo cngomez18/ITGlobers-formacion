@@ -17,14 +17,18 @@
 
 
 .submenuWrapper--general-menu {
-    width           : 220px;
-    max-height      : 647px;
-    border-radius   : 0px 0px 0px 16px;
+    width        : 220px;
+    max-height   : 647px;
+    border-radius: 0px 0px 0px 16px;
 }
 
+.submenuWrapper--general-menu .menuItem:hover{
+    background-color: #FFE6D3;
+    border-left: 4px solid #FF8324
+
+}
 .submenuWrapper--submenu--deals--isOpen {
     background-color: #FFE6D3;
-
 }
 
 .submenuContainer--submenu--deals {
@@ -33,20 +37,31 @@
     left    : 220px;
 }
 
-.submenuWrapper--sub-submenu--deals--isOpen {
-    position        : absolute;
-    background-color: #FFE6D3;
-    top             : 0px;
-    left            : auto;
-    border-radius   : 0px 0px 16px 0px;
-    width           : 220px;
-    max-height      : 647px;
-
+.menuContainer--submenu--deals {
+    display      : flex;
+    flex-wrap    : wrap;
+    height       : 460px;
+    width        : 350px;
+    box-sizing   : border-box;
+    border-radius: 0px 0px 16px 0px;
 }
-.styledLinkContent--submenu--deals--row{
+
+.menuContainer--submenu--deals .menuItem {
+    width      : 50%;
+    box-sizing : border-box;
+    line-height: 15px;
+}
+
+.styledLinkContent--submenu--deals--row {
     font-weight: bold;
 }
+
+
 /*
+
+
+"submenu--deals"
+
 vtex-menu-2-x-styledLinkContent flex justify-between nowrap
 
 vtex-menu-2-x-submenuWrapper vtex-menu-2-x-submenuWrapper--sub-submenu--deals vtex-menu-2-x-submenuWrapper--isOpen vtex-menu-2-x-submenuWrapper--sub-submenu--deals--isOpen absolute left-0 bg-base pt4 pb4 bw1 bb b--muted-3 z-2 flex

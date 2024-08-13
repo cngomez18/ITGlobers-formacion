@@ -32,8 +32,13 @@
                 "noFollow": false,
                 "tagTitle": "All Categories",
                 "text": "All Categories"
-            }
-              
+            }/*,
+            "iconProps": {
+                "id": "bnd-itg",
+                "size": 20
+            },
+            "iconToTheRight": true
+              */
         }
     },
     "menu-item#category--grocery": {
