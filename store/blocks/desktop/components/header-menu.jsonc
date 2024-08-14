@@ -35,7 +35,10 @@
         "title": " desktop col drawer flex-layout",
         "props": {
             "verticalAlign": "middle",
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "blockClass":[
+                "desktop__menu--holder"
+            ]
         },
         "children": [
             "vtex.menu@2.x:menu#websites"

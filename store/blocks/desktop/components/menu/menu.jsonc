@@ -15,8 +15,7 @@
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "Shop",
-                "text": "[Menu]"
+                "tagTitle": "Shop"
             },
             "iconProps": {
                 "id": "hpa-hamburguer-menu",
@@ -24,7 +23,10 @@
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
             },
-            "iconToTheRight": true
+            "iconToTheRight": true,
+            "blockClass":[
+                "menu--principal"
+            ]
         },
         "blocks": ["vtex.menu@2.x:submenu#shop"] 
     },

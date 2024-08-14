@@ -32,7 +32,10 @@
                 "noFollow": false,
                 "tagTitle": "All Categories",
                 "text": "All Categories"
-            }/*,
+            },
+            "blockClass":[
+                "submenu--deals--row"
+            ]/*,
             "iconProps": {
                 "id": "bnd-itg",
                 "size": 20
