@@ -1,4 +1,27 @@
+.flexColChild--col__navbar {
+    width: 100%;
+}
 
+.flexRowContent--row__desktop {
+    gap          : 5px;
+    padding-left : 48px;
+    padding-right: 48px;
+
+}
+
+.flexRow--row__desktop {
+    height: 56px;
+}
 
 /*
+vtex-flex-layout-0-x-flexRow vtex-flex-layout-0-x-flexRow--row__desktop
+
+class="flex mt0 mb0 pt0 pb0    justify-center vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--row__desktop items-stretch w-100"
+
+vtex-flex-layout-0-x-flexColChild vtex-flex-layout-0-x-flexColChild--col__navbar pb0
+
+class="vtex-flex-layout-0-x-flexCol vtex-flex-layout-0-x-flexCol--col__navbar  ml0 mr0 pl0 pr0    justify-center items-center flex flex-column h-100 w-100"
+
+class="flex mt0 mb0 pt0 pb0    justify-center vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--desktop__navbar items-stretch w-100"
+
 class="flex mt0 mb0 pt0 pb0    justify-start vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--main-header-mobile items-stretch w-100"
