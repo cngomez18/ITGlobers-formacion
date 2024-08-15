@@ -32,7 +32,8 @@
             "horizontalAlign": "center"
         },
         "children": [
-            "drawer"
+            "flex-layout.row#1-mobile"
+
         ]
     },
     "flex-layout.col#mobile__logo": {
