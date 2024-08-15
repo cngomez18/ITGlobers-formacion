@@ -1,11 +1,17 @@
 .description {
-    width      : Hug (51px)px;
-    height     : Fixed (212px)px;
-    font-family: Lexend;
-    font-size  : 14px;
-    font-weight: 400;
-    line-height: 16.8px;
-    text-align : left;
+    width             : Hug (51px)px;
+    height            : Fixed (212px)px;
+    font-family       : Lexend;
+    font-size         : 14px;
+    font-weight       : 400;
+    line-height       : 16.8px;
+    text-align        : left;
+    overflow          : hidden;
+    text-overflow     : ellipsis;
+    display           : -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp        : 3;
+    -webkit-box-orient: vertical;
 }
 
 .priceContainer :global(.vtex-store-components-3-x-sellingPrice) {

@@ -17,11 +17,15 @@
         },
         "infinite": false,
         "centerMode":"to-the-left",
+        "centerModeSlidesGap": "10px",
         "showNavigationArrows": "never",
         "showPaginationDots": "never",
         "fullWidth":false,
         "usePagination":true,
-        "blockClass": "carousel"
+        "blockClass":[
+            "global__header-icons"    
+        ]
+
         },
         "children": [
             "rich-text#global__header--nav-icon-food",

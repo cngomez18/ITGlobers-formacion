@@ -23,7 +23,7 @@
             ]
         },
         "children": [
-            "flex-layout.col#desktop__drawer",
+            "flex-layout.col#desktop__menu--holder",
             "flex-layout.col#desktop__logo",
             "search-bar",
             "flex-layout.col#desktop__navbar--col",
@@ -31,14 +31,17 @@
             "login"
         ]
     },
-    "flex-layout.col#desktop__drawer": {
+    "flex-layout.col#desktop__menu--holder": {
         "title": " desktop col drawer flex-layout",
         "props": {
             "verticalAlign": "middle",
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "blockClass":[
+                "desktop__menu--holder"
+            ]
         },
         "children": [
-            "drawer"
+            "vtex.menu@2.x:menu#websites"
         ]
     },
     "flex-layout.col#desktop__logo": {
@@ -55,7 +58,7 @@
         "title":" desktop col navbar ",
         "props":{
             "fullWidth": true,
-            "rowGap":"5",
+            "width":"grow",
             "horizontalAlign":"center",
             "verticalAlign":"middle",
             "blockClass":[
@@ -70,7 +73,10 @@
         "title": " desktop text row navbar ",
         "props": {
             "horizontalAlign": "center",
+            "verticalAlign":"middle",
             "fullWidth": true,
+            "colSizing":"auto",
+            "colGap":5,
             "blockClass":[
                 "desktop__navbar"
             ]

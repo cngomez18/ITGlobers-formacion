@@ -1,0 +1,30 @@
+.sliderTrackContainer--global__header-icons {
+    padding-left: 48px;
+    height      : 56px;
+}
+
+.slide--global__header-icons {
+    height: 56px;
+    width : 90px !important;
+}
+
+.slide--global__header-icons:hover {
+    border-bottom: 3px solid #1D2734;
+}
+
+/*
+class="vtex-slider-layout-0-x-sliderTrack vtex-slider-layout-0-x-sliderTrack--global__header-icons flex  relative pa0 ma0"
+
+width: Fixed (70px)px;
+height: Fixed (47px)px;
+gap: 4px;
+border: 0px 0px 3px 0px;
+opacity: 0px;
+
+global__header-icons
+
+vtex-slider-layout-0-x-slide vtex-slider-layout-0-x-slide--global__header-icons vtex-slider-layout-0-x-slide--firstVisible vtex-slider-layout-0-x-slide--global__header-icons--firstVisible vtex-slider-layout-0-x-slide--visible vtex-slider-layout-0-x-slide--global__header-icons--visible flex relative
+
+w-100 vtex-slider-layout-0-x-sliderTrackContainer vtex-slider-layout-0-x-sliderTrackContainer--global__header-icons overflow-hidden
+
+vtex-slider-layout-0-x-sliderTrack vtex-slider-layout-0-x-sliderTrack--global__header-icons flex  relative pa0 ma0

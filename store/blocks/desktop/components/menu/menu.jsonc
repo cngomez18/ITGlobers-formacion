@@ -1,0 +1,71 @@
+{
+    "vtex.menu@2.x:menu#websites": {
+        "title":"menu desktop",
+        "children": [
+            "menu-item#shop"
+        ]
+    },
+    "menu-item#shop": {
+        "title":"desktop menu item shop",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop"
+            },
+            "iconProps": {
+                "id": "hpa-hamburguer-menu",
+                "size": 20,
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true,
+            "blockClass":[
+                "menu--principal"
+            ]
+        },
+        "blocks": ["vtex.menu@2.x:submenu#shop"] 
+    },
+    "vtex.menu@2.x:submenu#shop": {
+        "props":{
+            "blockClass":[
+                "general-menu"
+            ]
+        },
+        "children": [
+            "vtex.menu@2.x:menu#sub__menu--category"
+        ]
+    },
+    "vtex.menu@2.x:menu#sub__menu--category": {
+        "props":{
+            "orientation":"vertical"
+        },
+        "children": [
+            "menu-item#category--all-categories",
+            "menu-item#category--deals",
+            "menu-item#category--grocery",
+            "menu-item#category--new-year-goals",
+            "menu-item#category--valentine",
+            "menu-item#category--game-time",
+            "menu-item#category--clothing",
+            "menu-item#category--electronics",
+            "menu-item#category--home-furniture",
+            "menu-item#category--toys",
+            "menu-item#category--baby",
+            "menu-item#category--kids",
+            "menu-item#category--auto",
+            "menu-item#category--pharmacy",
+            "menu-item#category--personal-care",
+            "menu-item#category--beauty",
+            "menu-item#category--pets",
+            "menu-item#category--home-improvement",
+            "menu-item#category--patio",
+            "menu-item#category--household"
+        ]
+    }
+    
+}

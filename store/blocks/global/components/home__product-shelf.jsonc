@@ -9,12 +9,13 @@
     },
     "product-summary.shelf#home-slider": {
         "children": [
+            "flex-layout.row#global__shelf--badges",
             "product-summary-image",
             "product-summary-description",
             "product-summary-space",
             "product-summary-price",
             "vtex.product-highlights@2.x:product-highlights",
-            "add-to-cart-button"     
+            "add-to-cart-button"
         ]
     },
     "add-to-cart-button": {
@@ -39,7 +40,7 @@
     },
     "product-summary-image": {
         "props": {
-            "showBadge": true,
+            "showBadge": false,
             "width": "178px",
             "height": "140px"
         }
@@ -49,6 +50,21 @@
             "showInstallments": false,
             "showListPrice": true,
             "showLabels": false
+        }
+    },
+    "product-price-savings": {
+        "title": "",
+        "props": {
+            "markers": [
+                "highlight"
+            ],
+            "message": "{savingsPercentage} OFF",
+            "percentageStyle": "compact",
+            "font": "t-Lexend-400",
+            "icon": false,
+            "blockClass": [
+                "global__home__shelf--price-saving"
+            ]
         }
     },
     "vtex.product-highlights@2.x:product-highlights": {
@@ -73,8 +89,8 @@
             ]
         }
     },
-    "icon#flash":{
-        "props":{
+    "icon#flash": {
+        "props": {
             "id": "bnd-flash",
             "size": 13
         }
@@ -97,5 +113,30 @@
             ]
         },
         "children": []
+    },
+    "flex-layout.row#global__shelf--badges":{
+        "props":{
+            "preserveLayoutOnMobile": true
+        },
+        "children":[
+            "flex-layout.col#global__shelf--badges-1",
+            "flex-layout.col#global__shelf--badges-2"
+        ]
+    },
+    "flex-layout.col#global__shelf--badges-1":{
+        "props":{
+            "verticalAlign": "middle"
+        },
+        "children":[
+            "product-price-savings"
+        ]
+    },
+    "flex-layout.col#global__shelf--badges-2":{
+        "props":{
+            "verticalAlign": "middle"
+        },
+        "children":[
+            "add-to-list-btn"
+        ]
     }
 }

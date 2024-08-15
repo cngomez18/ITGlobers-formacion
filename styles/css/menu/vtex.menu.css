@@ -1,0 +1,104 @@
+.styledLink {
+    font-family: Lexend;
+    font-size  : 12px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align : left;
+}
+
+.container {
+    position: relative;
+}
+
+.submenuWrapper--general-menu {
+    width           : auto;
+    max-height      : 647px;
+    border-radius   : 0px 0px 0px 16px;
+    background-color: #FFFFFF;
+}
+
+.submenuWrapper .menuItem:hover {
+    background-color: #FFE6D3;
+    max-width       : 225px;
+    border-left     : 4px solid #FF8324;
+
+}
+
+.submenuWrapper--submenu--deals--isOpen {
+    background-color: #FFE6D3;
+}
+
+.submenuContainer--submenu--deals {
+    position: absolute;
+    top     : 0px;
+    left    : 219px;
+}
+
+.menuContainer--submenu--deals {
+    display      : flex;
+    flex-wrap    : wrap;
+    height       : 460px;
+    width        : 350px;
+    box-sizing   : border-box;
+    border-radius: 0px 0px 16px 0px;
+}
+
+.submenuWrapper--submenu--deals {
+    border-radius: 0px 0px 16px 0px;
+}
+
+.menuContainer--submenu--deals .menuItem {
+    width      : 50%;
+    box-sizing : border-box;
+    line-height: 15px;
+}
+
+.styledLinkContent--submenu--deals--row {
+    font-weight: bold;
+}
+
+.menuItem--menu--principal--isOpen::before {
+    content         : "";
+    position        : fixed;
+    width           : 100%;
+    height          : calc(100% - 116px);
+    top             : 116px;
+    left            : 0;
+    right           : 0;
+    bottom          : 0;
+    background-color: rgba(29, 39, 52, 0.4);
+    z-index         : 2;
+}
+
+
+/*
+width: 1280px;
+height: 720px;
+top: 112px;
+gap: 0px;
+opacity: 0.4px;
+
+vtex-menu-2-x-menuContainer vtex-menu-2-x-menuContainer--submenu--deals list flex pl0 mv0 flex-column
+
+"submenu--deals"
+
+vtex-menu-2-x-styledLinkContent flex justify-between nowrap
+
+vtex-menu-2-x-submenuWrapper vtex-menu-2-x-submenuWrapper--sub-submenu--deals vtex-menu-2-x-submenuWrapper--isOpen vtex-menu-2-x-submenuWrapper--sub-submenu--deals--isOpen absolute left-0 bg-base pt4 pb4 bw1 bb b--muted-3 z-2 flex
+
+class="vtex-menu-2-x-submenuWrapper vtex-menu-2-x-submenuWrapper--submenu--deals vtex-menu-2-x-submenuWrapper--isOpen vtex-menu-2-x-submenuWrapper--submenu--deals--isOpen absolute left-0 bg-base pt4 pb4 bw1 bb b--muted-3 z-2 flex"
+
+class="vtex-menu-2-x-submenuContainer vtex-menu-2-x-submenuContainer--submenu--deals relative"
+
+vtex-menu-2-x-submenuWrapper vtex-menu-2-x-submenuWrapper--submenu--deals vtex-menu-2-x-submenuWrapper--isOpen vtex-menu-2-x-submenuWrapper--submenu--deals--isOpen absolute left-0 bg-base pt4 pb4 bw1 bb b--muted-3 z-2 flex
+
+vtex-menu-2-x-submenuContainer vtex-menu-2-x-submenuContainer--submenu--deals relative
+
+class="vtex-menu-2-x-submenuWrapper vtex-menu-2-x-submenuWrapper--general-menu vtex-menu-2-x-submenuWrapper--isOpen vtex-menu-2-x-submenuWrapper--general-menu--isOpen absolute left-0 bg-base pt4 pb4 bw1 bb b--muted-3 z-2 flex"
+
+.menuItem--submenu--deals{
+    background-color: aqua;
+}
+class="vtex-menu-2-x-menuItem list vtex-menu-2-x-menuItem vtex-menu-2-x-menuItem--isOpen"
+
+class="vtex-menu-2-x-submenuWrapper vtex-menu-2-x-submenuWrapper--isOpen absolute left-0 bg-base pt4 pb4 bw1 bb b--muted-3 z-2 flex"
