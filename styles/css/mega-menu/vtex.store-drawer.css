@@ -1,0 +1,20 @@
+.drawerHeader {
+    background-color: white;
+}
+
+.drawer {
+    width: 70% !important;
+}
+
+.childrenContainer {
+    border: none;
+    background-color: white;
+}
+
+/*
+class="vtex-store-drawer-0-x-childrenContainer flex flex-grow-1"
+
+class="vtex-store-drawer-0-x-drawer vtex-store-drawer-0-x-opened  left-0 fixed top-0 bottom-0 bg-base z-999 flex flex-column"
+
+vtex-store-drawer-0-x-drawerContent overflow-y-auto
+5px -1px 9px 0 rgba(233, 49, 49, 0.5)
