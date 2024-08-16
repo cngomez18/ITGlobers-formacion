@@ -224,7 +224,7 @@
       "base": "#3f3f40",
       "base--inverted": "#FFFFFF",
       "action-primary": "#1D2734",
-      "action-secondary": "#FF8324",
+      "action-secondary": "#1D2734",
       "emphasis": "#ffffff",
       "disabled": "#979899",
       "success": "#ffffff",
@@ -241,7 +241,7 @@
     },
     "hover-on": {
       "action-primary": "#ffffff",
-      "action-secondary": "#FFFFFF",
+      "action-secondary": "#1D2734",
       "emphasis": "#ffffff",
       "success": "#ffffff",
       "success--faded": "#3f3f40",
