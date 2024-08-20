@@ -26,7 +26,7 @@
 }
 
 .contentContainer {
-    background-color: white;
+    background-color: #F5F4F6;
     width           : 423px;
     height          : 303px;
     border-radius   : 0px 0px 8px 8px;
@@ -36,7 +36,7 @@
 }
 
 .content {
-    background-color: white;
+    background-color: #F5F4F6;
     width           : 423px;
     height          : 303px;
     border-radius   : 0px 0px 8px 8px;
@@ -46,7 +46,7 @@
 .loginOptionsContainer {
     position: absolute;
     bottom  : -1px;
-    left    : 36px;
+    left    : 27px;
 }
 
 .formTitle {
@@ -59,7 +59,7 @@
 }
 
 .optionsList :global(.vtex-button) {
-    background-color: white;
+    background-color: transparent;
     width           : 368px;
     height          : 48px;
     gap             : 10px;
@@ -93,15 +93,21 @@
 }
 
 .googleOptionBtn :global(.vtex-button) {
-    gap          : 15px;
-    border-radius: 40px;
-    border       : 1px solid #AEBACE80;
-    font-family  : Lexend !important;
-    font-size    : 16px !important;
-    font-weight  : 400 !important;
-    line-height  : 20px;
-    text-align   : center;
-    color        : #5E636E;
+    gap             : 15px;
+    border-radius   : 40px;
+    background-color: white;
+    border          : 1px solid #AEBACE80;
+}
+
+.googleOptionBtn :global(.vtex-login-2-x-oauthLabel) {
+    font-family   : Lexend !important;
+    font-size     : 16px !important;
+    font-weight   : 400 !important;
+    line-height   : 20px;
+    text-align    : center;
+    text-transform: none !important;
+    color         : #5E636E;
+
 }
 
 .facebookOptionBtn :global(.vtex-button) {
@@ -112,7 +118,19 @@
     border          : none;
 }
 
+.facebookOptionBtn :global(.vtex-login-2-x-oauthLabel) {
+    font-family   : Lexend !important;
+    font-size     : 16px !important;
+    font-weight   : 400 !important;
+    line-height   : 20px;
+    text-align    : center;
+    text-transform: none !important;
+    color         : white;
+
+}
+
 /*
+t-action--small vtex-login-2-x-oauthLabel relative normal
 width: 368px;
 height: 48px;
 top: 175px;
