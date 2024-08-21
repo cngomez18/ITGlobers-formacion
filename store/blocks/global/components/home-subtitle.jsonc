@@ -3,7 +3,10 @@
         "title": "global home text subtitle amazing product",
         "props":{
             "text": "An amazing product",
-            "font": "t-heading-4"
+            "font": "t-heading-4",
+            "blockClass":[
+                "global__home__text--amazing-product"
+            ]
         }
     }
 }

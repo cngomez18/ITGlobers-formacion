@@ -7,15 +7,27 @@
     },
     "flex-layout.col#home__slider--order": {
         "title": "global home slider order col",
+        "props":{
+            "rowGap": 0
+        },
         "children": [
-            "rich-text#global__home__text--amazing-product",
+            "flex-layout.row#global__home__text--amazing-product",
             "slider-layout#global__info-card",
-            "rich-text#global__home__text--amazing-product",
+            "flex-layout.row#global__home__text--amazing-product",
             "list-context.product-list",
-            "rich-text#global__home__text--amazing-product",
+            "flex-layout.row#global__home__text--amazing-product",
             "slider-layout#global__info-card",
-            "rich-text#global__home__text--amazing-product",
+            "flex-layout.row#global__home__text--amazing-product",
             "list-context.product-list"
+        ]
+    },
+    "flex-layout.row#global__home__text--amazing-product":{
+        "title":"",
+        "props":{
+
+        },
+        "children":[
+            "rich-text#global__home__text--amazing-product"
         ]
     },
     "slider-layout#global__info-card": {

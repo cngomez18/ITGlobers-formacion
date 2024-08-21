@@ -28,6 +28,10 @@
     text-align : left;
 }
 
+.wrapper--global__home__text--amazing-product{
+    margin-left: 46px;
+}
+
 @media (max-width:375px) {
     .paragraph--global__slider__info-card--text-body {
         font-family       : Lexend;
