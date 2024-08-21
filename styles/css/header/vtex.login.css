@@ -221,6 +221,10 @@
     color      : white;
 }
 
+.sendButton{
+    margin-left: 0px;
+}
+
 .formFooter {
     margin     : 0px;
     padding-top: 10px;
@@ -283,13 +287,44 @@
 }
 
 .codeConfirmation .formTitle h3 {
-    content:"camibo?"
+    content: "camibo?"
 }
 
+.inputContainerPassword div {
+    font-family: Lexend !important;
+    font-size  : 12px !important;
+    font-weight: 300;
+    line-height: 16px;
+    text-align : left;
+    color      : #0C2340;
 
+
+}
+
+.forgotPasswordForm .formSubtitle {
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align : center;
+}
+
+.forgotPasswordForm .formTitle {
+    font-family: Lexend;
+    font-size  : 20px;
+    font-weight: 300;
+    line-height: 22.92px;
+    text-align : center;
+
+}
 
 /*
 { }
+class="vtex-login-2-x-formTitle t-body v-mid ttu tc relative pv2 ph3 br2"
+vtex-login-2-x-formSubtitle mt5 t-body c-muted-1
+vtex-login-2-x-emailVerification vtex-login-2-x-forgotPasswordForm w-100
+
+class="vtex-login-2-x-inputContainer vtex-login-2-x-inputContainerPassword pv3"
 
 "Receive access code by email"
 class="vtex-login-2-x-content vtex-login-2-x-content--codeConfirmation flex relative bg-base justify-around overflow-visible pa4 center items-baseline-ns items-baseline"
