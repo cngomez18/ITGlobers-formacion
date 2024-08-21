@@ -28,7 +28,7 @@
 .contentContainer {
     background-color: #F5F4F6;
     width           : 423px;
-    height          : 303px;
+    max-height      : 303px;
     border-radius   : 0px 0px 8px 8px;
     margin          : 0px;
     position        : relative;
@@ -148,12 +148,13 @@
     text-align : left;
 }
 
-.formLinkContainer{
-    align-items: center;
-    text-align: center;
+.formLinkContainer {
+    align-items    : center;
+    text-align     : center;
     justify-content: center;
-} 
- .forgotPasswordLink {
+}
+
+.forgotPasswordLink {
     font-family: Lexend;
     font-size  : 14px;
     font-weight: 300;
@@ -164,7 +165,7 @@
 .backButton {
     position: absolute;
     left    : 27px;
-    top     : 16px;
+    top     : 25px;
     width   : 24px;
     height  : 24px;
 
@@ -174,13 +175,33 @@
     display: none;
 }
 
+.backButton :global(.vtex-button__label) svg {
+    width: 24px;
+}
+
 .emailAndPasswordForm .formTitle {
+    font-family   : Lexend;
+    font-size     : 14px;
+    font-weight   : 300;
+    line-height   : 20px;
+    text-align    : center;
+    color         : #5E636E;
+    padding       : 8px;
+    padding-bottom: 16px;
+    top           : 20px;
+}
+
+.emailAndPasswordForm .formTitle::before {
+    content    : "LOG IN";
     font-family: Lexend;
-    font-size  : 14px;
+    font-size  : 20px;
     font-weight: 300;
-    line-height: 20px;
+    line-height: 22.92px;
     text-align : center;
-    color      : #5E636E;
+    color      : #1D2734;
+    position   : absolute;
+    top        : -20px;
+    left       : 145px;
 }
 
 .sendButton :global(.vtex-button) {
@@ -189,21 +210,103 @@
     border-radius   : 40px;
     border          : 1px;
     background-color: #1D2734;
-    font-family     : Lexend;
-    font-size       : 14px;
-    font-weight     : 400;
-    line-height     : 17.5px;
-    text-align      : center;
-    color           : white;
+}
+
+.sendButton :global(.vtex-button__label) span {
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align : center;
+    color      : white;
 }
 
 .formFooter {
-    margin : 0px;
-    padding: 2px;
-    border : 0px;
+    margin     : 0px;
+    padding-top: 10px;
+    border     : 0px;
 }
 
+.content--emailAndPassword {
+    width : 423px;
+    height: 375px;
+}
+
+.dontHaveAccount {
+    width        : 368px;
+    height       : 48px;
+    top          : 311px;
+    left         : 28px;
+    padding      : 10px;
+    gap          : 10px;
+    border-radius: 40px;
+    color        : #1D2734;
+    font-family  : Lexend;
+    font-size    : 14px;
+    font-weight  : 400;
+    line-height  : 17.5px;
+    text-align   : center;
+
+}
+
+.content--emailVerification {
+    width : 423px;
+    height: 219px !important;
+}
+
+.emailForm .formTitle {
+    padding: 8px;
+    top    : -10px;
+}
+
+.emailForm .formTitle::after {
+    content    : "Receive access code by email";
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align : center;
+    color      : #5E636E;
+    position   : absolute;
+    top        : 30px;
+    left       : 80px;
+
+}
+
+.content--recoveryPassword {
+    height: auto;
+}
+
+.content--codeConfirmation {
+    width : 423px;
+    height: 219px !important;
+}
+
+.codeConfirmation .formTitle h3 {
+    content:"camibo?"
+}
+
+
+
 /*
+{ }
+
+"Receive access code by email"
+class="vtex-login-2-x-content vtex-login-2-x-content--codeConfirmation flex relative bg-base justify-around overflow-visible pa4 center items-baseline-ns items-baseline"
+
+vtex-login-2-x-content vtex-login-2-x-content--recoveryPassword flex relative bg-base justify-around overflow-visible pa4 center items-baseline-ns items-baseline
+
+class="vtex-login-2-x-emailVerification vtex-login-2-x-emailForm w-100"
+
+vtex-login-2-x-contentContainer shadow-3 mt3
+
+vtex-login-2-x-content vtex-login-2-x-content--emailVerification flex relative bg-base justify-around overflow-visible pa4 center items-baseline-ns items-baseline
+opacity: 0px;
+
+vtex-login-2-x-contentForm dn vtex-login-2-x-contentFormVisible db  ph4
+
+vtex-login-2-x-content vtex-login-2-x-content--emailAndPassword flex relative bg-base justify-around overflow-visible pa4 center items-baseline-ns items-baseline
+
 class="vtex-login-2-x-formFooter bt b--muted-4 pt4 flex mt3"
 vtex-login-2-x-sendButton ml-auto
 

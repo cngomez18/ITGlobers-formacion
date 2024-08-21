@@ -4,7 +4,7 @@
             "iconLabel": "Login",
             "optionsTitle":"LOG IN",
             "emailAndPasswordTitle": "Continue with e-mail and password",
-            "accessCodeTitle": "Acess Code title LOG-IN",
+            "accessCodeTitle": "RECUPERAR CLAVE",
             "emailPlaceholder": "Enter your e-mail",
             "passwordPlaceholder": "Enter your password",
             "providerPasswordButtonLabel":"Continue with an e-mail and password",
