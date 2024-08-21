@@ -1,0 +1,19 @@
+{
+    "login": {
+        "props": {
+            "iconLabel": "Login",
+            "optionsTitle":"LOG IN",
+            "emailAndPasswordTitle": "Continue with e-mail and password",
+            "accessCodeTitle": "RECUPERAR CLAVE",
+            "emailPlaceholder": "Enter your e-mail",
+            "passwordPlaceholder": "Enter your password",
+            "providerPasswordButtonLabel":"Continue with an e-mail and password",
+            "showPasswordVerificationIntoTooltip": true
+        }
+    },
+    "login-content":{
+        "props":{
+
+        }
+    }
+}
