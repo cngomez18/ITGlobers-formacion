@@ -8,7 +8,10 @@
     "flex-layout.col#home__slider--order": {
         "title": "global home slider order col",
         "props":{
-            "rowGap": 0
+            "rowGap": 0,
+            "blockClass": [
+                "flex-col--center"
+            ]
         },
         "children": [
             "flex-layout.row#global__home__text--amazing-product",
@@ -24,7 +27,9 @@
     "flex-layout.row#global__home__text--amazing-product":{
         "title":"global home flex row text subtitle amazing product",
         "props":{
-
+            "blockClass":[
+                "row--amazing-text-center"
+            ]
         },
         "children":[
             "rich-text#global__home__text--amazing-product"
