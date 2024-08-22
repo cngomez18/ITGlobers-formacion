@@ -3,6 +3,14 @@
     height          : 168px;
     padding-top     : 56px;
     box-shadow      : 0 -6px 10px 5px rgba(0, 0, 0, 0.5);
-    max-width       : 1280px;
     
+}
+.container--sticky-header-desktop{
+    background-color: #FFFFFF;
+    height          : 168px;
+    padding-top     : 56px;
+    box-shadow      : 0 -6px 10px 5px rgba(0, 0, 0, 0.5);
+    align-items     : center;
+    display         : flex;
+    flex-direction  : column;
 }
