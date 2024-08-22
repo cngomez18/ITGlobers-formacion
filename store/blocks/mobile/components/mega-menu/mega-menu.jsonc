@@ -1,13 +1,13 @@
 {
-    "flex-layout.row#1-mobile": {
-        "title": "row 1 mega menu mobile",
+    "flex-layout.row#mobile__mega-menu": {
+        "title": "mobile row mega menu",
         "children": [
-            "flex-layout.col#trigger-mega-menu"
+            "flex-layout.col#mobile__trigger-mega-menu"
         ],
         "props": {}
     },
-    "drawer#mega-menu": {
-        "title": "mega menu drawer",
+    "drawer#mobile__mega-menu": {
+        "title": "mobile mega menu drawer",
         "children": [
             "mega-menu#mobile"
         ],
@@ -25,17 +25,17 @@
         }
     },
     "drawer-header#my-drawer": {
-        "title": "mega menu drawer header",
+        "title": "mobile mega menu drawer header",
         "children": [
-            "flex-layout.row#drawer-header"
+            "flex-layout.row#mobile__drawer-header"
         ]
     },
-    "flex-layout.row#drawer-header": {
-        "title": "row mega menu drawer header",
+    "flex-layout.row#mobile__drawer-header": {
+        "title": " mobile row mega menu drawer header",
         "children": [
-            "flex-layout.col#mega-menu-go-back-btn",
+            "flex-layout.col#mobile__mega-menu-go-back-btn",
             "flex-layout.col#spacer",
-            "flex-layout.col#drawer-close-button"
+            "flex-layout.col#mobile__drawer-close-button"
         ],
         "props": {
             "blockClass": "drawer-header",
@@ -45,8 +45,8 @@
             "fullWidth": true
         }
     },
-    "flex-layout.col#drawer-close-button": {
-        "title": "col mega menu drawer close btn",
+    "flex-layout.col#mobile__drawer-close-button": {
+        "title": "mobile col mega menu drawer close btn",
         "children": [
             "drawer-close-button"
         ],
@@ -55,8 +55,8 @@
             "horizontalAlign": "right"
         }
     },
-    "flex-layout.col#mega-menu-go-back-btn": {
-        "title": "col mega menu go back btn",
+    "flex-layout.col#mobile__mega-menu-go-back-btn": {
+        "title": "mobile col mega menu go back btn",
         "children": [
             "mega-menu-go-back-btn"
         ],
@@ -66,7 +66,8 @@
             "paddingLeft": 4
         }
     },
-    "flex-layout.col#trigger-mega-menu": {
+    "flex-layout.col#mobile__trigger-mega-menu": {
+        "title": "mobile col mega menu trigger",
         "props": {
             "verticalAlign": "middle"
         },
@@ -75,8 +76,9 @@
         ]
     },
     "mega-menu-trigger-btn": {
+        "title": "mobile col mega menu trigger btn",
         "props": {
-            "Drawer": "drawer#mega-menu"
+            "Drawer": "drawer#mobile__mega-menu"
         }
     }
 }

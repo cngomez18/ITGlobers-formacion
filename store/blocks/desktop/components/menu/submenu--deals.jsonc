@@ -7,10 +7,10 @@
             ]
         },
         "children": [
-            "vtex.menu@2.x:menu#sub__menu--category-deals"
+            "vtex.menu@2.x:menu#deals__submenu--subcategories"
         ]
     },
-    "vtex.menu@2.x:menu#sub__menu--category-deals": {
+    "vtex.menu@2.x:menu#deals__submenu--subcategories": {
         
         "props":{
             "orientation":"vertical",

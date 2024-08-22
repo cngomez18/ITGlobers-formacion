@@ -1,5 +1,5 @@
 {
-    "vtex.menu@2.x:menu#websites": {
+    "vtex.menu@2.x:menu#desktop__menu": {
         "title":"menu desktop",
         "children": [
             "menu-item#shop"
@@ -37,10 +37,10 @@
             ]
         },
         "children": [
-            "vtex.menu@2.x:menu#sub__menu--category"
+            "vtex.menu@2.x:menu#sub_menu--category"
         ]
     },
-    "vtex.menu@2.x:menu#sub__menu--category": {
+    "vtex.menu@2.x:menu#sub_menu--category": {
         "props":{
             "orientation":"vertical"
         },

@@ -18,11 +18,10 @@
         }
     },
 
-    //------should be an info card, try img left then info card
     "image#promo": {
         "title": "desktop home info-card img ",
         "props": {
-            "src": "assets/img/home/desktop-promo.png",
+            "src": "assets/img/home/desktop__home__watch-promo",
             "width": "100%",
             "height": "Fixed (422px)px",
             "top": "168px",

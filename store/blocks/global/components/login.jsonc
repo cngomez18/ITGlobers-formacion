@@ -1,5 +1,6 @@
 {
     "login": {
+        "title":"global login",
         "props": {
             "iconLabel": "Login",
             "optionsTitle":"LOG IN",

@@ -32,7 +32,7 @@
         ]
     },
     "flex-layout.col#desktop__menu--holder": {
-        "title": " desktop col drawer flex-layout",
+        "title": " desktop col drawer menu holder flex-layout",
         "props": {
             "verticalAlign": "middle",
             "horizontalAlign": "center",
@@ -41,7 +41,7 @@
             ]
         },
         "children": [
-            "vtex.menu@2.x:menu#websites"
+            "vtex.menu@2.x:menu#desktop__menu"
         ]
     },
     "flex-layout.col#desktop__logo": {
@@ -55,7 +55,7 @@
         ]
     },
     "flex-layout.col#desktop__navbar--col":{
-        "title":" desktop col navbar ",
+        "title":" desktop links col navbar ",
         "props":{
             "fullWidth": true,
             "width":"grow",
@@ -70,7 +70,7 @@
         ]
     },
     "flex-layout.row#desktop__navbar--row":{
-        "title": " desktop text row navbar ",
+        "title": " desktop links row navbar ",
         "props": {
             "horizontalAlign": "center",
             "verticalAlign":"middle",
@@ -91,6 +91,7 @@
     },
 
     "link#destktop__navbar--tendencia":{
+        "title":"tendencias de itgs link",
         "props":{
             "label": "Tendencias de ITGlobers",
             "href":"#",
@@ -101,6 +102,7 @@
         }
     },
     "link#destktop__navbar--coleccion":{
+        "title":"coleccion del mes link",
         "props":{
             "label": "Colección del mes",
             "href":"#",
@@ -111,6 +113,7 @@
         }
     },
     "link#destktop__navbar--ofertas":{
+        "title":"ofertas del mes link",
         "props":{
             "label": "Ofertas del mes",
             "href":"#",
@@ -121,6 +124,7 @@
         }
     },
     "link#destktop__navbar--cyber-monday":{
+        "title":"Cyber Monday link",
         "props":{
             "label": "Cyber Monday",
             "href":"#",
@@ -131,6 +135,7 @@
         }
     },
     "link#destktop__navbar--never":{
+        "title" :"Never say never link",
         "props":{
             "label": "Never say never",
             "href":"#",
