@@ -1,0 +1,31 @@
+.drawerHeader {
+    background-color: white;
+}
+
+.drawer {
+    width: 70% !important;
+}
+
+.childrenContainer {
+    border          : none;
+    background-color: white;
+}
+
+:global(.vtex-store-drawer-0-x-opened) {
+    background-color: white;
+}
+
+.closeIconButton {
+    display: none;
+}
+
+/*
+vtex-store-drawer-0-x-closeIconButton pa4 pointer bg-transparent transparent bn pointer
+vtex-store-drawer-0-x-drawer vtex-store-drawer-0-x-opened  left-0 fixed top-0 bottom-0 bg-base z-999 flex flex-column
+
+class="vtex-store-drawer-0-x-childrenContainer flex flex-grow-1"
+
+class="vtex-store-drawer-0-x-drawer vtex-store-drawer-0-x-opened  left-0 fixed top-0 bottom-0 bg-base z-999 flex flex-column"
+
+vtex-store-drawer-0-x-drawerContent overflow-y-auto
+5px -1px 9px 0 rgba(233, 49, 49, 0.5)

@@ -1,0 +1,36 @@
+.menuItemVertical {
+    border          : none !important;
+    background-color: white;
+}
+
+.styledLinkText {
+    font-family: Lexend;
+    font-size  : 12px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align : left;
+}
+
+.styledLinkContainer {
+    padding-top   : 11px;
+    padding-bottom: 8px;
+}
+
+/*
+vtex-mega-menu-2-x-styledLinkContainer pv5 mh5
+class="vtex-mega-menu-2-x-styledLinkText flex justify-between items-center"
+
+vtex-mega-menu-2-x-menuItemVertical bb b--light-gray bt
+vtex-mega-menu-2-x-menuContainerNavVertical w-100
+
+class="vtex-mega-menu-2-x-menuItemVertical bb b--light-gray bt"
+font-family: Lexend,
+font-size: 12px,
+font-weight: 300
+
+class="vtex-mega-menu-2-x-departmentsContainer"
+vtex-mega-menu-2-x-menuItemVertical bb b--light-gray
+styledLinkText
+class="vtex-mega-menu-2-x-styledLinkContent flex justify-between"
+vtex-mega-menu-2-x-styledLinkText flex justify-between items-center
+menuContainerVertical 
