@@ -6,6 +6,7 @@
         ],
         "props": {
             "top": "168px"
+
         }
     },
     "flex-layout.col#desktop__home__info-card--img":{
@@ -14,15 +15,16 @@
             "image#promo"
         ],
         "props": {
-
+            "blockClass": [
+                "flex-col--center"
+            ]
         }
     },
 
-    //------should be an info card, try img left then info card
     "image#promo": {
         "title": "desktop home info-card img ",
         "props": {
-            "src": "assets/img/home/desktop-promo.png",
+            "src": "assets/img/home/desktop__home__watch-promo.png",
             "width": "100%",
             "height": "Fixed (422px)px",
             "top": "168px",

@@ -1,5 +1,6 @@
 {
     "flex-layout.row#global__header__categories":{
+        "title":"global row header categories slider container",
         "props":{
             "fullWidth": true
         },
@@ -43,6 +44,7 @@
         ]
     },
     "rich-text#global__header--nav-icon-food": {
+        "title":"global header nav icon food",
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
@@ -53,6 +55,7 @@
         }
     },
     "rich-text#global__header--nav-icon-fit": {
+        "title":"global header nav icon fit/fitness",
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
@@ -63,6 +66,7 @@
         }
     },
     "rich-text#global__header--nav-icon-ice": {
+        "title":"global header nav icon ice/en el artico",
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
@@ -73,6 +77,7 @@
         }
     },
     "rich-text#global__header--nav-icon-pool": {
+        "title":"global header nav icon pool/poolday",
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
@@ -83,6 +88,7 @@
         }
     },
     "rich-text#global__header--nav-icon-hotel": {
+        "title":"global header nav icon hotel/hoteles",
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
@@ -93,6 +99,7 @@
         }
     },
     "rich-text#global__header--nav-icon-house": {
+        "title":"global header nav icon house/casas",
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
@@ -103,6 +110,7 @@
         }
     },
     "rich-text#global__header--nav-icon-spa": {
+        "title":"global header nav icon spa/naturales",
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
@@ -113,6 +121,7 @@
         }
     },
     "rich-text#global__header--nav-icon-closet": {
+        "title":"global header nav icon closet",
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
@@ -123,6 +132,7 @@
         }
     },
     "rich-text#global__header--nav-icon-beach": {
+        "title":"global header nav icon beach/playas",
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
@@ -133,6 +143,7 @@
         }
     },
     "rich-text#global__header--nav-icon-hiking": {
+        "title":"global header nav icon hiking/alpinismo",
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
@@ -143,6 +154,7 @@
         }
     },
     "rich-text#global__header--nav-icon-delivery": {
+        "title":"global header nav icon delivery",
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
@@ -153,6 +165,7 @@
         }
     },
     "rich-text#global__header--nav-icon-beer": {
+        "title":"global header nav icon beer/cervezas",
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",

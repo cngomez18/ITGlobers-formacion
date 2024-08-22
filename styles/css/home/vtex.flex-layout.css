@@ -12,6 +12,18 @@
     padding: 0px 0px 0px 0px;
 }
 
+.flexColChild--flex-col--center {
+    display      : grid;
+    justify-items: center;
+}
+
+.flexRow--row--amazing-text-center {
+    display      : grid;
+    justify-items: start;
+    position     : relative;
+    right        : 500px;
+}
+
 @media (max-width:375px) {
     .flexCol--global__slider__info-card {
         max-width      : 242px !important;

@@ -5,11 +5,11 @@
             "blockClass": "sticky-header"
         },
         "children": [
-            "flex-layout.row#mobile",
+            "flex-layout.row#mobile__header",
             "flex-layout.row#global__header__categories"    
         ]
     },
-    "flex-layout.row#mobile": {
+    "flex-layout.row#mobile__header": {
         "title": "mobile flex layout header",
         "children": [
             "flex-layout.col#mobile__drawer",
@@ -32,8 +32,7 @@
             "horizontalAlign": "center"
         },
         "children": [
-            "flex-layout.row#1-mobile"
-
+            "flex-layout.row#mobile__mega-menu"
         ]
     },
     "flex-layout.col#mobile__logo": {

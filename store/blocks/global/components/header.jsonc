@@ -10,7 +10,7 @@
         "props": {
             "title": "Logo global itg",
             "href": "/",
-            "url":"assets/img/header/global__home__header--logo.png",
+            "url":"assets/img/home/global__home__header--logo.png",
             "width": "32px",
             "height":"16px"
         }

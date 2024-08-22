@@ -14,7 +14,7 @@
             } 
               
         },
-        "blocks": ["vtex.menu@2.x:submenu#subcategories--deals"] // Defining a submenu
+        "blocks": ["vtex.menu@2.x:submenu#subcategories--deals"]
     },
 
 

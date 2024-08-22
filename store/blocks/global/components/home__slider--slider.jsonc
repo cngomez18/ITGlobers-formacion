@@ -8,7 +8,10 @@
     "flex-layout.col#home__slider--order": {
         "title": "global home slider order col",
         "props":{
-            "rowGap": 0
+            "rowGap": 0,
+            "blockClass": [
+                "flex-col--center"
+            ]
         },
         "children": [
             "flex-layout.row#global__home__text--amazing-product",
@@ -22,9 +25,11 @@
         ]
     },
     "flex-layout.row#global__home__text--amazing-product":{
-        "title":"",
+        "title":"global home flex row text subtitle amazing product",
         "props":{
-
+            "blockClass":[
+                "row--amazing-text-center"
+            ]
         },
         "children":[
             "rich-text#global__home__text--amazing-product"
@@ -109,6 +114,7 @@
         }
     },
     "link#global__info-card-button": {
+        "title":"global info card link btn",
         "props": {
             "label": "Ver precio",
             "href": "#",
@@ -126,6 +132,7 @@
         ]
     },
     "icon#right": {
+        "title":"global info card icon right arrow",
         "props": {
             "id": "nav-arrow--right",
             "size": 14
