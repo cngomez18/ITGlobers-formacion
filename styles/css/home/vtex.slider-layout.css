@@ -71,11 +71,55 @@
 
 @media (max-width: 1200px) {
     .sliderLayoutContainer--global__info-card {
-        width: auto;
+        max-width     : 950px;
+        width         : auto;
+        padding       : 50px;
+        padding-top   : 0px;
+        padding-bottom: 50px;
     }
 
     .sliderLayoutContainer--global__product-shelf {
-        width: auto;
+        max-width     : 950px;
+        width         : auto;
+        padding       : 50px;
+        padding-top   : 0px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 800px) {
+    .sliderLayoutContainer--global__product-shelf {
+        max-width     : 640px;
+        padding       : 0px;
+        padding-bottom: 50px;
+        left          : 0px;
+        margin-left   : 6px;
+    }
+
+    .sliderLayoutContainer--global__info-card {
+        max-width     : 640px;
+        padding       : 0px;
+        padding-bottom: 50px;
+        margin-left   : 6px;
+        left          : 0px;
+    }
+}
+
+@media (max-width:640px) {
+    .sliderLayoutContainer--global__product-shelf {
+        max-width     : 425px;
+        padding       : 0px;
+        padding-bottom: 50px;
+        left          : 0px;
+        margin-left   : 6px;
+    }
+
+    .sliderLayoutContainer--global__info-card {
+        max-width     : 425px;
+        padding       : 0px;
+        padding-bottom: 50px;
+        margin-left   : 6px;
+        left          : 0px;
     }
 }
 
@@ -88,5 +132,24 @@
     }
 }
 
+@media (max-width: 425px){
+    .sliderLayoutContainer--global__product-shelf {
+        max-width     : 300px;
+        padding       : 0px;
+        padding-bottom: 50px;
+        left          : 0px;
+        margin-left   : 6px;
+    }
+
+    .sliderLayoutContainer--global__info-card {
+        max-width     : 300px;
+        padding       : 0px;
+        padding-bottom: 50px;
+        margin-left   : 6px;
+        left          : 0px;
+    }
+}
 /*
+w-100 flex items-center relative vtex-slider-layout-0-x-sliderLayoutContainer vtex-slider-layout-0-x-sliderLayoutContainer--global__product-shelf vtex-slider-layout-0-x-sliderLayoutContainer--global__home--slider
+
 vtex-slider-layout-0-x-paginationDotsContainer vtex-slider-layout-0-x-paginationDotsContainer--global__product-shelf vtex-slider-layout-0-x-paginationDotsContainer--global__home--slider flex absolute justify-center pa0 ma0 bottom-0 left-0 right-0

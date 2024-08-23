@@ -12,7 +12,19 @@
     border-bottom: 3px solid #1D2734;
 }
 
+@media (max-width: 1100px){
+    .sliderTrackContainer--global__header-icons {
+        gap          : 5px;
+        padding-left : 0px;
+        padding-right: 0px;
+        max-width    : 1000px;
+    
+    }   
+}
+
 /*
+w-100 vtex-slider-layout-0-x-sliderTrackContainer vtex-slider-layout-0-x-sliderTrackContainer--global__header-icons overflow-hidden
+
 "global__header-icons"
 
 class="vtex-slider-layout-0-x-sliderTrack vtex-slider-layout-0-x-sliderTrack--global__header-icons flex  relative pa0 ma0"
