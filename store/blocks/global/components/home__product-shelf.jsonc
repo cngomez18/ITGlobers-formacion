@@ -113,7 +113,6 @@
                 "phone": 1
             },
             "infinite": true,
-            "centerMode": "to-the-left",
             "showNavigationArrows": "desktopOnly",
             "centerModeSlidesGap": 8,
             "arrowSize": 20,
