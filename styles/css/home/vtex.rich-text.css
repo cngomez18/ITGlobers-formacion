@@ -52,7 +52,12 @@
 
 
 }
-
+@media (max-width:450px) {
+    .paragraph--empty-cart::before {
+        width        : 148px;
+        height       : 148px;
+    }   
+}
 
 @media (max-width:375px) {
     .paragraph--global__slider__info-card--text-body {
