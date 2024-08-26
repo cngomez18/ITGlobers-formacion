@@ -8,24 +8,31 @@
         ]
     },
     "product-summary.shelf#plp__shelf": {
+        "props":{
+           "blockClass":[
+                "plp__shelf"
+            ] 
+        },
         "children": [
             "product-summary-image#plp__shelf",
             "product-summary-description#plp__shelf",
             "product-summary-space",
             "product-summary-price#plp__shelf",
-            "vtex.product-highlights@2.x:product-highlights"
+            "vtex.product-highlights@2.x:product-highlights#plp__shelf"
         ]
     },
     "product-summary-description#plp__shelf": {
         "title":"plp product shelf--product description",
         "props": {
-
+            "blockClass":[
+                "plp__shelf"
+            ]
         }
     },
     "product-summary-image#plp__shelf": {
         "title":"plp product shelf--product img",
         "props": {
-            "displayMode":"inline",
+            "displayMode": "inline",
             "showBadge": false,
             "width": "135px",
             "height": "106px"
@@ -37,7 +44,10 @@
         "props": {
             "showInstallments": false,
             "showListPrice": true,
-            "showLabels": false
+            "showLabels": false,
+            "blockClass":[
+                "plp__shelf"
+            ]
         }
     },
     "product-price-savings#plp__shelf": {
@@ -51,7 +61,32 @@
             "font": "t-Lexend-400",
             "icon": false,
             "blockClass": [
-                "plp__home__shelf--price-saving"
+                "plp__shelf"
+            ]
+        }
+    },
+    "vtex.product-highlights@2.x:product-highlights#plp__shelf": {
+        "title":"global product shelf--highlights",
+        "props": {
+            "type": "collection"
+        },
+        "children": [
+            "product-highlight-wrapper#plp__shelf"
+        ]
+    },
+    "product-highlight-wrapper#plp__shelf": {
+        "title":"global product shelf--highlights wrapper",
+        "children": [
+            "product-highlight-text#plp__shelf",
+            "icon#flash"
+        ]
+    },
+    "product-highlight-text#plp__shelf": {
+        "title":"global product shelf--highlights text",
+        "props": {
+            "message": "{highlightName}",
+            "blockClass":[
+                "plp__shelf"
             ]
         }
     }

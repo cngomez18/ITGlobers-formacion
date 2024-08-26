@@ -1,0 +1,44 @@
+.orderByButton {
+    background-color: #E7E7E7;
+    width           : 170px;
+    height          : 40px;
+    padding         : 14px 12px 14px 12px;
+    border-radius   : 40px;
+}
+
+.filter__container--title{
+    display:none;
+}
+.filterAvailable{
+    width: 184px;
+    height: 36px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 40px ;
+    background-color: #E7E7E7;
+}
+
+.filterTitleSpan{
+    font-family: Lexend;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+}
+.filterItem{
+    font-family: Lexend;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align: left;
+
+}
+
+
+/*
+
+vtex-search-result-3-x-filterTitleSpan
+vtex-search-result-3-x-filter pv5 vtex-search-result-3-x-filterAvailable
+vtex-search-result-3-x-filter__container bb b--muted-4 vtex-search-result-3-x-filter__container--category-2
+class="vtex-search-result-3-x-filter__container vtex-search-result-3-x-filter__container--title bb b--muted-4"
+orderByButton
+vtex-search-result-3-x-orderByDropdown relative pt1 justify-end w-100 w-auto-ns ml-auto
