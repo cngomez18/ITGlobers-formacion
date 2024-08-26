@@ -1,0 +1,12 @@
+{
+    "flex-layout.row#container__result--desktop": {
+        "title": "",
+        "children": [
+            "flex-layout.col#container__result--filter",
+            "flex-layout.col#container__result--order-content"
+        ],
+        "props": {
+            "marginTop": 7
+        }
+    }
+}

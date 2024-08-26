@@ -1,0 +1,73 @@
+{
+    
+    "flex-layout.col#container__result--filter": {
+        "title": "container result filter",
+        "children": [
+            "filter-navigator.v3"
+        ],
+        "props": {
+            "width":"25%"
+        }
+    },
+    "flex-layout.col#container__result--order-content": {
+        "title": "container result filter",
+        "children": [
+            "order-by.v2",
+            "search-content#global__search--layout"
+        ],
+        "props": {}
+    },
+    "flex-layout.col#container__result--order": {
+        "title": "container result filter",
+        "children": [
+            "order-by.v2"
+        ],
+        "props": {}
+    },
+    //------------------components-----------------
+    "search-content#global__search--layout": {
+        "title": "global search content",
+        "blocks": [
+            "gallery#global__search",
+            "not-found"
+        ]
+    },
+    "order-by.v2": {
+        "title": "order by result layout",
+        "props": {
+            "blockClass": []
+        }
+    },
+    "filter-navigator.v3": {
+        "title": "filter result layout",
+        "props": {
+            "blockClass": []
+        }
+    },
+    "gallery#global__search": {
+        "props": {
+            "layouts": [
+                {
+                    "name": "whole",
+                    "component": "OneOrTwoLineSummary",
+                    "itemsPerRow": 3
+                },
+                {
+                    "name": "two",
+                    "component": "OneOrTwoLineSummary",
+                    "itemsPerRow": 3
+                },
+                {
+                    "name": "many",
+                    "component": "ManyByLineSummary",
+                    "itemsPerRow": {
+                        "desktop": 3,
+                        "mobile": 1
+                    }
+                }
+            ],
+            "OneOrTwoLineSummary": "product-summary.shelf#plp__shelf",
+            "ManyByLineSummary": "product-summary.shelf#plp__shelf"
+        }
+    }
+}

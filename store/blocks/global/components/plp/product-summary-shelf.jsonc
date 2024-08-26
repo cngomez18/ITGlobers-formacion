@@ -1,0 +1,58 @@
+{
+    "list-context.product-list#plp__shelf": {
+        "blocks": [
+            "product-summary.shelf#plp__shelf"
+        ],
+        "children": [
+           
+        ]
+    },
+    "product-summary.shelf#plp__shelf": {
+        "children": [
+            "product-summary-image#plp__shelf",
+            "product-summary-description#plp__shelf",
+            "product-summary-space",
+            "product-summary-price#plp__shelf",
+            "vtex.product-highlights@2.x:product-highlights"
+        ]
+    },
+    "product-summary-description#plp__shelf": {
+        "title":"plp product shelf--product description",
+        "props": {
+
+        }
+    },
+    "product-summary-image#plp__shelf": {
+        "title":"plp product shelf--product img",
+        "props": {
+            "displayMode":"inline",
+            "showBadge": false,
+            "width": "135px",
+            "height": "106px"
+        }
+
+    },
+    "product-summary-price#plp__shelf": {
+        "title":"plp product shelf--product price",
+        "props": {
+            "showInstallments": false,
+            "showListPrice": true,
+            "showLabels": false
+        }
+    },
+    "product-price-savings#plp__shelf": {
+        "title": "plp product shelf--product price saving",
+        "props": {
+            "markers": [
+                "highlight"
+            ],
+            "message": "{savingsPercentage} OFF",
+            "percentageStyle": "compact",
+            "font": "t-Lexend-400",
+            "icon": false,
+            "blockClass": [
+                "plp__home__shelf--price-saving"
+            ]
+        }
+    }
+}
