@@ -1,15 +1,17 @@
 /*.container--plp__shelf {
     }
     */
-.element {
-    display       : flex;
-    flex-direction: row;
-    align-items   : center;
+.element--plp__shelf {
+    display           : flex;
+    /*background-color: rgb(255, 165, 165);*/
+    flex-direction    : row;
+    align-items       : center;
 }
 
 .description--plp__shelf {
-    width             : 40px;
-    height            : 150px;
+    width             : 150px;
+    height            : 140px;
+    gap               : 8px;
     font-family       : Lexend;
     font-size         : 12px;
     font-weight       : 400;
@@ -18,16 +20,17 @@
     overflow          : hidden;
     text-overflow     : ellipsis;
     display           : -webkit-box;
-    -webkit-line-clamp: 3;
-    line-clamp        : 3;
-    -webkit-box-orient: vertical;
-
+    -webkit-line-clamp: 1;
+    line-clamp        : 1;
+    -webkit-box-orient: horizontal;
+    z-index           : 0;
+    position          : relative;
+    left              : 5%;
 }
-
 
 .priceContainer--plp__shelf :global(.vtex-store-components-3-x-sellingPrice) {
     font-family: Lexend;
-    font-size  : 20px;
+    font-size  : 16px;
     font-weight: 600;
     line-height: 28.8px;
     padding    : 0px;
@@ -35,8 +38,23 @@
 }
 
 .priceContainer--plp__shelf {
-    display : flex;
-    position: relative;
-    top     : 50%;
-    left    : -20%;
+    display         : flex;
+    position        : relative;
+    top             : 40%;
+    padding         : 0px;
+    left            : -18%;
+    z-index         : 2;
+    flex-shrink     : 2;
+    background-color: #F5F4F6;
 }
+
+.imageWrapper--plp__shelf {
+    flex-grow  : 0;
+    flex-shrink: 0;
+    width      : 135px;
+    height     : 106px;
+}
+
+/*
+vtex-product-summary-2-x-imageContainer vtex-product-summary-2-x-imageWrapper vtex-product-summary-2-x-imageWrapper--plp__shelf db w-100 center
+vtex-product-summary-2-x-imageContainer vtex-product-summary-2-x-imageWrapper db w-100 center

@@ -16,8 +16,8 @@
         "children": [
             "product-summary-image#plp__shelf",
             "product-summary-description#plp__shelf",
-            "product-summary-price#plp__shelf",
-            "vtex.product-highlights@2.x:product-highlights#plp__shelf"
+            "product-summary-price#plp__shelf"
+            //"vtex.product-highlights@2.x:product-highlights#plp__shelf"
         ]
     },
     "product-summary-description#plp__shelf": {
@@ -33,7 +33,10 @@
         "props": {
             "showBadge": false,
             "width": "135px",
-            "height": "106px"
+            "height": "106px",
+            "blockClass":[
+                "plp__shelf"
+            ]
         }
 
     },

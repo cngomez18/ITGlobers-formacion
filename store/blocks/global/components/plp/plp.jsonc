@@ -14,7 +14,11 @@
             "order-by.v2",
             "search-content#global__search--layout"
         ],
-        "props": {}
+        "props": {
+            "blockClass":[
+                "plp__flex"
+            ]
+        }
     },
     "flex-layout.col#container__result--order": {
         "title": "container result filter",
