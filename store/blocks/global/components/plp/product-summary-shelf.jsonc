@@ -16,7 +16,6 @@
         "children": [
             "product-summary-image#plp__shelf",
             "product-summary-description#plp__shelf",
-            "product-summary-space",
             "product-summary-price#plp__shelf",
             "vtex.product-highlights@2.x:product-highlights#plp__shelf"
         ]
@@ -32,7 +31,6 @@
     "product-summary-image#plp__shelf": {
         "title":"plp product shelf--product img",
         "props": {
-            "displayMode": "inline",
             "showBadge": false,
             "width": "135px",
             "height": "106px"
