@@ -3,13 +3,26 @@
     width : 13px;
 }
 
+.productImage {
+    max-width    : 150px;
+    max-height   : 125px;
+    border-radius: 3.78px;
+    border       : 0.95px solid #E7E7E7;
+    padding      : 3px;
+}
+
 .productName {
     font-family: Lexend;
     font-size  : 11.34px;
     font-weight: 300;
     line-height: 15.12px;
     text-align : left;
-
+    overflow          : hidden;
+    text-overflow     : ellipsis;
+    display           : -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp        : 2;
+    -webkit-box-orient: vertical;
 }
 
 .productBrandName {
@@ -57,9 +70,15 @@
     width : 137.06px;
     height: 45.37px;
 }
+
 .inputContainer {
-    width: 30px;
-    height: auto;
+    width  : 15px !important;
+    height : auto;
+    padding: 0px !important;
+}
+
+.productVariationsContainer {
+    display:none;
 }
 
 /*

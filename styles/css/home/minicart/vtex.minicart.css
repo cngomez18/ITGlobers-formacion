@@ -1,9 +1,37 @@
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F2F2F2;
+    ;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #BEBEBE;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 .closeIconContainer {
     display        : flex;
     justify-content: flex-end;
     top            : 6%;
     position       : relative;
+    right: 3%;
 }
+
+.closeIconButton {
+    align-self      : baseline;
+    padding         : 0px;
+    width           : 30px;
+    height          : 30px;
+    background-color: #e9e9e9;
+    border-radius   : 50px;
+}
+
 
 .minicartTitle::after {
     content       : "Resumen de tu compra";
@@ -19,14 +47,15 @@
 
 }
 
+.minicartCheckoutButton {
+    padding-left: 4%;
+}
+
 .minicartCheckoutButton :global(.vtex-button) {
-    width           : Fixed (368px);
-    height          : Fixed (48px);
-    padding         : 10px;
-    gap             : 10px;
+    width           : 368px;
+    height          : 48px;
     border-radius   : 40px;
     border          : 1px;
-    opacity         : 0px;
     background-color: #1D2734;
 }
 
@@ -41,18 +70,40 @@
 }
 
 .minicartSummary {
-    width        : Fixed (368px)px;
-    height       : Fixed (126px)px;
-    top          : 634px;
-    left         : 16px;
-    padding      : 24px;
-    gap          : 12px;
-    border-radius: 4px;
-    border       : 1px solid #E7E7E7
+    width           : 368px;
+    height          : 126px;
+    /* top          : 634px; */
+    left            : 4%;
+    padding         : 24px;
+    gap             : 12px;
+    border-radius   : 5px;
+    border          : 1px solid #E7E7E7;
+    position        : relative;
+    background-color: rgb(243, 243, 243);
 }
 
 .minicartProductListContainer {
     padding-top: 20px;
+    position   : relative;
+    top        : 2.5%;
+}
+
+@media (max-width:450px) {
+    .minicartCheckoutButton {
+        padding-left: 2%;
+    }
+
+    .minicartCheckoutButton :global(.vtex-button) {
+        width: 345px;
+    }
+
+    .minicartSummary {
+        left: 0px;
+    }
+
+    .minicartProductListContainer {
+        top: 3.5%;
+    }
 }
 
 /*
