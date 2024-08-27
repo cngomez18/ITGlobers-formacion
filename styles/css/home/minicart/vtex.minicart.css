@@ -1,9 +1,37 @@
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F2F2F2;
+    ;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #BEBEBE;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 .closeIconContainer {
     display        : flex;
     justify-content: flex-end;
     top            : 6%;
     position       : relative;
+    right: 3%;
 }
+
+.closeIconButton {
+    align-self      : baseline;
+    padding         : 0px;
+    width           : 30px;
+    height          : 30px;
+    background-color: #e9e9e9;
+    border-radius   : 50px;
+}
+
 
 .minicartTitle::after {
     content       : "Resumen de tu compra";
