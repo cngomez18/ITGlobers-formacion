@@ -1,11 +1,15 @@
 /*.container--plp__shelf {
-    width  : 290px;
-    height : 106px;
+    }
+    */
+.element {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
 }
-*/
+
 .description--plp__shelf {
-    width             : fixed (39px)px;
-    height            : Fixed (149px)px;
+    width             : 40px;
+    height            : 150px;
     font-family       : Lexend;
     font-size         : 12px;
     font-weight       : 400;
@@ -21,7 +25,6 @@
 }
 
 
-
 .priceContainer--plp__shelf :global(.vtex-store-components-3-x-sellingPrice) {
     font-family: Lexend;
     font-size  : 20px;
@@ -29,4 +32,11 @@
     line-height: 28.8px;
     padding    : 0px;
     margin     : 0px;
+}
+
+.priceContainer--plp__shelf {
+    display : flex;
+    position: relative;
+    top     : 50%;
+    left    : -20%;
 }
