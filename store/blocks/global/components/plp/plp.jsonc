@@ -5,7 +5,10 @@
             "filter-navigator.v3"
         ],
         "props": {
-            "width":"25%"
+            "width":"25%",
+            "blockClass":[
+                "plp__flex"
+            ]
         }
     },
     "flex-layout.col#container__result--order-content": {
@@ -25,7 +28,11 @@
         "children": [
             "order-by.v2"
         ],
-        "props": {}
+        "props": {
+            "blockClass":[
+                "plp__flex"
+            ]
+        }
     },
     //------------------components-----------------
     "search-content#global__search--layout": {

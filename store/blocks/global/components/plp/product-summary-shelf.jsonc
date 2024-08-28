@@ -3,50 +3,47 @@
         "blocks": [
             "product-summary.shelf#plp__shelf"
         ],
-        "children": [
-           
-        ]
+        "children": []
     },
     "product-summary.shelf#plp__shelf": {
-        "props":{
-           "blockClass":[
+        "props": {
+            "blockClass": [
                 "plp__shelf"
-            ] 
+            ]
         },
         "children": [
             "product-summary-image#plp__shelf",
             "product-summary-description#plp__shelf",
-            "product-summary-price#plp__shelf"
-            //"vtex.product-highlights@2.x:product-highlights#plp__shelf"
+            "product-summary-price#plp__shelf",
+            "vtex.product-highlights@2.x:product-highlights#plp__shelf"
         ]
     },
     "product-summary-description#plp__shelf": {
-        "title":"plp product shelf--product description",
+        "title": "plp product shelf--product description",
         "props": {
-            "blockClass":[
+            "blockClass": [
                 "plp__shelf"
             ]
         }
     },
     "product-summary-image#plp__shelf": {
-        "title":"plp product shelf--product img",
+        "title": "plp product shelf--product img",
         "props": {
             "showBadge": false,
             "width": "135px",
             "height": "106px",
-            "blockClass":[
+            "blockClass": [
                 "plp__shelf"
             ]
         }
-
     },
     "product-summary-price#plp__shelf": {
-        "title":"plp product shelf--product price",
+        "title": "plp product shelf--product price",
         "props": {
             "showInstallments": false,
             "showListPrice": true,
             "showLabels": false,
-            "blockClass":[
+            "blockClass": [
                 "plp__shelf"
             ]
         }
@@ -67,26 +64,37 @@
         }
     },
     "vtex.product-highlights@2.x:product-highlights#plp__shelf": {
-        "title":"global product shelf--highlights",
+        "title": "global product shelf--highlights",
         "props": {
-            "type": "collection"
+            "type": "collection",
+            "filter": {
+                "type": "show",
+                "highlightNames": [
+                    "Envío Gratis"
+                ]
+            }
         },
         "children": [
             "product-highlight-wrapper#plp__shelf"
         ]
     },
     "product-highlight-wrapper#plp__shelf": {
-        "title":"global product shelf--highlights wrapper",
+        "title": "global product shelf--highlights wrapper",
         "children": [
             "product-highlight-text#plp__shelf",
             "icon#flash"
-        ]
+        ],
+        "props": {
+            "blockClass": [
+                "plp__shelf"
+            ]
+        }
     },
     "product-highlight-text#plp__shelf": {
-        "title":"global product shelf--highlights text",
+        "title": "global product shelf--highlights text",
         "props": {
             "message": "{highlightName}",
-            "blockClass":[
+            "blockClass": [
                 "plp__shelf"
             ]
         }
