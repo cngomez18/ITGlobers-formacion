@@ -6,7 +6,10 @@
             "flex-layout.col#container__result--order-content"
         ],
         "props": {
-            "marginTop": 7
+            "marginTop": 7,
+            "blockClass":[
+                "plp__flex"
+            ]
         }
     }
 }

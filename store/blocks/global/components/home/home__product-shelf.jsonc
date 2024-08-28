@@ -16,7 +16,12 @@
             "product-summary-price",
             "vtex.product-highlights@2.x:product-highlights",
             "add-to-cart-button"
-        ]
+        ],
+        "props":{
+            "blockClass":[
+                "global__home__shelf"
+            ]
+        }
     },
     "add-to-cart-button": {
         "title":"global product shelf add to cart btn",
