@@ -80,6 +80,12 @@
     right   : -75%;
 }
 
+.galleryLayoutSwitcher {
+    opacity : 60%;
+    position: relative;
+    right   : -78%;
+}
+
 :global(.vtex-checkbox__inner-container) {
     width             : 24px;
     height            : 24px;

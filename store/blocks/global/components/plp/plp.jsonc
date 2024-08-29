@@ -23,7 +23,8 @@
     "flex-layout.col#container__result--order": {
         "title": "container result order",
         "children": [
-            "order-by.v2"
+            "order-by.v2",
+            "gallery-layout-switcher"
         ],
         "props": {
             "blockClass": [
@@ -73,12 +74,12 @@
                 {
                     "name": "whole",
                     "component": "OneOrTwoLineSummary",
-                    "itemsPerRow": 3
+                    "itemsPerRow": 1
                 },
                 {
                     "name": "two",
                     "component": "OneOrTwoLineSummary",
-                    "itemsPerRow": 3
+                    "itemsPerRow": 2
                 },
                 {
                     "name": "many",
@@ -93,26 +94,35 @@
             "ManyByLineSummary": "product-summary.shelf#plp__shelf"
         }
     },
-    "gallery-layout-switcher": {
+   "gallery-layout-switcher": {
         "children": [
-            "gallery-layout-option#grid",
-            "gallery-layout-option#list"
+            "gallery-layout-option#whole",
+            "gallery-layout-option#two",
+            "gallery-layout-option#many"
         ]
     },
-    "gallery-layout-option#grid": {
+    "gallery-layout-option#whole": {
         "props": {
-            "name": "grid"
+            "name": "whole"
         },
         "children": [
-            "icon-grid"
+            "icon-single-grid"
         ]
     },
-    "gallery-layout-option#list": {
+    "gallery-layout-option#two": {
         "props": {
-            "name": "list"
+            "name": "two"
         },
         "children": [
             "icon-inline-grid"
+        ]
+    },
+    "gallery-layout-option#many": {
+        "props": {
+            "name": "many"
+        },
+        "children": [
+            "icon-menu"
         ]
     }
 }
