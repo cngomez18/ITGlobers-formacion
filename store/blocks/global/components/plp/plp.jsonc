@@ -1,44 +1,37 @@
 {
-    "flex-layout.col#container__result--filter": {
+    /*
+    "flex-layout.row#container__result--": {
+        "children": [],
+        "props": {}
+    },
+    "flex-layout.col#container__result--": {
+        "children": [],
+        "props": {}
+    },   
+    */
+    "flex-layout.col#container__result--filter":{
         "title": "container result filter",
         "children": [
-            "breadcrumb.search",
-            "search-title.v2",
-            "search-products-count-per-page",
             "filter-navigator.v3"
         ],
         "props": {
-            "width":"20%",
-            "blockClass":[
-                "plp__flex"
-            ]
-        }
-    },
-    "flex-layout.col#container__result--order-content": {
-        "title": "container result filter",
-        "children": [
-            "order-by.v2",
-            "search-content#global__search--layout",
-            "search-fetch-more"
-        ],
-        "props": {
-            "blockClass":[
+            "blockClass": [
                 "plp__flex"
             ]
         }
     },
     "flex-layout.col#container__result--order": {
-        "title": "container result filter",
+        "title": "container result order",
         "children": [
             "order-by.v2"
         ],
         "props": {
-            "blockClass":[
+            "blockClass": [
                 "plp__flex"
             ]
         }
     },
-    //------------------components-----------------
+    //--------------------COMPONENTS-----------------------
     "search-content#global__search--layout": {
         "title": "global search content",
         "blocks": [
@@ -58,6 +51,22 @@
             "blockClass": []
         }
     },
+    "breadcrumb.search": {
+        "props": {
+            "showOnMobile": true,
+            "props": {
+                "blockClass": [
+                    "plp__breadcrumb"
+                ]
+            }
+        }
+    },
+    "search-fetch-more": {
+        "props": {
+            "buttonLabel": "holaaaa"
+        }
+    },
+    //---------------- GALLERY------------------------
     "gallery#global__search": {
         "props": {
             "layouts": [
@@ -84,19 +93,26 @@
             "ManyByLineSummary": "product-summary.shelf#plp__shelf"
         }
     },
-    "breadcrumb.search": {
-        "props": {
-            "showOnMobile": true,
-            "props":{
-                "blockClass":[
-                    "plp__breadcrumb"
-                ]
-            }
-        }
+    "gallery-layout-switcher": {
+        "children": [
+            "gallery-layout-option#grid",
+            "gallery-layout-option#list"
+        ]
     },
-    "search-fetch-more":{
-        "props":{
-            "buttonLabel": "holaaaa"
-        }
+    "gallery-layout-option#grid": {
+        "props": {
+            "name": "grid"
+        },
+        "children": [
+            "icon-grid"
+        ]
+    },
+    "gallery-layout-option#list": {
+        "props": {
+            "name": "list"
+        },
+        "children": [
+            "icon-inline-grid"
+        ]
     }
 }

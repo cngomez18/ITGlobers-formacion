@@ -76,9 +76,8 @@
 }
 
 .orderBy--layout {
-    top     : -50px;
-    position: absolute;
-    right   : 7%;
+    position: relative;
+    right   : -75%;
 }
 
 :global(.vtex-checkbox__inner-container) {
@@ -147,6 +146,12 @@
 
 
 /*
+.buttonShowMore--layout {
+    display: grid; 
+    position: absolute;
+    bottom: -500%;
+}
+
 vtex-search-result-3-x-orderByText c-muted-2 dn dib-ns
 vtex-button__label flex items-center justify-center h-100 ph5 
 vtex-search-result-3-x-buttonShowMore w-100 flex justify-center
