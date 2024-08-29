@@ -77,7 +77,7 @@
 
 
 .galleryLayoutSwitcher {
-    opacity : 60%;
+    opacity: 60%;
 }
 
 :global(.vtex-checkbox__inner-container) {
@@ -144,7 +144,34 @@
     color      : #1D2734;
 }
 
+.filterPopupButton {
+    width           : 110px;
+    height          : 40px;
+    top             : 250px;
+    left            : 167px;
+    padding         : 14px 12px 14px 12px;
+    gap             : 0px;
+    border-radius   : 40px;
+    background-color: #E7E7E7;
+}
+
+.filterPopupTitle{
+    font-family     : Lexend;
+    font-size       : 12px;
+    font-weight     : 400;
+    line-height     : 15px;
+    text-align      : center;
+}
+
+@media (max-width:645px) {
+    .orderByButton {
+        width: 140px;
+    }
+}
+
 /*
+class="vtex-search-result-3-x-filterPopupButton   ph3 pv5 mv0 mv0 pointer flex justify-center items-center bn"
+645px
 @media (max-width: 768px) {
     .orderBy--layout {
         position: relative;

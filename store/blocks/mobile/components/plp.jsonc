@@ -50,7 +50,11 @@
             "flex-layout.col#container__result--switcher"
         ],
         "props": {
-            "colSizing": "auto"
+            "colSizing": "auto",
+            "preserveLayoutOnMobile": true,
+            "blockClass":[
+                "plp__flex--main-row-mobile"
+            ]
         }
     },
     "flex-layout.row#container__result--content": {

@@ -91,7 +91,7 @@
                     }
                 }
             ],
-            "OneOrTwoLineSummary": "product-summary.shelf#plp__shelf",
+            "OneOrTwoLineSummary": "product-summary.shelf#plp__shelf-mobile",
             "ManyByLineSummary": "product-summary.shelf#plp__shelf"
         }
     },
