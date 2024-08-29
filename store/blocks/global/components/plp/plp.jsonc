@@ -27,6 +27,7 @@
             "gallery-layout-switcher"
         ],
         "props": {
+            "horizontalAlign": "right",
             "blockClass": [
                 "plp__flex"
             ]

@@ -1,12 +1,75 @@
 {
+    /*
+    "flex-layout.row#container__result--": {
+        "children": [],
+        "props": {}
+    },
+    "flex-layout.col#container__result--": {
+        "children": [],
+        "props": {}
+    },   
+    */
     "flex-layout.row#container__result--mobile": {
         "title": "",
         "children": [
-            "flex-layout.col#container__result--order",
-            "flex-layout.col#container__result--filter"
+            "flex-layout.col#container__result--mobile"
         ],
         "props": {
-            "marginTop":10
+            "marginTop": 9
         }
+    },
+    "flex-layout.col#container__result--mobile": {
+        "children": [
+            "flex-layout.row#container__result--breadcrumb",
+            "flex-layout.row#container__result--title",
+            "flex-layout.row#container__result--filters",
+            "flex-layout.row#container__result--content"        
+        ],
+        "props": {
+
+        }
+    },
+    "flex-layout.row#container__result--breadcrumb": {
+        "children": [
+            "breadcrumb.search"
+        ],
+        "props": {
+
+        }
+    },  
+    "flex-layout.row#container__result--title": {
+        "children": [
+            "search-title.v2"
+        ],
+        "props": {}
+    },
+    "flex-layout.row#container__result--filters": {
+        "children": [
+            "flex-layout.col#container__result--mobile-order",
+            "flex-layout.col#container__result--filter",
+            "flex-layout.col#container__result--switcher"
+        ],
+        "props": {
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.row#container__result--content": {
+        "children": [
+            "search-content#global__search--layout"   
+        ],
+        "props": {}
+    },
+    "flex-layout.col#container__result--mobile-order": {
+        "children": [
+            "order-by.v2"
+        ],
+        "props": {}
+    },
+    "flex-layout.col#container__result--switcher": {
+        "children": [
+            "gallery-layout-switcher"
+        ],
+        "props": {}
     }
+
 }

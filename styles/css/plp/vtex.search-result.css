@@ -75,15 +75,9 @@
     background-color: #1D2734;
 }
 
-.orderBy--layout {
-    position: relative;
-    right   : -75%;
-}
 
 .galleryLayoutSwitcher {
     opacity : 60%;
-    position: relative;
-    right   : -78%;
 }
 
 :global(.vtex-checkbox__inner-container) {
@@ -150,14 +144,54 @@
     color      : #1D2734;
 }
 
-
 /*
+@media (max-width: 768px) {
+    .orderBy--layout {
+        position: relative;
+        right   : 0;
+    }
+    
+    .galleryLayoutSwitcher {
+        opacity : 60%;
+        position: relative;
+        right   : 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .orderBy--layout {
+        position: relative;
+        right   : 0;
+    }
+    
+    .galleryLayoutSwitcher {
+        opacity : 60%;
+        position: relative;
+        right   : 0;
+    }
+}
+    
+"phone":         320px,
+  "phonemid":      375px,
+  "tablet":        768px,
+  "notebook":      1280px,
+  "desktop":       1440px
+
 .buttonShowMore--layout {
     display: grid; 
     position: absolute;
     bottom: -500%;
 }
+.orderBy--layout {
+    position: relative;
+    right   : -75%;
+}
 
+.galleryLayoutSwitcher {
+    opacity : 60%;
+    position: relative;
+    right   : -78%;
+}
 vtex-search-result-3-x-orderByText c-muted-2 dn dib-ns
 vtex-button__label flex items-center justify-center h-100 ph5 
 vtex-search-result-3-x-buttonShowMore w-100 flex justify-center

@@ -3,7 +3,12 @@
     "flex-layout.row#container__result--desktop": {
         "children": [
             "flex-layout.col#container__result--desktop"
-        ]
+        ],
+        "props":{
+            "blockClass": [
+                "plp__flex--main-row-desktop"
+            ]
+        }
     },
     "flex-layout.col#container__result--desktop": {
         "title": "",
@@ -15,7 +20,7 @@
         "props": {
             "marginTop": 7,
             "blockClass": [
-                "plp__flex"
+                "plp__flex--main-col-desktop"
             ]
         }
     },
