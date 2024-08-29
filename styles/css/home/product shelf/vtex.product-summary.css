@@ -28,6 +28,10 @@
     align-items: start;
 }
 
+.element--global__home__shelf :global(.vtex-button){
+    background-color: #F5F4F6;
+}
+
 .price_listPriceContainer {
     padding   : 0px;
     margin    : 0px;

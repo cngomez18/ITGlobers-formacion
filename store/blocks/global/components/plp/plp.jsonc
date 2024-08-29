@@ -1,0 +1,129 @@
+{
+    /*
+    "flex-layout.row#container__result--": {
+        "children": [],
+        "props": {}
+    },
+    "flex-layout.col#container__result--": {
+        "children": [],
+        "props": {}
+    },   
+    */
+    "flex-layout.col#container__result--filter":{
+        "title": "container result filter",
+        "children": [
+            "filter-navigator.v3"
+        ],
+        "props": {
+            "blockClass": [
+                "plp__flex"
+            ]
+        }
+    },
+    "flex-layout.col#container__result--order": {
+        "title": "container result order",
+        "children": [
+            "order-by.v2",
+            "gallery-layout-switcher"
+        ],
+        "props": {
+            "horizontalAlign": "right",
+            "blockClass": [
+                "plp__flex"
+            ]
+        }
+    },
+    //--------------------COMPONENTS-----------------------
+    "search-content#global__search--layout": {
+        "title": "global search content",
+        "blocks": [
+            "gallery#global__search",
+            "not-found"
+        ]
+    },
+    "order-by.v2": {
+        "title": "order by result layout",
+        "props": {
+            "blockClass": []
+        }
+    },
+    "filter-navigator.v3": {
+        "title": "filter result layout",
+        "props": {
+            "blockClass": []
+        }
+    },
+    "breadcrumb.search": {
+        "props": {
+            "showOnMobile": true,
+            "props": {
+                "blockClass": [
+                    "plp__breadcrumb"
+                ]
+            }
+        }
+    },
+    "search-fetch-more": {
+        "props": {
+            "buttonLabel": "holaaaa"
+        }
+    },
+    //---------------- GALLERY------------------------
+    "gallery#global__search": {
+        "props": {
+            "layouts": [
+                {
+                    "name": "whole",
+                    "component": "OneOrTwoLineSummary",
+                    "itemsPerRow": 1
+                },
+                {
+                    "name": "two",
+                    "component": "OneOrTwoLineSummary",
+                    "itemsPerRow": 2
+                },
+                {
+                    "name": "many",
+                    "component": "ManyByLineSummary",
+                    "itemsPerRow": {
+                        "desktop": 3,
+                        "mobile": 1
+                    }
+                }
+            ],
+            "OneOrTwoLineSummary": "product-summary.shelf#plp__shelf-mobile",
+            "ManyByLineSummary": "product-summary.shelf#plp__shelf"
+        }
+    },
+   "gallery-layout-switcher": {
+        "children": [
+            "gallery-layout-option#whole",
+            "gallery-layout-option#two",
+            "gallery-layout-option#many"
+        ]
+    },
+    "gallery-layout-option#whole": {
+        "props": {
+            "name": "whole"
+        },
+        "children": [
+            "icon-single-grid"
+        ]
+    },
+    "gallery-layout-option#two": {
+        "props": {
+            "name": "two"
+        },
+        "children": [
+            "icon-inline-grid"
+        ]
+    },
+    "gallery-layout-option#many": {
+        "props": {
+            "name": "many"
+        },
+        "children": [
+            "icon-menu"
+        ]
+    }
+}

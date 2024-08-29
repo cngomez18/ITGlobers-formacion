@@ -1,0 +1,102 @@
+.element--plp__shelf {
+    display              : grid;
+    grid-template-columns: 1fr 1fr;
+    gap                  : 8px;
+    align-items          : start;
+}
+
+.description--plp__shelf {
+    grid-column       : 2 / 3;
+    grid-row          : 1 / 2;
+    width             : auto;
+    height            : auto;
+    font-family       : Lexend;
+    font-size         : 12px;
+    font-weight       : 400;
+    line-height       : 16.8px;
+    text-align        : left;
+    overflow          : hidden;
+    text-overflow     : ellipsis;
+    display           : -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp        : 3;
+    -webkit-box-orient: vertical;
+}
+
+.priceContainer--plp__shelf :global(.vtex-store-components-3-x-sellingPrice) {
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 600;
+    line-height: 25px;
+    padding    : 0px;
+    margin     : 0px;
+}
+
+.listPrice--plp__shelf{
+    font-family: Lexend;
+    font-size  : 12px;
+    font-weight: 600;
+    line-height: 25px;
+    padding    : 0px;
+    margin     : 0px;
+}
+
+.priceContainer--plp__shelf {
+    grid-column       : 2 / 3;
+    grid-row          : 2 / 3;
+    padding           : 0px;
+}
+
+.imageWrapper--plp__shelf {
+    grid-column: 1 / 2;
+    grid-row   : 1 / 4;
+    width      : 135px;
+    height     : 106px;
+}
+
+.productHighlightWrapper--plp__shelf {
+    grid-column: 2 / 3;
+    grid-row   : 3 / 4;
+}
+
+.container--plp__shelf-mobile{
+    max-width: 50% !important;
+}
+.priceContainer--plp__shelf-mobile :global(.vtex-store-components-3-x-sellingPrice) {
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 600;
+    line-height: 25px;
+    padding    : 0px;
+    margin     : 0px;
+}
+
+.listPrice--plp__shelf-mobile{
+    font-family: Lexend;
+    font-size  : 12px;
+    font-weight: 600;
+    line-height: 25px;
+    padding    : 0px;
+    margin     : 0px;
+}
+@media (min-width: 470px) {
+    .container--plp__shelf-mobile{
+        max-width: 40% !important;
+    }   
+
+}
+/*
+--plp__shelf-mobile
+vtex-product-summary-2-x-container vtex-product-summary-2-x-container--plp__shelf-mobile vtex-product-summary-2-x-containerNormal vtex-product-summary-2-x-containerNormal--plp__shelf-mobile overflow-hidden br3 h-100 w-100 flex flex-column justify-between center tc
+
+:not(){
+    display:none;
+}
+data-highlight-name
+class="vtex-product-highlights-2-x-productHighlightWrapper vtex-product-highlights-2-x-productHighlightWrapper--plp__shelf"
+
+vtex-product-highlights-2-x-productHighlightWrapper
+vtex-product-highlights-2-x-productHighlightWrapper vtex-product-highlights-2-x-productHighlightWrapper--plp__shelf
+
+vtex-product-summary-2-x-imageContainer vtex-product-summary-2-x-imageWrapper vtex-product-summary-2-x-imageWrapper--plp__shelf db w-100 center
+vtex-product-summary-2-x-imageContainer vtex-product-summary-2-x-imageWrapper db w-100 center
