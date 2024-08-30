@@ -3,10 +3,19 @@
         "props": {
             "colGap": 7,
             "rowGap": 7,
-            "marginTop": 9,
             "marginBottom": 7,
-            "paddingTop": 7,
-            "paddingBottom": 7,
+            "blockClass": [
+                "pdp__flex--main-row"
+            ]
+        },
+        "children": [
+            "flex-layout.col#product-specifications-container"
+        ]
+    },
+    "flex-layout.col#product-specifications-container": {
+        "props": {
+            "marginLeft": 9,
+            "marginRight": 7,
             "blockClass": [
                 "pdp__flex--main-row"
             ]
@@ -35,7 +44,8 @@
     "flex-layout.col#product-image": {
         "props": {
             "width": "50%",
-            "rowGap": 0
+            "rowGap": 0,
+            "marginLeft": 10
         },
         "children": [
             "product-images#global__pdp"
@@ -43,13 +53,19 @@
     },
     "product-images#global__pdp": {
         "props": {
-            "displayThumbnailsArrows": true
+            "maxHeight": "650px",
+            "displayThumbnailsArrows": true,
+            "showNavigationArrows": false,
+            "showPaginationDots":false,
+            "thumbnailAspectRatio": "1:1"
         }
     },
     "flex-layout.col#right-col": {
         "props": {
             "preventVerticalStretch": true,
-            "rowGap": 4
+            "rowGap": 4,
+            "marginLeft": 9,
+            "marginRight": 8
         },
         "children": [
             "vtex.store-components:product-name",

@@ -43,7 +43,7 @@
 }
 
 .frameAround {
-    border: 1px solid #E7E7E7;
+    border      : 1px solid #E7E7E7;
     margin-right: 5%;
 }
 
@@ -62,11 +62,76 @@
     border       : 1px;
 }
 
-.skuSelectorInternalBox{
+.skuSelectorInternalBox {
     border: none;
 }
 
+.specificationsTitle {
+    font-family: Lexend;
+    font-size  : 16px;
+    font-weight: 600;
+    line-height: 16.8px;
+    text-align : left;
+    color      : #1D2734;
+}
+
+.specificationsTablePropertyHeading {
+    display: none;
+}
+
+.specificationsTableSpecificationHeading {
+    display: none;
+}
+
+.specificationsTableBody {
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align : left;
+    color      : #1D2734;
+}
+
+.specificationsTableRow:nth-child(odd) {
+    background-color: #E7E7E7;
+}
+
+.specificationItemProperty {
+    width      : 10%;
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 600;
+    line-height: 17.5px;
+    text-align : left;
+    color      : #1D2734;
+}
+
+.showMoreButton {
+    width           : 110px;
+    height          : 32px;
+    padding         : 6px 12px 6px 12px;
+    border-radius   : 40px;
+    color           : white;
+    font-family     : Lexend;
+    font-size       : 12px;
+    font-weight     : 400;
+    line-height     : 20px;
+    text-align      : center;
+    text-transform  : none;
+    padding         : 0px;
+    background-color: #1D2734;
+}
+
 /*
+vtex-store-components-3-x-showMoreButton c-action-primary t-action pointer ma5 bn outline-0
+vtex-store-components-3-x-specificationItemProperty w-50 b--muted-4 bb pa5
+class="vtex-store-components-3-x-specificationsTableRow"
+vtex-store-components-3-x-specificationsTable w-100 bg-base border-collapse
+vtex-store-components-3-x-specificationsTableSpecificationHeading w-50 b--muted-4 bb bt c-muted-2 t-body tl pa5
+vtex-store-components-3-x-specificationsTablePropertyHeading w-50 b--muted-4 bb bt c-muted-2 t-body tl pa5
+vtex-store-components-3-x-specificationsTableRow
+vtex-store-components-3-x-specificationsTitle t-heading-5 mb5 mt0
+
 vtex-store-components-3-x-skuSelectorInternalBox w-100 h-100 b--muted-4 br2 b z-1 c-muted-5 flex items-center overflow-hidden ba
 
 relative di pointer flex items-center outline-0 ma2 valueWrapper vtex-store-components-3-x-skuSelectorItem vtex-store-components-3-x-skuSelectorItem--s vtex-store-components-3-x-skuSelectorItem--selected
