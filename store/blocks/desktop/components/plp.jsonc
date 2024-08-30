@@ -5,6 +5,9 @@
             "flex-layout.col#container__result--desktop"
         ],
         "props":{
+            "marginTop":6,
+            "marginBottom":6,
+            "preventVerticalStretch": true,
             "blockClass": [
                 "plp__flex--main-row-desktop"
             ]
@@ -18,7 +21,9 @@
             "search-fetch-more"
         ],
         "props": {
-            "marginTop": 7,
+            "marginLeft": 9,
+            "marginRight": 8,
+
             "blockClass": [
                 "plp__flex--main-col-desktop"
             ]
