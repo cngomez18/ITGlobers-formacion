@@ -50,6 +50,7 @@
     "filter-navigator.v3": {
         "title": "filter result layout",
         "props": {
+            "initiallyCollapsed":true,
             "blockClass": []
         }
     },
