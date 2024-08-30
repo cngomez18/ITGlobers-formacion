@@ -1,0 +1,21 @@
+.sellingPrice--pdp__price {
+    font-family: Lexend;
+    font-size  : 24px !important;
+    font-weight: 600;
+    line-height: 16.8px;
+    text-align : left;
+    color      : #1D2734 !important;
+}
+
+.listPrice--pdp__price {
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align : left;
+    color      : #1D273466;
+}
+
+/*
+vtex-product-price-1-x-listPrice vtex-product-price-1-x-listPrice--pdp__price
+vtex-product-price-1-x-sellingPrice vtex-product-price-1-x-sellingPrice--pdp__price vtex-product-price-1-x-sellingPrice--hasListPrice vtex-product-price-1-x-sellingPrice--pdp__price--hasListPrice

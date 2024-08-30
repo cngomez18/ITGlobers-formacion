@@ -1,12 +1,38 @@
 .flexRowContent--pdp__btn :global(.vtex-button__label) {
-    padding: 0px;
-    
+    padding         : 0px;
     background-color: transparent !important;
 }
+
 .flexRowContent--pdp__btn :global(.vtex-flex-layout-0-x-stretchChildrenWidth > *:not(img)) {
-    border: none;
+    border          : none;
     background-color: transparent !important;
-    width: 100%;
+    width           : 100%;
+    top             : -8%
 }
+
+.flexRow--pdp__flex--main-row {
+    max-width    : 1280px;
+    align-items  : center;
+    display      : grid;
+    justify-items: center;
+    margin       : 0 auto;
+}
+
+.flexRowContent--pdp__flex--main-row {
+    max-width: 1280px;
+}
+
+.flexRowContent--pdp__btn {
+    justify-content: left;
+    column-gap     : 10px;
+}
+
+.flexRowContent--pdp__price {
+    justify-content: left;
+    column-gap     : 10px;
+}
+
 /*
+flex mt0 mb0 pt0 pb0    justify-between vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--pdp__btn items-stretch w-100
+class="flex mt9 mb7 pt7 pb7    justify-start vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--pdp__flex--main-row items-stretch w-100"
 flex mt0 mb0 pt0 pb0    justify-start vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--pdp__btn items-stretch w-100
