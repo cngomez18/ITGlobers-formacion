@@ -1,0 +1,8 @@
+{
+    "responsive-layout.desktop#product-detail-page": {
+        "children": [
+            "flex-layout.row#product-main",
+            "flex-layout.row#product-specifications"
+        ]
+    }
+}

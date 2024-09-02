@@ -1,0 +1,29 @@
+.quantitySelectorTitle{
+   display: none;
+}
+
+:global(.vtex-numeric-stepper__plus-button){
+    color:white;
+    background-color: #1D2734;
+}
+
+:global(.vtex-numeric-stepper__plus-button__text){
+    font-size: 20px;
+}
+
+:global(.vtex-numeric-stepper__minus-button){
+    color:white;
+    background-color: #1D2734;
+}
+
+:global(.vtex-numeric-stepper__minus-button__text){
+    font-size: 20px;
+}
+
+
+/*
+vtex-product-quantity-1-x-quantitySelectorTitle mb3 c-muted-2 t-body
+vtex-numeric-stepper__plus-button__text numeric-stepper__plus-button__text b
+vtex-numeric-stepper__plus-button numeric-stepper__plus-button br2 pa0 bl-0 flex items-center justify-center ba b--muted-4 bw1  h-large f5  pointer bg-base c-action-primary  
+vtex-numeric-stepper__plus-button-container numeric-stepper__plus-button-container z-2 order-2 flex-none
+vtex-numeric-stepper__plus-button numeric-stepper__plus-button br2 pa0 bl-0 flex items-center justify-center ba b--muted-4 bw1  h-small f6  pointer bg-base c-action-primary  
