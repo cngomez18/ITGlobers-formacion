@@ -1,32 +1,7 @@
 {
-    "flex-layout.row#product-specifications": {
-        "props": {
-            "colGap": 7,
-            "rowGap": 7,
-            "marginBottom": 7,
-            "blockClass": [
-                "pdp__flex--main-row"
-            ]
-        },
-        "children": [
-            "flex-layout.col#product-specifications-container"
-        ]
-    },
-    "flex-layout.col#product-specifications-container": {
-        "props": {
-            "marginLeft": 9,
-            "marginRight": 7,
-            "blockClass": [
-                "pdp__flex--main-row"
-            ]
-        },
-        "children": [
-            "product-specifications"
-        ]
-    },
     "flex-layout.row#product-main": {
         "props": {
-            "colGap": 7,
+            "colGap": 5,
             "rowGap": 7,
             "marginTop": 9,
             "marginBottom": 7,
@@ -41,31 +16,14 @@
             "flex-layout.col#right-col"
         ]
     },
-    "flex-layout.col#product-image": {
-        "props": {
-            "width": "50%",
-            "rowGap": 0,
-            "marginLeft": 10
-        },
-        "children": [
-            "product-images#global__pdp"
-        ]
-    },
-    "product-images#global__pdp": {
-        "props": {
-            "maxHeight": "650px",
-            "displayThumbnailsArrows": true,
-            "showNavigationArrows": false,
-            "showPaginationDots":false,
-            "thumbnailAspectRatio": "1:1"
-        }
-    },
     "flex-layout.col#right-col": {
         "props": {
             "preventVerticalStretch": true,
             "rowGap": 4,
-            "marginLeft": 9,
-            "marginRight": 8
+            "width": "50%",
+            "blockClass": [
+                "pdp__flex--product"
+            ]
         },
         "children": [
             "vtex.store-components:product-name",
@@ -74,6 +32,30 @@
             "flex-layout.row#global__pdp--buttons",
             "product-separator",
             "share"
+        ]
+    },
+    "flex-layout.row#product-specifications": {
+        "props": {
+            "colGap": 7,
+            "rowGap": 7,
+            "marginBottom": 7,
+            "blockClass": [
+               
+            ]
+        },
+        "children": [
+            "flex-layout.col#product-specifications-container"
+        ]
+    },
+    "flex-layout.col#product-specifications-container": {
+        "props": {
+            "marginRight": 7,
+            "blockClass": [
+               
+            ]
+        },
+        "children": [
+            "product-specifications"
         ]
     },
     "flex-layout.row#global__pdp--buttons": {
@@ -87,6 +69,41 @@
             "blockClass": [
                 "pdp__btn"
             ]
+        }
+    },
+    "flex-layout.col#product-image": {
+        "props": {
+            "rowGap": 0,
+            "width": "50%",
+            "blockClass": [
+                "pdp__image"
+            ]
+        },
+        "children": [
+            "product-images#global__pdp"
+        ]
+    },
+    "flex-layout.row#global__pdp--price": {
+        "props": {
+            "colGap": 0,
+            "colSizing": "auto",
+            "blockClass": [
+                "pdp__price"
+            ]
+        },
+        "children": [
+            "product-selling-price#pdp__price",
+            "product-list-price#pdp__price"
+        ]
+    },
+    //-------------COMPONENTS---------------------
+    "product-images#global__pdp": {
+        "props": {
+            "maxHeight": "650px",
+            "displayThumbnailsArrows": true,
+            "showNavigationArrows": false,
+            "showPaginationDots": false,
+            "thumbnailAspectRatio": "1:1"
         }
     },
     "add-to-cart-button#pdp": {
@@ -121,19 +138,6 @@
             "size": "large"
         }
     },
-    "flex-layout.row#global__pdp--price":{
-        "props":{
-            "colGap":0,
-            "colSizing":"auto",
-            "blockClass": [
-                "pdp__price"
-            ]
-        },
-        "children":[
-            "product-selling-price#pdp__price",
-            "product-list-price#pdp__price" 
-        ]
-    },
     "product-list-price#pdp__price": {
         "props": {
             "blockClass": [
@@ -149,8 +153,8 @@
             "message": "Now {sellingPriceValue}"
         }
     },
-    "sku-selector#global__pdp--sku":{
-        "props":{
+    "sku-selector#global__pdp--sku": {
+        "props": {
             "imageHeight": "64px",
             "imageWidth": "64px",
             "variationsSpacing": 4

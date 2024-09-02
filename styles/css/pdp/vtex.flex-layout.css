@@ -20,9 +20,11 @@
 
 .flexRowContent--pdp__flex--main-row {
     max-width: 1280px;
+    padding-left: 5%;
 }
 
 .flexRowContent--pdp__btn {
+    display: flex;
     justify-content: left;
     column-gap     : 10px;
 }
@@ -32,7 +34,73 @@
     column-gap     : 10px;
 }
 
+@media (min-width:1071px) and (max-width:1279px) {
+    .flexRowContent--pdp__flex--main-row {
+        max-width: 80%;
+        padding-left: 5%;
+    }
+    
+}
+
+@media (max-width: 1070px) {
+    .flexRowContent--pdp__flex--main-row {
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:768px) {
+    .flexRowContent--pdp__flex--main-row{
+        padding-left: 0px;
+        max-width: 700px;
+    }
+}
+
+@media (max-width:620px) {
+    .flexRowContent--pdp__flex--main-row{
+        padding-left: 0px;
+        max-width: 500px;
+    }
+}
+
+@media (max-width:500px) {
+    .flexRowContent--pdp__flex--main-row{
+        padding-left: 0px;
+        max-width: 400px;
+    }
+    .flexRowContent--pdp__btn :global(.vtex-flex-layout-0-x-stretchChildrenWidth > *:not(img)){
+        top:-15%;
+    }
+}
+
+@media (max-width: 395px) {
+    .flexRow--pdp__flex--main-row{
+        max-width: 70%;
+        margin: 1%;
+    }
+    .flexRowContent--pdp__flex--main-row{
+        padding-left: 0px;
+        max-width: 300px;
+    }
+}
+
 /*
+class="vtex-flex-layout-0-x-flexCol vtex-flex-layout-0-x-flexCol--pdp__flex--product  ml0 mr0 pl0 pr0      flex flex-column h-100 w-100"
+pdp__flex--main-row
+pdp__flex--product
+pdp__btn
+pdp__image
+pdp__price
+pdp__cart-btn
+
+"phone":         320px,
+"phonemid":      375px,
+"tablet":        768px,
+"notebook":      1280px,
+
+vtex-flex-layout-0-x-flexCol vtex-flex-layout-0-x-flexCol--desktop__pdp--image  ml10 mr0 pl0 pr0      flex flex-column h-100 w-100
+"desktop":       1440px
+
 flex mt0 mb0 pt0 pb0    justify-between vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--pdp__btn items-stretch w-100
 class="flex mt9 mb7 pt7 pb7    justify-start vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--pdp__flex--main-row items-stretch w-100"
 flex mt0 mb0 pt0 pb0    justify-start vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--pdp__btn items-stretch w-100
