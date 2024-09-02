@@ -1,7 +1,7 @@
-.container{
-    padding: 0px;
+.container {
     max-width: 1280px;
 }
+
 .shareLabel {
     font-family: Lexend;
     font-size  : 16px;
@@ -126,15 +126,31 @@
     background-color: #1D2734;
 }
 
-@media (min-width:1071px) and (max-width:1279px) {
-    .container{
-        max-width: 98%;
-    }
-    
+.figure--pdp__image--mobile {
+    max-width : 76px;
+    max-height: 76px;
 }
 
+@media (min-width:1071px) and (max-width:1279px) {
+    .container {
+        max-width: 98%;
+    }
+
+}
+
+@media (max-width:768px) {
+    .skuSelectorItem {
+        width : 77px;
+        height: 40px;
+    }
+}
 
 /*
+"pdp__image--mobile"
+class="vtex-store-components-3-x-figure vtex-store-components-3-x-figure--pdp__image--mobile"
+vtex-store-components-3-x-thumbImg vtex-store-components-3-x-thumbImg--pdp__image--mobile w-100 h-auto db
+class="vtex-store-components-3-x-thumbImg w-100 h-auto db"
+
 vtex-store-components-3-x-showMoreButton c-action-primary t-action pointer ma5 bn outline-0
 vtex-store-components-3-x-specificationItemProperty w-50 b--muted-4 bb pa5
 class="vtex-store-components-3-x-specificationsTableRow"

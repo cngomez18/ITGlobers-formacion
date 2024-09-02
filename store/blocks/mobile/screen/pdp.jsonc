@@ -1,0 +1,7 @@
+{
+    "responsive-layout.mobile#product-detail-page": {
+        "children": [
+            "flex-layout.row#mobile__product--container"
+        ]
+    }
+}
