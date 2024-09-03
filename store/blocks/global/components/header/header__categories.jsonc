@@ -47,7 +47,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[![food](assets/svg/header/fastfood.svg)](#) \n Food",
+            "text": "[![food](assets/svg/header/fastfood.svg)](/supermercado/despensa) \n Food",
             "font": "t-mini",
             "blockClass": "global__header-icons"
         }
@@ -67,7 +67,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[![hola](assets/svg/header/ice.svg)](#) \n En el Ártico",
+            "text": "[![hola](assets/svg/header/ice.svg)](/electrodomesticos/refrigeracion) \n En el Ártico",
             "font": "t-mini",
             "blockClass": "global__header-icons"
         }
@@ -117,7 +117,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": " [![hola](assets/svg/header/closet.svg)](#)\n Closet",
+            "text": " [![hola](assets/svg/header/closet.svg)](/moda)\n Closet",
             "font": "t-mini",
             "blockClass": "global__header-icons"
         }
@@ -157,7 +157,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": " [![hola](assets/svg/header/beer.svg)](#)\n Cervezas",
+            "text": " [![hola](assets/svg/header/beer.svg)](/supermercado/bebidas)\n Cervezas",
             "font": "t-mini",
             "blockClass": "global__header-icons"
         }

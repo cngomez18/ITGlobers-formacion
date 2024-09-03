@@ -6,6 +6,11 @@
     text-align : left;
 }
 
+.menuItem--menu--principal {
+    position: relative;
+    left    : 45px;
+}
+
 .container {
     position: relative;
 }

@@ -1,6 +1,7 @@
 .searchBarContainer :global(.vtex-input-prefix__group) {
     background-color: #F5F4F6 !important;
     height          : 40px;
+    border          : none;
     border-radius   : 40px !important;
 }
 
@@ -15,7 +16,6 @@
 }
 
 @media (max-width:425px) {
-
     .searchBarContainer :global(.vtex-input-prefix__group) {
         background-color: white !important;
         max-width       : 70px;
