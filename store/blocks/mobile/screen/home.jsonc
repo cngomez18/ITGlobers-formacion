@@ -3,6 +3,7 @@
         "title" : "Home section  Mobile",
         "children":[
             "flex-layout.row#mobile__info-card",
+            "whatsapp-button",
             "flex-layout.row#home__slider--order"
         ]
     }

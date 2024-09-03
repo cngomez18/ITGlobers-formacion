@@ -55,7 +55,8 @@
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
     "vtex.modal-layout": "0.x",
-    "vtex.wish-list": "1.x"
+    "vtex.wish-list": "1.x",
+    "itgloberspartnercl.whatsapp-button": "0.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x"
