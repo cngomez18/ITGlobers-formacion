@@ -132,7 +132,7 @@
     }
 }
 
-@media (max-width: 425px){
+@media (max-width: 425px) {
     .sliderLayoutContainer--global__product-shelf {
         max-width     : 300px;
         padding       : 0px;
@@ -149,7 +149,3 @@
         left          : 0px;
     }
 }
-/*
-w-100 flex items-center relative vtex-slider-layout-0-x-sliderLayoutContainer vtex-slider-layout-0-x-sliderLayoutContainer--global__product-shelf vtex-slider-layout-0-x-sliderLayoutContainer--global__home--slider
-
-vtex-slider-layout-0-x-paginationDotsContainer vtex-slider-layout-0-x-paginationDotsContainer--global__product-shelf vtex-slider-layout-0-x-paginationDotsContainer--global__home--slider flex absolute justify-center pa0 ma0 bottom-0 left-0 right-0

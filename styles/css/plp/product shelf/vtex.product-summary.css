@@ -11,7 +11,6 @@
     gap       : 2px;
 }
 
-
 .description--plp__shelf {
     grid-column       : 2 / 3;
     grid-row          : 1 / 2;
@@ -91,23 +90,4 @@
     .container--plp__shelf-mobile {
         max-width: 40% !important;
     }
-
 }
-
-/*
-vtex-product-summary-2-x-container vtex-product-summary-2-x-container--plp__shelf vtex-product-summary-2-x-containerNormal vtex-product-summary-2-x-containerNormal--plp__shelf overflow-hidden br3 h-100 w-100 flex flex-column justify-between center tc
-
---plp__shelf-mobile
-vtex-product-summary-2-x-container vtex-product-summary-2-x-container--plp__shelf-mobile vtex-product-summary-2-x-containerNormal vtex-product-summary-2-x-containerNormal--plp__shelf-mobile overflow-hidden br3 h-100 w-100 flex flex-column justify-between center tc
-
-:not(){
-    display:none;
-}
-data-highlight-name
-class="vtex-product-highlights-2-x-productHighlightWrapper vtex-product-highlights-2-x-productHighlightWrapper--plp__shelf"
-
-vtex-product-highlights-2-x-productHighlightWrapper
-vtex-product-highlights-2-x-productHighlightWrapper vtex-product-highlights-2-x-productHighlightWrapper--plp__shelf
-
-vtex-product-summary-2-x-imageContainer vtex-product-summary-2-x-imageWrapper vtex-product-summary-2-x-imageWrapper--plp__shelf db w-100 center
-vtex-product-summary-2-x-imageContainer vtex-product-summary-2-x-imageWrapper db w-100 center

@@ -4,7 +4,6 @@
     font-weight: 400;
     line-height: 17.5px;
     text-align : center;
-
 }
 
 .buttonText--global__home__shelf--buyButton::before {
@@ -15,8 +14,4 @@
     font-weight   : 900;
     height        : 20px;
     width         : 20px;
-
 }
-
-/*
-class="vtex-add-to-cart-button-0-x-buttonText vtex-add-to-cart-button-0-x-buttonText--global__home__shelf--buyButton"

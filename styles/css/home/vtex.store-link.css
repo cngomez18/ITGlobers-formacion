@@ -30,13 +30,14 @@
 
 @media (max-width:375px) {
     .buttonLink {
-        max-width        :100px !important;
+        max-width    : 100px !important;
         height       : 32px !important;
-        padding      : 6.45px ;
-        border-radius: 40px ;
+        padding      : 6.45px;
+        border-radius: 40px;
     }
-    .label--global__info-card{
-        font-size: 10px !important;   
+
+    .label--global__info-card {
+        font-size: 10px !important;
     }
 
 }

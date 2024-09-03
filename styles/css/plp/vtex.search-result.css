@@ -75,17 +75,15 @@
     background-color: #1D2734;
 }
 
-
 .galleryLayoutSwitcher {
     opacity: 60%;
 }
 
 :global(.vtex-checkbox__inner-container) {
-    width             : 24px;
-    height            : 24px;
-    /*background-color: #1D2734;*/
-    color             : white;
-    border-radius     : 5px;
+    width        : 24px;
+    height       : 24px;
+    color        : white;
+    border-radius: 5px;
 }
 
 :global(.vtex-checkbox__box) {
@@ -122,7 +120,6 @@
     height       : 32px;
     padding      : 6px 12px 6px 12px;
     border-radius: 40px;
-
 }
 
 .buttonShowMore :global(.vtex-button__label) {
@@ -155,12 +152,12 @@
     background-color: #E7E7E7;
 }
 
-.filterPopupTitle{
-    font-family     : Lexend;
-    font-size       : 12px;
-    font-weight     : 400;
-    line-height     : 15px;
-    text-align      : center;
+.filterPopupTitle {
+    font-family: Lexend;
+    font-size  : 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align : center;
 }
 
 @media (max-width:645px) {
@@ -168,82 +165,3 @@
         width: 140px;
     }
 }
-
-/*
-class="vtex-search-result-3-x-filterPopupButton   ph3 pv5 mv0 mv0 pointer flex justify-center items-center bn"
-645px
-@media (max-width: 768px) {
-    .orderBy--layout {
-        position: relative;
-        right   : 0;
-    }
-    
-    .galleryLayoutSwitcher {
-        opacity : 60%;
-        position: relative;
-        right   : 0;
-    }
-}
-
-@media (max-width: 375px) {
-    .orderBy--layout {
-        position: relative;
-        right   : 0;
-    }
-    
-    .galleryLayoutSwitcher {
-        opacity : 60%;
-        position: relative;
-        right   : 0;
-    }
-}
-    
-"phone":         320px,
-  "phonemid":      375px,
-  "tablet":        768px,
-  "notebook":      1280px,
-  "desktop":       1440px
-
-.buttonShowMore--layout {
-    display: grid; 
-    position: absolute;
-    bottom: -500%;
-}
-.orderBy--layout {
-    position: relative;
-    right   : -75%;
-}
-
-.galleryLayoutSwitcher {
-    opacity : 60%;
-    position: relative;
-    right   : -78%;
-}
-vtex-search-result-3-x-orderByText c-muted-2 dn dib-ns
-vtex-button__label flex items-center justify-center h-100 ph5 
-vtex-search-result-3-x-buttonShowMore w-100 flex justify-center
-
-:global(.){
-    
-}
-
-class="vtex-search-result-3-x-galleryTitle--layout t-heading-1"
-vtex-search-result-3-x-showingProducts tc t-small pt3 c-muted-2
-vtex-checkbox__label w-100 c-on-base pointer
-vtex-checkbox__inner-container h1 w1 absolute ba bw1 br1  b--action-primary bg-action-primary mr3
-vtex-checkbox__input h1 w1 absolute o-0 pointer
-class="vtex-checkbox__box-wrapper absolute w1 h1 flex o-100"
-vtex-checkbox__box absolute top-0 left-0 bottom-0 overflow-hidden w-100 flex items-center align-center justify-center c-on-action-primary
-
-class="vtex-slider__base-internal absolute h-100 bg-action-primary"
-vtex-slider__base w-100 bg-muted-4 absolute br-pill overflow-hidden
-vtex-slider__selector br-100 bg-action-primary flex justify-center items-center
-vtex-slider__dash mh2
-class="vtex-slider__right-value t-small c-muted-1"
-class="vtex-slider__values-container flex justify-end"
-vtex-search-result-3-x-filterTitleSpan
-vtex-search-result-3-x-filter pv5 vtex-search-result-3-x-filterAvailable
-vtex-search-result-3-x-filter__container bb b--muted-4 vtex-search-result-3-x-filter__container--category-2
-class="vtex-search-result-3-x-filter__container vtex-search-result-3-x-filter__container--title bb b--muted-4"
-orderByButton
-vtex-search-result-3-x-orderByDropdown relative pt1 justify-end w-100 w-auto-ns ml-auto

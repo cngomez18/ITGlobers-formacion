@@ -12,11 +12,11 @@
 }
 
 .productName {
-    font-family: Lexend;
-    font-size  : 11.34px;
-    font-weight: 300;
-    line-height: 15.12px;
-    text-align : left;
+    font-family       : Lexend;
+    font-size         : 11.34px;
+    font-weight       : 300;
+    line-height       : 15.12px;
+    text-align        : left;
     overflow          : hidden;
     text-overflow     : ellipsis;
     display           : -webkit-box;
@@ -78,12 +78,5 @@
 }
 
 .productVariationsContainer {
-    display:none;
+    display: none;
 }
-
-/*
-class="vtex-product-list-0-x-quantitySelectorContainer vtex-product-list-0-x-quantity vtex-product-list-0-x-quantityStepper vtex-product-list-0-x-quantitySelector"
-
-vtex-minicart-2-x-minicartProductListContainer w-100 h-100 overflow-y-auto ph4 ph6-l
-
-vtex-product-list-0-x-productPriceCurrency  vtex-product-list-0-x-productPriceCurrency c-muted-1 strike t-mini mb2

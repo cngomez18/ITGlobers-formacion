@@ -4,7 +4,6 @@
 
 ::-webkit-scrollbar-track {
     background: #F2F2F2;
-    ;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -20,7 +19,7 @@
     justify-content: flex-end;
     top            : 6%;
     position       : relative;
-    right: 3%;
+    right          : 3%;
 }
 
 .closeIconButton {
@@ -72,7 +71,6 @@
 .minicartSummary {
     width           : 368px;
     height          : 126px;
-    /* top          : 634px; */
     left            : 4%;
     padding         : 24px;
     gap             : 12px;
@@ -105,12 +103,3 @@
         top: 3.5%;
     }
 }
-
-/*
-vtex-minicart-2-x-minicartProductListContainer w-100 h-100 overflow-y-auto ph4 ph6-l
-class="vtex-button__label flex items-center justify-center h-100 ph6 w-100 border-box "
-
-class="vtex-button bw1 ba fw5 v-mid relative pa0 lh-solid br2 min-h-regular t-action bg-action-primary b--action-primary c-on-action-primary hover-bg-action-primary hover-b--action-primary hover-c-on-action-primary pointer w-100 "
-class="vtex-minicart-2-x-minicartCheckoutButton mv3 ph4 ph6-l"
-flex vtex-minicart-2-x-closeIconContainer
-vtex-minicart-2-x-minicartTitle t-heading-3 mv2 ph4 ph6-l c-on-base

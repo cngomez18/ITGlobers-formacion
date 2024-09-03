@@ -9,7 +9,6 @@
     align-items  : center;
 }
 
-
 .wishlistIconContainer {
     display        : flex;
     flex-direction : row;
@@ -27,7 +26,6 @@
     border          : 2px solid #1D2734
 }
 
-
 .outline {
     outline-color: #1D2734 !important;
 }
@@ -37,10 +35,3 @@
     outline-color: #1D2734;
     color        : #1D2734;
 }
-
-/*
-class="vtex-product-summary-2-x-item mh1 pa2 bg-blue white tc"
-
-class="vtex-button__label flex items-center justify-center h-100 ph6 "
-class=" bw1 ba fw5 v-mid relative pa0 lh-solid br2 min-h-regular t-action bg-transparent b--transparent c-action-primary hover-b--transparent hover-bg-action-secondary hover-b--action-secondary pointer "
-class="vtex-wish-list-1-x-wishlistIconContainer vtex-wish-list-1-x-wishlistIconContainer--global__product-shelf"

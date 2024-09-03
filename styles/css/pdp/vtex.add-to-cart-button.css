@@ -26,7 +26,6 @@
     font-weight   : 900;
     height        : 20px;
     width         : 20px;
-
 }
 
 @media (max-width: 768px) {
@@ -39,18 +38,5 @@
         overflow: hidden;
         width   : 85px;
         height  : 18px;
-
-
     }
 }
-
-/*
-vtex-button bw1 ba fw5 v-mid relative pa0 lh-solid br2 min-h-regular t-action bg-action-primary b--action-primary c-on-action-primary hover-bg-action-primary hover-b--action-primary hover-c-on-action-primary pointer w-100 
-
-class="vtex-button__label flex items-center justify-center h-100 ph6 w-100 border-box "
-:global(.vtex-button){
-
-}
-class="vtex-button bw1 ba fw5 v-mid relative pa0 lh-solid br2 min-h-regular t-action bg-action-primary b--action-primary c-on-action-primary hover-bg-action-primary hover-b--action-primary hover-c-on-action-primary pointer w-100 "
-vtex-add-to-cart-button-0-x-buttonText vtex-add-to-cart-button-0-x-buttonText--pdp__cart-btn
-vtex-add-to-cart-button-0-x-buttonDataContainer vtex-add-to-cart-button-0-x-buttonDataContainer--pdp__cart-btn flex justify-center

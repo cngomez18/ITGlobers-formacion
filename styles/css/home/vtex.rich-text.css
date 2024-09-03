@@ -47,16 +47,15 @@
     height       : 200px;
     top          : 25%;
     left         : 25%;
-    border-radius: 74px ;
+    border-radius: 74px;
     opacity      : 0px;
-
-
 }
+
 @media (max-width:450px) {
     .paragraph--empty-cart::before {
-        width        : 148px;
-        height       : 148px;
-    }   
+        width : 148px;
+        height: 148px;
+    }
 }
 
 @media (max-width:375px) {

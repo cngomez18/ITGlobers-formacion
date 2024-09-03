@@ -24,7 +24,7 @@
     right        : 40%;
 }
 
-@media (max-width:640px){
+@media (max-width:640px) {
     .flexRow--row--amazing-text-center {
         display      : grid;
         justify-items: start;
@@ -33,7 +33,7 @@
     }
 }
 
-@media (max-width:425px){
+@media (max-width:425px) {
     .flexRow--row--amazing-text-center {
         display      : grid;
         justify-items: start;
@@ -72,32 +72,4 @@
         max-height : 40px;
     }
 
-}
-/*
-@media (max-width:640px) {
-    .flexRow--row--amazing-text-center {
-        display      : grid;
-        justify-items: start;
-        position     : relative;
-        right        : 180px;
-    }
-}
-
-@media (max-width:480px){
-    .flexRow--row--amazing-text-center {
-        display      : grid;
-        justify-items: start;
-        position     : relative;
-        right        : 37%;
-    }
-}
-
-@media (max-width:420px) {
-    .flexRow--row--amazing-text-center {
-        display      : grid;
-        justify-items: start;
-        position     : relative;
-        right        : 150px;
-    }
-    
 }

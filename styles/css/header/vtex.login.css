@@ -221,7 +221,7 @@
     color      : white;
 }
 
-.sendButton{
+.sendButton {
     margin-left: 0px;
 }
 
@@ -315,81 +315,4 @@
     font-weight: 300;
     line-height: 22.92px;
     text-align : center;
-
 }
-
-/*
-{ }
-class="vtex-login-2-x-formTitle t-body v-mid ttu tc relative pv2 ph3 br2"
-vtex-login-2-x-formSubtitle mt5 t-body c-muted-1
-vtex-login-2-x-emailVerification vtex-login-2-x-forgotPasswordForm w-100
-
-class="vtex-login-2-x-inputContainer vtex-login-2-x-inputContainerPassword pv3"
-
-"Receive access code by email"
-class="vtex-login-2-x-content vtex-login-2-x-content--codeConfirmation flex relative bg-base justify-around overflow-visible pa4 center items-baseline-ns items-baseline"
-
-vtex-login-2-x-content vtex-login-2-x-content--recoveryPassword flex relative bg-base justify-around overflow-visible pa4 center items-baseline-ns items-baseline
-
-class="vtex-login-2-x-emailVerification vtex-login-2-x-emailForm w-100"
-
-vtex-login-2-x-contentContainer shadow-3 mt3
-
-vtex-login-2-x-content vtex-login-2-x-content--emailVerification flex relative bg-base justify-around overflow-visible pa4 center items-baseline-ns items-baseline
-opacity: 0px;
-
-vtex-login-2-x-contentForm dn vtex-login-2-x-contentFormVisible db  ph4
-
-vtex-login-2-x-content vtex-login-2-x-content--emailAndPassword flex relative bg-base justify-around overflow-visible pa4 center items-baseline-ns items-baseline
-
-class="vtex-login-2-x-formFooter bt b--muted-4 pt4 flex mt3"
-vtex-login-2-x-sendButton ml-auto
-
-class="vtex-login-2-x-emailVerification vtex-login-2-x-emailAndPasswordForm w-100"
-
-vtex-login-2-x-formTitle t-body v-mid ttu tc relative pv2 ph3 br2
-
-vtex-button__label flex items-center justify-center h-100 ph5 
-
-class="vtex-login-2-x-backButton"
-
-class="vtex-login-2-x-forgotPasswordLink link dim c-link t-small"
-
-class="vtex-styleguide-9-x-input ma0 border-box vtex-styleguide-9-x-hideDecorators vtex-styleguide-9-x-noAppearance br2   w-100 bn outline-0 bg-base c-on-base b--muted-4 hover-b--muted-3 t-body ph5 "
-
-class="vtex-login-2-x-inputContainer vtex-login-2-x-inputContainerPassword pv3 flex flex-column"
-
-vtex-input-prefix__group flex flex-row items-stretch overflow-hidden br2 bw1 b--solid b--muted-4 hover-b--muted-3 h-regular 
-
-vtex-login-2-x-inputContainer vtex-login-2-x-inputContainerEmail
-
-t-action--small vtex-login-2-x-oauthLabel relative normal
-width: 368px;
-height: 48px;
-top: 175px;
-left: 28px;
-padding: 0px 68px 0px 22px;
-gap: 15px;
-border-radius: 40px 0px 0px 0px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-
-class="vtex-login-2-x-contentForm dn vtex-login-2-x-contentFormVisible db "
-vtex-login-2-x-arrowUp absolute top-0 right-0 mr3 shadow-3 bg-base rotate-45 h2 w2
-
-class="vtex-button__label flex items-center justify-center h-100 ph6 "
-vtex-login-2-x-optionsList list pa0
-vtex-button bw1 ba fw5 v-mid relative pa0 lh-solid br2 min-h-regular t-action bg-transparent b--transparent c-action-primary hover-b--transparent hover-bg-action-secondary hover-b--action-secondary pointer 
-
-vtex-login-2-x-button vtex-login-2-x-accessCodeOptionBtn
-
-vtex-login-2-x-formTitle t-body v-mid ttu tc relative pv2 ph3 br2
-vtex-login-2-x-options
-
-
-class="vtex-login-2-x-contentForm dn vtex-login-2-x-contentFormVisible db "
-
-.menuItem--menu--principal--isOpen::before {
-vtex-login-2-x-content vtex-login-2-x-content--loginOptions flex relative bg-base justify-around overflow-visible pa4 center items-baseline-ns items-baseline vtex-login-2-x-contentInitialScreen
-
-vtex-login-2-x-contentContainer shadow-3 mt3

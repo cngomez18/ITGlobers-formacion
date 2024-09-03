@@ -14,36 +14,4 @@
         gap           : 10px;
         display       : flex;
     }
-
 }
-
-/*
-@media (max-width: 375px) {
-    .orderBy--layout {
-        position: relative;
-        right   : 0;
-    }
-    
-    .galleryLayoutSwitcher {
-        opacity : 60%;
-        position: relative;
-        right   : 0;
-    }
-}
-.flexColContent--plp__flex--main-row-desktop {
-    max-width    : 1280px;
-    align-items  : center;
-    display      : grid;
-    justify-items: center;
-}
-flex mt0 mb0 pt0 pb0    justify-start vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--plp__flex--main-row-desktop items-stretch w-100
-
-.flexColChild--plp__flex{
-    height: 40px !important;
-}
-.flexRowContent--plp__flex{
-    max-width: 1260px;
-    top: 70px;
-    position: relative;    
-}
-flexRowContent--plp__flex
