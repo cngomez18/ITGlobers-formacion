@@ -1,12 +1,12 @@
 {
     "sticky-layout#mobile": {
         "title": "mobile sticky layout",
-        "props":{
+        "props": {
             "blockClass": "sticky-header"
         },
         "children": [
             "flex-layout.row#mobile__header",
-            "flex-layout.row#global__header__categories"    
+            "flex-layout.row#global__header__categories"
         ]
     },
     "flex-layout.row#mobile__header": {

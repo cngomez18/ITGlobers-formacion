@@ -1,29 +1,12 @@
-/*
-"flex-layout.row#" :{
-    "props":{
-
-    },
-    "children":[
-
-    ]
-}
-"flex-layout.col#" :{
-    "props":{
-    
-    },
-    "children":[
-
-    ]
-}
-*/
 {
     "flex-layout.row#mobile__product--container": {
+        "title": "Mobile product Detail main row container",
         "props": {
             "marginTop": 9,
             "marginBottom": 7,
             "paddingTop": 7,
             "paddingBottom": 7,
-            "blockClass":[
+            "blockClass": [
                 "pdp__flex--mobile-main-row"
             ]
         },
@@ -32,13 +15,14 @@
         ]
     },
     "flex-layout.col#mobile__product--container": {
+        "title": "Mobile product Detail main col container",
         "props": {
             "marginLeft": 10,
             "marginRight": 10,
-            "rowGap":5,
-            "blockClass":[
+            "rowGap": 5,
+            "blockClass": [
                 "pdp__flex--mobile-main-col"
-            ]   
+            ]
         },
         "children": [
             "product-images#mobile__pdp",
@@ -52,6 +36,7 @@
         ]
     },
     "product-images#mobile__pdp": {
+        "title": "mobile product detail image",
         "props": {
             "maxHeight": "420px",
             "displayThumbnailsArrows": true,
@@ -59,10 +44,9 @@
             "showPaginationDots": false,
             "thumbnailsOrientation": "horizontal",
             "thumbnailMaxHeight": "76px",
-            "blockClass":[
+            "blockClass": [
                 "pdp__image--mobile"
             ]
         }
     }
-
 }

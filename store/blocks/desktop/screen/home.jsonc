@@ -1,8 +1,7 @@
 {
-    "responsive-layout.desktop#home__section--1" : {
-        "title" : "Home section Desktop",
-        "children":[
-           
+    "responsive-layout.desktop#home__section--1": {
+        "title": "Home section Desktop screen",
+        "children": [
             "flex-layout.row#desktop__home__info-card",
             "flex-layout.row#home__slider--order"
         ]

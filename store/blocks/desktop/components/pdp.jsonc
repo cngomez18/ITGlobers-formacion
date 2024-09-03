@@ -1,0 +1,61 @@
+{
+    "flex-layout.row#product-main": {
+        "title": "desktop main row container PDP",
+        "props": {
+            "colGap": 5,
+            "rowGap": 7,
+            "marginTop": 9,
+            "marginBottom": 7,
+            "paddingTop": 7,
+            "paddingBottom": 7,
+            "blockClass": [
+                "pdp__flex--main-row"
+            ]
+        },
+        "children": [
+            "flex-layout.col#product-image",
+            "flex-layout.col#right-col"
+        ]
+    },
+    "flex-layout.col#right-col": {
+        "title": "desktop right col container PDP",
+        "props": {
+            "preventVerticalStretch": true,
+            "rowGap": 4,
+            "width": "50%",
+            "blockClass": [
+                "pdp__flex--product"
+            ]
+        },
+        "children": [
+            "vtex.store-components:product-name",
+            "flex-layout.row#global__pdp--price",
+            "sku-selector#global__pdp--sku",
+            "flex-layout.row#global__pdp--buttons",
+            "product-separator",
+            "share"
+        ]
+    },
+    "flex-layout.row#product-specifications": {
+        "title": "desktop row container product specifications",
+        "props": {
+            "colGap": 7,
+            "rowGap": 7,
+            "marginBottom": 7,
+            "blockClass": []
+        },
+        "children": [
+            "flex-layout.col#product-specifications-container"
+        ]
+    },
+    "flex-layout.col#product-specifications-container": {
+        "title": "desktop col container product specifications",
+        "props": {
+            "marginRight": 7,
+            "blockClass": []
+        },
+        "children": [
+            "product-specifications"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "minicart-empty-state": {
+        "title": "global minicart empty state container",
+        "children": [
+            "flex-layout.row#empty-state"
+        ]
+    },
+    "flex-layout.row#empty-state": {
+        "title": "global flex row minicart empty state container",
+        "children": [
+            "flex-layout.col#empty-state"
+        ]
+    },
+    "flex-layout.col#empty-state": {
+        "title": "global flex col minicart empty state",
+        "children": [
+            "rich-text#minicart-default-empty-state"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "rowGap": 5
+        }
+    },
+    "rich-text#minicart-default-empty-state": {
+        "title": "global minicart empty state rich text",
+        "props": {
+            "text": "**¿Por qué tan solo?** \n Tenemos ofertas del 50% este mes",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "empty-cart"
+        }
+    }
+}

@@ -17,8 +17,8 @@
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
             "fullWidth": true,
-            "colJustify":"around",
-            "blockClass":[
+            "colJustify": "around",
+            "blockClass": [
                 "row__desktop"
             ]
         },
@@ -36,7 +36,7 @@
         "props": {
             "verticalAlign": "middle",
             "horizontalAlign": "center",
-            "blockClass":[
+            "blockClass": [
                 "desktop__menu--holder"
             ]
         },
@@ -54,30 +54,30 @@
             "logo"
         ]
     },
-    "flex-layout.col#desktop__navbar--col":{
-        "title":" desktop links col navbar ",
-        "props":{
+    "flex-layout.col#desktop__navbar--col": {
+        "title": " desktop links col navbar ",
+        "props": {
             "fullWidth": true,
-            "width":"grow",
-            "horizontalAlign":"center",
-            "verticalAlign":"middle",
-            "blockClass":[
+            "width": "grow",
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "blockClass": [
                 "col__navbar"
             ]
         },
-        "children":[
+        "children": [
             "flex-layout.row#desktop__navbar--row"
         ]
     },
-    "flex-layout.row#desktop__navbar--row":{
+    "flex-layout.row#desktop__navbar--row": {
         "title": " desktop links row navbar ",
         "props": {
             "horizontalAlign": "center",
-            "verticalAlign":"middle",
+            "verticalAlign": "middle",
             "fullWidth": true,
-            "colSizing":"auto",
-            "colGap":5,
-            "blockClass":[
+            "colSizing": "auto",
+            "colGap": 5,
+            "blockClass": [
                 "desktop__navbar"
             ]
         },
@@ -89,62 +89,60 @@
             "link#destktop__navbar--never"
         ]
     },
-
-    "link#destktop__navbar--tendencia":{
-        "title":"tendencias de itgs link",
-        "props":{
+    "link#destktop__navbar--tendencia": {
+        "title": "tendencias de itgs link",
+        "props": {
             "label": "Tendencias de ITGlobers",
-            "href":"#",
+            "href": "#",
             "displayMode": "anchor",
-            "blockClass":[
+            "blockClass": [
                 "desktop__navbar--links"
             ]
         }
     },
-    "link#destktop__navbar--coleccion":{
-        "title":"coleccion del mes link",
-        "props":{
+    "link#destktop__navbar--coleccion": {
+        "title": "coleccion del mes link",
+        "props": {
             "label": "Colección del mes",
-            "href":"#",
+            "href": "#",
             "displayMode": "anchor",
-            "blockClass":[
+            "blockClass": [
                 "desktop__navbar--links"
             ]
         }
     },
-    "link#destktop__navbar--ofertas":{
-        "title":"ofertas del mes link",
-        "props":{
+    "link#destktop__navbar--ofertas": {
+        "title": "ofertas del mes link",
+        "props": {
             "label": "Ofertas del mes",
-            "href":"#",
+            "href": "#",
             "displayMode": "anchor",
-            "blockClass":[
+            "blockClass": [
                 "desktop__navbar--links"
             ]
         }
     },
-    "link#destktop__navbar--cyber-monday":{
-        "title":"Cyber Monday link",
-        "props":{
+    "link#destktop__navbar--cyber-monday": {
+        "title": "Cyber Monday link",
+        "props": {
             "label": "Cyber Monday",
-            "href":"#",
+            "href": "#",
             "displayMode": "anchor",
-            "blockClass":[
+            "blockClass": [
                 "desktop__navbar--links"
             ]
         }
     },
-    "link#destktop__navbar--never":{
-        "title" :"Never say never link",
-        "props":{
+    "link#destktop__navbar--never": {
+        "title": "Never say never link",
+        "props": {
             "label": "Never say never",
-            "href":"#",
+            "href": "#",
             "displayMode": "anchor",
-            "blockClass":[
+            "blockClass": [
                 "desktop__navbar--links"
             ]
         }
     }
     //---------------
-    
 }

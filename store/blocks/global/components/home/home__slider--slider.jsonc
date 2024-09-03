@@ -7,7 +7,7 @@
     },
     "flex-layout.col#home__slider--order": {
         "title": "global home slider order col",
-        "props":{
+        "props": {
             "rowGap": 0,
             "blockClass": [
                 "flex-col--center"
@@ -22,17 +22,6 @@
             "slider-layout#global__info-card",
             "flex-layout.row#global__home__text--amazing-product",
             "list-context.product-list"
-        ]
-    },
-    "flex-layout.row#global__home__text--amazing-product":{
-        "title":"global home flex row text subtitle amazing product",
-        "props":{
-            "blockClass":[
-                "row--amazing-text-center"
-            ]
-        },
-        "children":[
-            "rich-text#global__home__text--amazing-product"
         ]
     },
     "slider-layout#global__info-card": {
@@ -62,120 +51,6 @@
             "flex-layout.col#global__info-card",
             "flex-layout.col#global__info-card",
             "flex-layout.col#global__info-card"
-        ]
-    },
-    //-------------------------
-    "flex-layout.col#global__info-card": {
-        "title": "global home info-card col holder",
-        "props": {
-            "preventVerticalStretch": false,
-            "blockClass": [
-                "global__slider__info-card"
-            ]
-        },
-        "children": [
-            "image#global__info-card--img",
-            "flex-layout.row#global__home__info-card--holder",
-            "flex-layout.row#global__home__info-card--btn-holder"
-        ]
-    },
-    "rich-text#global__info-card-heading": {
-        "title": "global text info-card heading",
-        "props": {
-            "text": "Heading",
-            "font": "t-heading-5",
-            "blockClass": [
-                "global__slider__info-card--text-heading"
-            ]
-        }
-    },
-    "rich-text#global__info-card-body": {
-        "title": "global text info-card body",
-        "props": {
-            "text": "Builder platform is made by, buildership platform is made by... ",
-            "font": "t-small",
-            "blockClass": [
-                "global__slider__info-card--text-body"
-            ]
-        }
-    },
-    "image#global__info-card--img": {
-        "title": "global img info-card",
-        "props": {
-            "src": "assets/img/home/global__home__info-card--phone.png",
-            "maxHeight": "100%",
-            "maxWidth": "100%"
-        }
-    },
-    "image#global__info-card--prize": {
-        "title": "global prize img info-card",
-        "props": {
-            "src": "assets/img/home/global__home__info-card--prize.png"
-        }
-    },
-    "link#global__info-card-button": {
-        "title":"global info card link btn",
-        "props": {
-            "label": "Ver precio",
-            "href": "#",
-            "displayMode": "button",
-            "buttonProps": {
-                "variant": "primary",
-                "size": "regular"
-            },
-            "blockClass": [
-                "global__info-card"
-            ]
-        },
-        "children": [
-            "icon#right"
-        ]
-    },
-    "icon#right": {
-        "title":"global info card icon right arrow",
-        "props": {
-            "id": "nav-arrow--right",
-            "size": 14
-        }
-    },
-    "flex-layout.row#global__home__info-card--holder": {
-        "title": "global home info-card row holder",
-        "props": {
-            "fullWidth": true,
-            "preserveLayoutOnMobile": true
-        },
-        "children": [
-            "flex-layout.col#global__home__info-card--text-holder",
-            "flex-layout.col#global__home__info-card--prize-holder"
-        ]
-    },
-    "flex-layout.row#global__home__info-card--btn-holder": {
-        "title": "global home info-card btn row holder",
-        "props": {},
-        "children": [
-            "link#global__info-card-button"
-        ]
-    },
-    "flex-layout.col#global__home__info-card--text-holder": {
-        "title": "global home info-card text col holder",
-        "props": {
-            "marginLeft": 2
-        },
-        "children": [
-            "rich-text#global__info-card-heading",
-            "rich-text#global__info-card-body"
-        ]
-    },
-    "flex-layout.col#global__home__info-card--prize-holder": {
-        "title": "global home info-card prize col holder",
-        "props": {
-            "width": "18%",
-            "blockClass":[
-                "global__home__info-card--prize-holder"
-            ]
-        },
-        "children": [
-            "image#global__info-card--prize"
         ]
     }
 }

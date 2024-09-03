@@ -1,6 +1,6 @@
 {
     "flex-layout.col#spacer": {
-        "title": "global spacer",
+        "title": "global col spacer",
         "props": {
             "width": "grow"
         }
@@ -10,16 +10,18 @@
         "props": {
             "title": "Logo global itg",
             "href": "/",
-            "url":"assets/img/home/global__home__header--logo.png",
+            "url": "assets/img/home/global__home__header--logo.png",
             "width": "32px",
-            "height":"16px"
+            "height": "16px"
         }
     },
     "drawer": {
+        "title": "global default drawer",
         "children": []
     },
-    "search-bar":{
-        "props":{
+    "search-bar": {
+        "title": "global search bar",
+        "props": {
             "maxWidth": 280,
             "placeholder": "Search products..."
         }

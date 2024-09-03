@@ -1,16 +1,6 @@
 {
-    /*
-    "flex-layout.row#container__result--": {
-        "children": [],
-        "props": {}
-    },
-    "flex-layout.col#container__result--": {
-        "children": [],
-        "props": {}
-    },   
-    */
-    "flex-layout.col#container__result--filter":{
-        "title": "container result filter",
+    "flex-layout.col#container__result--filter": {
+        "title": "global col container plp result filter",
         "children": [
             "filter-navigator.v3"
         ],
@@ -21,7 +11,7 @@
         }
     },
     "flex-layout.col#container__result--order": {
-        "title": "container result order",
+        "title": "global col container plp result order",
         "children": [
             "order-by.v2",
             "gallery-layout-switcher"
@@ -35,26 +25,27 @@
     },
     //--------------------COMPONENTS-----------------------
     "search-content#global__search--layout": {
-        "title": "global search content",
+        "title": "global search content layout",
         "blocks": [
             "gallery#global__search",
             "not-found"
         ]
     },
     "order-by.v2": {
-        "title": "order by result layout",
+        "title": "global order by result layout",
         "props": {
             "blockClass": []
         }
     },
     "filter-navigator.v3": {
-        "title": "filter result layout",
+        "title": "global filter result layout",
         "props": {
-            "initiallyCollapsed":true,
+            "initiallyCollapsed": true,
             "blockClass": []
         }
     },
     "breadcrumb.search": {
+        "title": "global breadcrumb search",
         "props": {
             "showOnMobile": true,
             "props": {
@@ -64,13 +55,9 @@
             }
         }
     },
-    "search-fetch-more": {
-        "props": {
-            "buttonLabel": "holaaaa"
-        }
-    },
     //---------------- GALLERY------------------------
     "gallery#global__search": {
+        "title": "global plp gallery",
         "props": {
             "layouts": [
                 {
@@ -96,7 +83,8 @@
             "ManyByLineSummary": "product-summary.shelf#plp__shelf"
         }
     },
-   "gallery-layout-switcher": {
+    "gallery-layout-switcher": {
+        "title": "global plp gallery swither layout",
         "children": [
             "gallery-layout-option#whole",
             "gallery-layout-option#two",
@@ -104,6 +92,7 @@
         ]
     },
     "gallery-layout-option#whole": {
+        "title": "global plp gallery swither layout whole",
         "props": {
             "name": "whole"
         },
@@ -112,6 +101,7 @@
         ]
     },
     "gallery-layout-option#two": {
+        "title": "global plp gallery swither layout two",
         "props": {
             "name": "two"
         },
@@ -120,6 +110,7 @@
         ]
     },
     "gallery-layout-option#many": {
+        "title": "global plp gallery swither layout many",
         "props": {
             "name": "many"
         },

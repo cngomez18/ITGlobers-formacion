@@ -1,5 +1,6 @@
 {
     "header-layout.desktop": {
+        "title": "Header layout desktop screen",
         "children": [
             "sticky-layout#desktop"
         ]

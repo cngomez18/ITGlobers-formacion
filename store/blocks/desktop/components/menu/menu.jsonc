@@ -1,12 +1,12 @@
 {
     "vtex.menu@2.x:menu#desktop__menu": {
-        "title":"menu desktop",
+        "title": "menu item desktop",
         "children": [
             "menu-item#shop"
         ]
     },
     "menu-item#shop": {
-        "title":"desktop menu item shop",
+        "title": "desktop menu item shop hamburger icon",
         "props": {
             "id": "menu-item-shop",
             "type": "custom",
@@ -24,15 +24,18 @@
                 "mutedClassName": "c-action-primary"
             },
             "iconToTheRight": true,
-            "blockClass":[
+            "blockClass": [
                 "menu--principal"
             ]
         },
-        "blocks": ["vtex.menu@2.x:submenu#shop"] 
+        "blocks": [
+            "vtex.menu@2.x:submenu#shop"
+        ]
     },
     "vtex.menu@2.x:submenu#shop": {
-        "props":{
-            "blockClass":[
+        "title": "submenu item desktop",
+        "props": {
+            "blockClass": [
                 "general-menu"
             ]
         },
@@ -41,8 +44,9 @@
         ]
     },
     "vtex.menu@2.x:menu#sub_menu--category": {
-        "props":{
-            "orientation":"vertical"
+        "title": "submenu-item categories desktop",
+        "props": {
+            "orientation": "vertical"
         },
         "children": [
             "menu-item#category--all-categories",
@@ -67,5 +71,4 @@
             "menu-item#category--household"
         ]
     }
-    
 }

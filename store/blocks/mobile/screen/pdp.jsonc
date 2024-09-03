@@ -1,5 +1,6 @@
 {
     "responsive-layout.mobile#product-detail-page": {
+        "title": "product mobile screen",
         "children": [
             "flex-layout.row#mobile__product--container"
         ]

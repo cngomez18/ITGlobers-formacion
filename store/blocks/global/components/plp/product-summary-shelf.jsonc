@@ -1,11 +1,13 @@
 {
     "list-context.product-list#plp__shelf": {
+        "title": "global list context product list PLP shelf",
         "blocks": [
             "product-summary.shelf#plp__shelf"
         ],
         "children": []
     },
     "product-summary.shelf#plp__shelf": {
+        "title": "global product summary shelf PLP",
         "props": {
             "blockClass": [
                 "plp__shelf"
@@ -19,7 +21,7 @@
         ]
     },
     "product-summary-description#plp__shelf": {
-        "title": "plp product shelf--product description",
+        "title": "global plp product shelf--product description",
         "props": {
             "blockClass": [
                 "plp__shelf"
@@ -27,7 +29,7 @@
         }
     },
     "product-summary-image#plp__shelf": {
-        "title": "plp product shelf--product img",
+        "title": "global plp product shelf--product img",
         "props": {
             "showBadge": false,
             "width": "135px",
@@ -38,7 +40,7 @@
         }
     },
     "product-summary-price#plp__shelf": {
-        "title": "plp product shelf--product price",
+        "title": "global plp product shelf--product price",
         "props": {
             "showInstallments": false,
             "showListPrice": true,
@@ -49,7 +51,7 @@
         }
     },
     "product-price-savings#plp__shelf": {
-        "title": "plp product shelf--product price saving",
+        "title": "global plp product shelf--product price saving",
         "props": {
             "markers": [
                 "highlight"
@@ -64,7 +66,7 @@
         }
     },
     "vtex.product-highlights@2.x:product-highlights#plp__shelf": {
-        "title": "global product shelf--highlights",
+        "title": "global plp product shelf--highlights",
         "props": {
             "type": "collection",
             "filter": {
@@ -79,7 +81,7 @@
         ]
     },
     "product-highlight-wrapper#plp__shelf": {
-        "title": "global product shelf--highlights wrapper",
+        "title": "global plp product shelf--highlights wrapper",
         "children": [
             "product-highlight-text#plp__shelf",
             "icon#flash"
@@ -91,7 +93,7 @@
         }
     },
     "product-highlight-text#plp__shelf": {
-        "title": "global product shelf--highlights text",
+        "title": "global plp product shelf--highlights text",
         "props": {
             "message": "{highlightName}",
             "blockClass": [
