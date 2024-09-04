@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#mobile__info-card": {
+        "title": "mobile home info-card ",
+        "children": [
+            "flex-layout.col#mobile__info-card"
+        ],
+        "props": {
+            "top": "168px"
+        }
+    },
+    "flex-layout.col#mobile__info-card": {
+        "title": "mobile home info-card img col",
+        "children": [
+            "image#mobile__info-card--img"
+        ],
+        "props": {}
+    },
+    "image#mobile__info-card--img": {
+        "title": "mobile home info-card img",
+        "props": {
+            "src": "assets/img/home/mobile__home__info-card.png",
+            "width": "100%",
+            "height": "100%",
+            "url": "#"
+        }
+    }
+}

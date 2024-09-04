@@ -1,0 +1,61 @@
+{
+    "vtex.menu@2.x:submenu#subcategories--deals": {
+        "title": "submenu deals subcategories desktop",
+        "props": {
+            "orientation": "horizontal",
+            "blockClass": [
+                "submenu--deals"
+            ]
+        },
+        "children": [
+            "vtex.menu@2.x:menu#deals__submenu--subcategories"
+        ]
+    },
+    "vtex.menu@2.x:menu#deals__submenu--subcategories": {
+        "title": "submenu vtex menu deals subcategories desktop",
+        "props": {
+            "orientation": "vertical",
+            "onMountBehavior": "open",
+            "blockClass": [
+                "submenu--deals"
+            ]
+        },
+        "children": [
+            "menu-item#deals__subcategory--deals",
+            "menu-item#deals__subcategory--shop-all-deals",
+            "menu-item#category--electronics",
+            "menu-item#deals__subcategory--toys",
+            "menu-item#deals__subcategory--home",
+            "menu-item#deals__subcategory--clothing",
+            "menu-item#deals__subcategory--seasonal",
+            "menu-item#deals__subcategory--video-games",
+            "menu-item#deals__subcategory--kitchen",
+            "menu-item#deals__subcategory--food",
+            "menu-item#category--patio",
+            "menu-item#category--baby",
+            "menu-item#deals__subcategory--sports",
+            "menu-item#deals__subcategory--auto",
+            "menu-item#category--beauty",
+            "menu-item#category--home-improvement",
+            "menu-item#deals__subcategory--books",
+            "menu-item#deals__subcategory--outdoor",
+            "menu-item#deals__subcategory--wellness",
+            "menu-item#category--pets",
+            //-----------------------------------------------------------
+            "menu-item#deals__subcategory--end-of-year",
+            "menu-item#deals__subcategory--shop-all",
+            "menu-item#deals__subcategory--home",
+            "menu-item#deals__subcategory--fashion",
+            "menu-item#deals__subcategory--seasonal",
+            "menu-item#deals__subcategory--tech",
+            "menu-item#category--beauty",
+            //-----------------------------------------------------------
+            "menu-item#deals__subcategory--more-deals",
+            "menu-item#deals__subcategory--flash-deals",
+            "menu-item#deals__subcategory--clearance",
+            "menu-item#deals__subcategory--manufacturer",
+            "menu-item#deals__subcategory--home-cleanup",
+            "menu-item#deals__subcategory--weathertech"
+        ]
+    }
+}

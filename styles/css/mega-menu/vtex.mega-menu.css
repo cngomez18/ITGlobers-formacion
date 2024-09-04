@@ -1,0 +1,17 @@
+.menuItemVertical {
+    border          : none !important;
+    background-color: white;
+}
+
+.styledLinkText {
+    font-family: Lexend;
+    font-size  : 12px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align : left;
+}
+
+.styledLinkContainer {
+    padding-top   : 11px;
+    padding-bottom: 8px;
+}

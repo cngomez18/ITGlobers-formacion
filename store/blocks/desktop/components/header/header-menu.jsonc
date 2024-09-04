@@ -1,0 +1,147 @@
+{
+    "sticky-layout#desktop": {
+        "title": " desktop sticky layout header",
+        "props": {
+            "blockClass": "sticky-header-desktop"
+        },
+        "children": [
+            "flex-layout.row#desktop",
+            "flex-layout.row#global__header__categories"
+        ]
+    },
+    "flex-layout.row#desktop": {
+        "title": " desktop row navbar flex-layout",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "colJustify": "around",
+            "blockClass": [
+                "row__desktop"
+            ]
+        },
+        "children": [
+            "flex-layout.col#desktop__menu--holder",
+            "flex-layout.col#desktop__logo",
+            "search-bar",
+            "flex-layout.col#desktop__navbar--col",
+            "minicart.v2",
+            "login"
+        ]
+    },
+    "flex-layout.col#desktop__menu--holder": {
+        "title": " desktop col drawer menu holder flex-layout",
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass": [
+                "desktop__menu--holder"
+            ]
+        },
+        "children": [
+            "vtex.menu@2.x:menu#desktop__menu"
+        ]
+    },
+    "flex-layout.col#desktop__logo": {
+        "title": " desktop col logo flex-layout",
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "logo"
+        ]
+    },
+    "flex-layout.col#desktop__navbar--col": {
+        "title": " desktop links col navbar ",
+        "props": {
+            "fullWidth": true,
+            "width": "grow",
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "blockClass": [
+                "col__navbar"
+            ]
+        },
+        "children": [
+            "flex-layout.row#desktop__navbar--row"
+        ]
+    },
+    "flex-layout.row#desktop__navbar--row": {
+        "title": " desktop links row navbar ",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "fullWidth": true,
+            "colSizing": "auto",
+            "colGap": 5,
+            "blockClass": [
+                "desktop__navbar"
+            ]
+        },
+        "children": [
+            "link#destktop__navbar--tendencia",
+            "link#destktop__navbar--coleccion",
+            "link#destktop__navbar--ofertas",
+            "link#destktop__navbar--cyber-monday",
+            "link#destktop__navbar--never"
+        ]
+    },
+    "link#destktop__navbar--tendencia": {
+        "title": "tendencias de itgs link",
+        "props": {
+            "label": "Tendencias de ITGlobers",
+            "href": "#",
+            "displayMode": "anchor",
+            "blockClass": [
+                "desktop__navbar--links"
+            ]
+        }
+    },
+    "link#destktop__navbar--coleccion": {
+        "title": "coleccion del mes link",
+        "props": {
+            "label": "Colección del mes",
+            "href": "#",
+            "displayMode": "anchor",
+            "blockClass": [
+                "desktop__navbar--links"
+            ]
+        }
+    },
+    "link#destktop__navbar--ofertas": {
+        "title": "ofertas del mes link",
+        "props": {
+            "label": "Ofertas del mes",
+            "href": "#",
+            "displayMode": "anchor",
+            "blockClass": [
+                "desktop__navbar--links"
+            ]
+        }
+    },
+    "link#destktop__navbar--cyber-monday": {
+        "title": "Cyber Monday link",
+        "props": {
+            "label": "Cyber Monday",
+            "href": "#",
+            "displayMode": "anchor",
+            "blockClass": [
+                "desktop__navbar--links"
+            ]
+        }
+    },
+    "link#destktop__navbar--never": {
+        "title": "Never say never link",
+        "props": {
+            "label": "Never say never",
+            "href": "#",
+            "displayMode": "anchor",
+            "blockClass": [
+                "desktop__navbar--links"
+            ]
+        }
+    }
+}

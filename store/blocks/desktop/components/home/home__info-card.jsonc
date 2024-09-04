@@ -1,0 +1,35 @@
+{
+    "flex-layout.row#desktop__home__info-card": {
+        "title": "desktop home info-card",
+        "children": [
+            "flex-layout.col#desktop__home__info-card--img"
+        ],
+        "props": {
+            "top": "168px"
+        }
+    },
+    "flex-layout.col#desktop__home__info-card--img": {
+        "title": "desktop home info-card img col",
+        "children": [
+            "image#promo"
+        ],
+        "props": {
+            "blockClass": [
+                "flex-col--center"
+            ]
+        }
+    },
+    "image#promo": {
+        "title": "desktop home info-card img ",
+        "props": {
+            "src": "assets/img/home/desktop__home__watch-promo.png",
+            "width": "100%",
+            "height": "Fixed (422px)px",
+            "top": "168px",
+            "gap": "0px",
+            "opacity": "0px",
+            "url": "#",
+            "maxWidth": "1280px"
+        }
+    }
+}

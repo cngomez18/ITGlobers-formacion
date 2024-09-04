@@ -1,0 +1,165 @@
+{
+    "flex-layout.row#global__header__categories": {
+        "title": "global row header categories slider container",
+        "props": {
+            "fullWidth": true
+        },
+        "children": [
+            "slider-layout#global__header__categories"
+        ]
+    },
+    "slider-layout#global__header__categories": {
+        "title": "slider global header categories",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 12,
+                "tablet": 6,
+                "phone": 4
+            },
+            "infinite": false,
+            "centerMode": "to-the-left",
+            "centerModeSlidesGap": "10px",
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "fullWidth": false,
+            "usePagination": true,
+            "blockClass": [
+                "global__header-icons"
+            ]
+        },
+        "children": [
+            "rich-text#global__header--nav-icon-food",
+            "rich-text#global__header--nav-icon-fit",
+            "rich-text#global__header--nav-icon-ice",
+            "rich-text#global__header--nav-icon-pool",
+            "rich-text#global__header--nav-icon-hotel",
+            "rich-text#global__header--nav-icon-house",
+            "rich-text#global__header--nav-icon-spa",
+            "rich-text#global__header--nav-icon-closet",
+            "rich-text#global__header--nav-icon-beach",
+            "rich-text#global__header--nav-icon-hiking",
+            "rich-text#global__header--nav-icon-delivery",
+            "rich-text#global__header--nav-icon-beer"
+        ]
+    },
+    "rich-text#global__header--nav-icon-food": {
+        "title": "global header nav icon food",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![food](assets/svg/header/fastfood.svg)](/supermercado/despensa) \n Food",
+            "font": "t-mini",
+            "blockClass": "global__header-icons"
+        }
+    },
+    "rich-text#global__header--nav-icon-fit": {
+        "title": "global header nav icon fit/fitness",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![hola](assets/svg/header/fitness.svg)](#) \n Fitness",
+            "font": "t-mini",
+            "blockClass": "global__header-icons"
+        }
+    },
+    "rich-text#global__header--nav-icon-ice": {
+        "title": "global header nav icon ice/en el artico",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![hola](assets/svg/header/ice.svg)](/electrodomesticos/refrigeracion) \n En el Ártico",
+            "font": "t-mini",
+            "blockClass": "global__header-icons"
+        }
+    },
+    "rich-text#global__header--nav-icon-pool": {
+        "title": "global header nav icon pool/poolday",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![hola](assets/svg/header/deck.svg)](#) \n Poolday",
+            "font": "t-mini",
+            "blockClass": "global__header-icons"
+        }
+    },
+    "rich-text#global__header--nav-icon-hotel": {
+        "title": "global header nav icon hotel/hoteles",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": " [![hola](assets/svg/header/hotel.svg)](#)\n Hoteles",
+            "font": "t-mini",
+            "blockClass": "global__header-icons"
+        }
+    },
+    "rich-text#global__header--nav-icon-house": {
+        "title": "global header nav icon house/casas",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": " [![hola](assets/svg/header/house.svg)](#) \n Casas",
+            "font": "t-mini",
+            "blockClass": "global__header-icons"
+        }
+    },
+    "rich-text#global__header--nav-icon-spa": {
+        "title": "global header nav icon spa/naturales",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![hola](assets/svg/header/spa.svg)](#) \n Naturales",
+            "font": "t-mini",
+            "blockClass": "global__header-icons"
+        }
+    },
+    "rich-text#global__header--nav-icon-closet": {
+        "title": "global header nav icon closet",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": " [![hola](assets/svg/header/closet.svg)](/moda)\n Closet",
+            "font": "t-mini",
+            "blockClass": "global__header-icons"
+        }
+    },
+    "rich-text#global__header--nav-icon-beach": {
+        "title": "global header nav icon beach/playas",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[![hola](assets/svg/header/beach.svg)](#)\n Playas",
+            "font": "t-mini",
+            "blockClass": "global__header-icons"
+        }
+    },
+    "rich-text#global__header--nav-icon-hiking": {
+        "title": "global header nav icon hiking/alpinismo",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": " [![hola](assets/svg/header/hiking.svg)](#) \n Alpinismo",
+            "font": "t-mini",
+            "blockClass": "global__header-icons"
+        }
+    },
+    "rich-text#global__header--nav-icon-delivery": {
+        "title": "global header nav icon delivery",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": " [![hola](assets/svg/header/delivery.svg)](#)\n Delivery",
+            "font": "t-mini",
+            "blockClass": "global__header-icons"
+        }
+    },
+    "rich-text#global__header--nav-icon-beer": {
+        "title": "global header nav icon beer/cervezas",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": " [![hola](assets/svg/header/beer.svg)](/supermercado/bebidas)\n Cervezas",
+            "font": "t-mini",
+            "blockClass": "global__header-icons"
+        }
+    }
+}

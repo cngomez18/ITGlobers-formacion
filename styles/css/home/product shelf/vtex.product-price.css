@@ -1,0 +1,14 @@
+.savings--global__home__shelf--price-saving {
+    background-color: #1D2734;
+    width           : 84px;
+    height          : 32px;
+    padding         : 6px 12px 6px 12px;
+    border-radius   : 4px ;
+    border          : 1px;
+    font-family     : Lexend;
+    color           : white;
+    font-size       : 14px;
+    font-weight     : 400;
+    line-height     : 20px;
+    text-align      : center;
+}

@@ -1,0 +1,56 @@
+{
+    "flex-layout.row#home__slider--order": {
+        "title": "global home slider order row",
+        "children": [
+            "flex-layout.col#home__slider--order"
+        ]
+    },
+    "flex-layout.col#home__slider--order": {
+        "title": "global home slider order col",
+        "props": {
+            "rowGap": 0,
+            "blockClass": [
+                "flex-col--center"
+            ]
+        },
+        "children": [
+            "flex-layout.row#global__home__text--amazing-product",
+            "slider-layout#global__info-card",
+            "flex-layout.row#global__home__text--amazing-product",
+            "list-context.product-list",
+            "flex-layout.row#global__home__text--amazing-product",
+            "slider-layout#global__info-card",
+            "flex-layout.row#global__home__text--amazing-product",
+            "list-context.product-list"
+        ]
+    },
+    "slider-layout#global__info-card": {
+        "title": "slider images info-card home",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": true,
+            "centerMode": "to-the-left",
+            "showNavigationArrows": "desktopOnly",
+            "centerModeSlidesGap": 20,
+            "fullWidth": false,
+            "arrowSize": 20,
+            "blockClass": [
+                "global__info-card",
+                "global__home--slider"
+            ]
+        },
+        "children": [
+            "flex-layout.col#global__info-card",
+            "flex-layout.col#global__info-card",
+            "flex-layout.col#global__info-card",
+            "flex-layout.col#global__info-card",
+            "flex-layout.col#global__info-card",
+            "flex-layout.col#global__info-card",
+            "flex-layout.col#global__info-card"
+        ]
+    }
+}

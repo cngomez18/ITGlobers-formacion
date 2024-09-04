@@ -1,10 +1,20 @@
 {
-    "responsive-layout.desktop#home__section--1" : {
-        "title" : "Home section one Desktop",
-        "children":[
-           
-            "flex-layout.row#banner__one--home",
-            "flex-layout.row#Home__slider--order"
+    "responsive-layout.desktop#home__section--1": {
+        "title": "Home section Desktop screen",
+        "children": [
+            "flex-layout.row#desktop__home__info-card",
+            "whatsapp-button",
+            "flex-layout.row#home__slider--order"
         ]
+    },
+    "whatsapp-button": {
+        "title": "whatsapp button",
+        "props": {
+            "logo": "assets/img/logo-whatsapp.png",
+            "phone": "2361628710",
+            "message": "Hola, estoy comunicandome desde el store",
+            "width": 80,
+            "height": 80
+        }
     }
 }

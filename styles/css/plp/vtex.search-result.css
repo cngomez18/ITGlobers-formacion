@@ -1,0 +1,167 @@
+.orderByButton {
+    background-color: #E7E7E7;
+    width           : 170px;
+    height          : 40px;
+    padding         : 14px 12px 14px 12px;
+    border-radius   : 40px;
+}
+
+.filter__container--title {
+    display: none;
+}
+
+.filterAvailable {
+    width           : 184px;
+    height          : 36px;
+    padding         : 8px 16px 8px 16px;
+    border-radius   : 40px;
+    background-color: #E7E7E7;
+}
+
+.filterTitleSpan {
+    /* titulo del filtro*/
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align : right;
+}
+
+.filterItem {
+    /*filtros*/
+    font-family: Lexend;
+    font-size  : 12px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align : left;
+    padding    : 10px;
+}
+
+:global(.vtex-slider__values-container) {
+    justify-content: center;
+}
+
+:global(.vtex-slider__right-value) {
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color      : #1D2734;
+}
+
+:global(.vtex-slider__left-value) {
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align : center;
+    color      : #1D2734;
+}
+
+:global(.vtex-slider__dash) {
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align : center;
+    color      : #1D2734;
+}
+
+:global(.vtex-slider__selector) {
+    background-color: #1D2734;
+}
+
+:global(.vtex-slider__base-internal) {
+    background-color: #1D2734;
+}
+
+.galleryLayoutSwitcher {
+    opacity: 60%;
+}
+
+:global(.vtex-checkbox__inner-container) {
+    width        : 24px;
+    height       : 24px;
+    color        : white;
+    border-radius: 5px;
+}
+
+:global(.vtex-checkbox__box) {
+    width : 24px;
+    height: 24px;
+    color : white;
+}
+
+:global(.vtex-checkbox__label) {
+    padding-left: 5px;
+    padding-top : 5px;
+}
+
+.showingProducts {
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 17.5px;
+    text-align : left;
+    color      : #1D2734;
+}
+
+.galleryTitle--layout {
+    font-family: Lexend;
+    font-size  : 20px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align : left;
+    color      : #1D2734;
+}
+
+.buttonShowMore :global(.vtex-button) {
+    width        : 110px;
+    height       : 32px;
+    padding      : 6px 12px 6px 12px;
+    border-radius: 40px;
+}
+
+.buttonShowMore :global(.vtex-button__label) {
+    color      : white;
+    font-family: Lexend;
+    font-size  : 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align : center;
+    padding    : 0px;
+}
+
+.orderByText {
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align : center;
+    color      : #1D2734;
+}
+
+.filterPopupButton {
+    width           : 110px;
+    height          : 40px;
+    top             : 250px;
+    left            : 167px;
+    padding         : 14px 12px 14px 12px;
+    gap             : 0px;
+    border-radius   : 40px;
+    background-color: #E7E7E7;
+}
+
+.filterPopupTitle {
+    font-family: Lexend;
+    font-size  : 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align : center;
+}
+
+@media (max-width:645px) {
+    .orderByButton {
+        width: 140px;
+    }
+}

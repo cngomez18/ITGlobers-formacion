@@ -1,0 +1,71 @@
+{
+    "flex-layout.row#container__result--mobile": {
+        "title": "mobile main row container",
+        "children": [
+            "flex-layout.col#container__result--mobile"
+        ],
+        "props": {
+            "marginTop": 9
+        }
+    },
+    "flex-layout.col#container__result--mobile": {
+        "title": "mobile main col container",
+        "children": [
+            "flex-layout.row#container__result--breadcrumb",
+            "flex-layout.row#container__result--title",
+            "flex-layout.row#container__result--filters",
+            "flex-layout.row#container__result--content"
+        ],
+        "props": {}
+    },
+    "flex-layout.row#container__result--breadcrumb": {
+        "title": "mobile row breadcrumb container",
+        "children": [
+            "breadcrumb.search"
+        ],
+        "props": {}
+    },
+    "flex-layout.row#container__result--title": {
+        "title": "mobile row search title container",
+        "children": [
+            "search-title.v2"
+        ],
+        "props": {}
+    },
+    "flex-layout.row#container__result--filters": {
+        "title": "mobile row filters (order, filter, switcher) container",
+        "children": [
+            "flex-layout.col#container__result--mobile-order",
+            "flex-layout.col#container__result--filter",
+            "flex-layout.col#container__result--switcher"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "preserveLayoutOnMobile": true,
+            "blockClass": [
+                "plp__flex--main-row-mobile"
+            ]
+        }
+    },
+    "flex-layout.row#container__result--content": {
+        "title": "mobile row search result content container",
+        "children": [
+            "search-content#global__search--layout"
+        ],
+        "props": {}
+    },
+    "flex-layout.col#container__result--mobile-order": {
+        "title": "mobile col order by container",
+        "children": [
+            "order-by.v2"
+        ],
+        "props": {}
+    },
+    "flex-layout.col#container__result--switcher": {
+        "title": "mobile col gallery switcher container",
+        "children": [
+            "gallery-layout-switcher"
+        ],
+        "props": {}
+    }
+}

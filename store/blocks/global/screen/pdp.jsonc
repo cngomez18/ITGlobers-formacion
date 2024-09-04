@@ -1,0 +1,9 @@
+{
+  "store.product": {
+    "title": "global product screen",
+    "children": [
+      "responsive-layout.mobile#product-detail-page",
+      "responsive-layout.desktop#product-detail-page"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+.sliderTrackContainer--global__header-icons {
+    padding-left: 48px;
+    height      : 56px;
+}
+
+.slide--global__header-icons {
+    height: 56px;
+    width : 90px !important;
+}
+
+.slide--global__header-icons:hover {
+    border-bottom: 3px solid #1D2734;
+}
+
+@media (max-width: 1100px) {
+    .sliderTrackContainer--global__header-icons {
+        gap          : 5px;
+        padding-left : 0px;
+        padding-right: 0px;
+        max-width    : 1000px;
+    }
+}

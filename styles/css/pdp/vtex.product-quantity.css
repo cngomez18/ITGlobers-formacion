@@ -1,0 +1,21 @@
+.quantitySelectorTitle {
+    display: none;
+}
+
+:global(.vtex-numeric-stepper__plus-button) {
+    color           : white;
+    background-color: #1D2734;
+}
+
+:global(.vtex-numeric-stepper__plus-button__text) {
+    font-size: 20px;
+}
+
+:global(.vtex-numeric-stepper__minus-button) {
+    color           : white;
+    background-color: #1D2734;
+}
+
+:global(.vtex-numeric-stepper__minus-button__text) {
+    font-size: 20px;
+}

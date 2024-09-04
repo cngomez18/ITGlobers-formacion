@@ -1,0 +1,20 @@
+.drawerHeader {
+    background-color: white;
+}
+
+.drawer {
+    width: 70% !important;
+}
+
+.childrenContainer {
+    border          : none;
+    background-color: white;
+}
+
+:global(.vtex-store-drawer-0-x-opened) {
+    background-color: white;
+}
+
+.closeIconButton {
+    display: none;
+}

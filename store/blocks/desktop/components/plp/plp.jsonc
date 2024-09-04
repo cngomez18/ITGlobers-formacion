@@ -1,0 +1,62 @@
+{
+    "flex-layout.row#container__result--desktop": {
+        "title": "main row product List desktop",
+        "children": [
+            "flex-layout.col#container__result--desktop"
+        ],
+        "props": {
+            "marginTop": 6,
+            "marginBottom": 6,
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "plp__flex--main-row-desktop"
+            ]
+        }
+    },
+    "flex-layout.col#container__result--desktop": {
+        "title": "main col product List desktop",
+        "children": [
+            "flex-layout.row#container__result--top",
+            "flex-layout.row#container__result--filter-content",
+            "search-fetch-more"
+        ],
+        "props": {
+            "marginLeft": 9,
+            "marginRight": 8,
+            "blockClass": [
+                "plp__flex--main-col-desktop"
+            ]
+        }
+    },
+    "flex-layout.row#container__result--top": {
+        "title": "top row product List desktop",
+        "children": [
+            "flex-layout.col#container__result--breadcrumb-title-found",
+            "flex-layout.col#container__result--order"
+        ],
+        "props": {
+            "marginTop": 8
+        }
+    },
+    "flex-layout.row#container__result--filter-content": {
+        "title": "middle row filter search content product List desktop",
+        "children": [
+            "filter-navigator.v3",
+            "search-content#global__search--layout"
+        ],
+        "props": {
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.col#container__result--breadcrumb-title-found": {
+        "title": "left col breadcrumb title products List desktop",
+        "children": [
+            "breadcrumb.search",
+            "search-title.v2",
+            "search-products-count-per-page"
+        ],
+        "props": {
+            "width": "20%"
+        }
+    }
+}

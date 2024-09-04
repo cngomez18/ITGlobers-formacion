@@ -1,0 +1,375 @@
+{
+    "menu-item#deals__subcategory--deals": {
+        "title": "desktop menu item deals sub category  deals ",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Deals",
+                "text": "Deals"
+            },
+            "blockClass": [
+                "submenu--deals--row"
+            ]
+        },
+        "blocks": []
+    },
+    "menu-item#deals__subcategory--end-of-year": {
+        "title": "desktop menu item deals sub category  end of year clearance ",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "End Of Year Clearance",
+                "text": "End Of Year Clearance"
+            },
+            "blockClass": [
+                "submenu--deals--row"
+            ]
+        },
+        "blocks": []
+    },
+    "menu-item#deals__subcategory--more-deals": {
+        "title": "desktop menu item deals sub category more deals",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "More Deals",
+                "text": "More Deals"
+            },
+            "blockClass": [
+                "submenu--deals--row"
+            ]
+        },
+        "blocks": []
+    },
+    //_---------------------------------
+    "menu-item#deals__subcategory--shop-all-deals": {
+        "title": "desktop menu item deals sub category shop all deals ",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop All Deals",
+                "text": "Shop All Deals"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--shop-all": {
+        "title": "desktop menu item deals sub category  shop all",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop All",
+                "text": "Shop All"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--toys": {
+        "title": "desktop menu item deals sub category toys",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Toys",
+                "text": "Toys"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--home": {
+        "title": "desktop menu item deals sub category home",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrodomesticos/cocina",
+                "noFollow": false,
+                "tagTitle": "Home",
+                "text": "Home"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--clothing": {
+        "title": "desktop menu item deals sub category clothing accessories",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/moda/hombre",
+                "noFollow": false,
+                "tagTitle": "Clothing & Accessories",
+                "text": "Clothing & Accessories"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--seasonal": {
+        "title": "desktop menu item deals sub category seasonal decor",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Seasonal Décor",
+                "text": "Seasonal Décor"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--video-games": {
+        "title": "desktop menu item deals sub category video games",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/tecnologia/consolas-y-videojuegos",
+                "noFollow": false,
+                "tagTitle": "Video Games",
+                "text": "Video Games"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--kitchen": {
+        "title": "desktop menu item deals sub category kitchen dining",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrodomesticos/pequenos-electrodomesticos",
+                "noFollow": false,
+                "tagTitle": "Kitchen & Dining",
+                "text": "Kitchen & Dining"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--food": {
+        "title": "desktop menu item deals sub category food",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/supermercado/despensa",
+                "noFollow": false,
+                "tagTitle": "Food",
+                "text": "Food"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--sports": {
+        "title": "desktop menu item deals sub category sports outdoors",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Sports & Outdoors",
+                "text": "Sports & Outdoors"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--auto": {
+        "title": "desktop menu item deals sub category auto",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Auto",
+                "text": "Auto"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--books": {
+        "title": "desktop menu item deals sub category books movies music",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Books, Movies & Music",
+                "text": "Books, Movies & Music"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--outdoor": {
+        "title": "desktop menu item deals sub category outdoor play",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Outdoor Play",
+                "text": "Outdoor Play"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--wellness": {
+        "title": "desktop menu item deals sub category wellness personal care",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Wellness & Personal Care",
+                "text": "Wellness & Personal Care"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--fashion": {
+        "title": "desktop menu item deals sub category fashion",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/moda",
+                "noFollow": false,
+                "tagTitle": "Fashion",
+                "text": "Fashion"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--tech": {
+        "title": "desktop menu item deals sub category tech",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/tecnologia",
+                "noFollow": false,
+                "tagTitle": "Tech",
+                "text": "Tech"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--flash-deals": {
+        "title": "desktop menu item deals sub category flash deals",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Flash Deals",
+                "text": "Flash Deals"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--clearance": {
+        "title": "desktop menu item deals sub category clearance ",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Clearance",
+                "text": "Clearance"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--manufacturer": {
+        "title": "desktop menu item deals sub category manufacturer",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Manufacturer Offers",
+                "text": "Manufacturer Offers"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--home-cleanup": {
+        "title": "desktop menu item deals sub category home cleanup",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Home Cleanup",
+                "text": "Home Cleanup"
+            }
+        }
+    },
+    "menu-item#deals__subcategory--weathertech": {
+        "title": "desktop menu item deals sub category weathertech",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Weathertech",
+                "text": "Weathertech"
+            }
+        }
+    }
+}

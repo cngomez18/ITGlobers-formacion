@@ -1,9 +1,10 @@
 {
     "responsive-layout.mobile#home__section--1" : {
-        "title" : "Home section one Mobile",
+        "title" : "Home section  Mobile",
         "children":[
-            "flex-layout.row#mobile__banner__one--home",
-            "flex-layout.row#Home__slider--order"
+            "flex-layout.row#mobile__info-card",
+            "whatsapp-button",
+            "flex-layout.row#home__slider--order"
         ]
     }
 }

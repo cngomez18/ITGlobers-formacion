@@ -1,0 +1,309 @@
+{
+    "menu-item#category--deals": {
+        "title": "desktop menu item category deals",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Deals",
+                "text": "Deals"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#subcategories--deals"
+        ]
+    },
+    //--------------------------------
+    "menu-item#category--all-categories": {
+        "title": "desktop menu item all categories ",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "All Categories",
+                "text": "All Categories"
+            },
+            "blockClass": [
+                "submenu--deals--row"
+            ]
+        }
+    },
+    "menu-item#category--grocery": {
+        "title": "desktop menu item category grocery",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/supermercado",
+                "noFollow": false,
+                "tagTitle": "Grocery",
+                "text": "Grocery"
+            }
+        }
+    },
+    "menu-item#category--new-year-goals": {
+        "title": "desktop menu item category new year goals",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "New Year Goals",
+                "text": "New Year Goals"
+            }
+        }
+    },
+    "menu-item#category--valentine": {
+        "title": "desktop menu item category valentine's day",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Valentine's Day",
+                "text": "Valentine's Day"
+            }
+        }
+    },
+    "menu-item#category--game-time": {
+        "title": "desktop menu item category game time",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Game Time",
+                "text": "Game Time"
+            }
+        }
+    },
+    "menu-item#category--clothing": {
+        "title": "desktop menu item category clothing shoes & accesories",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/moda",
+                "noFollow": false,
+                "tagTitle": "Clothing, Shoes and Accesories",
+                "text": "Clothing, Shoes and Accesories"
+            }
+        }
+    },
+    "menu-item#category--electronics": {
+        "title": "desktop menu item category electronics",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/tecnologia/informatica",
+                "noFollow": false,
+                "tagTitle": "Electronics",
+                "text": "Electronics"
+            }
+        }
+    },
+    "menu-item#category--home-furniture": {
+        "title": "desktop menu item category home furniture",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Home, Furniture and Appliances",
+                "text": "Home, Furniture and Appliances"
+            }
+        }
+    },
+    "menu-item#category--toys": {
+        "title": "desktop menu item category toys & video games",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Toys & Video Games",
+                "text": "Toys & Video Games"
+            }
+        }
+    },
+    "menu-item#category--baby": {
+        "title": "desktop menu item category baby",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Baby",
+                "text": "Baby"
+            }
+        }
+    },
+    "menu-item#category--kids": {
+        "title": "desktop menu item category kids",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/moda/ninas",
+                "noFollow": false,
+                "tagTitle": "Kids",
+                "text": "Kids"
+            }
+        }
+    },
+    "menu-item#category--auto": {
+        "title": "desktop menu item category auto",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Auto & Tires",
+                "text": "Auto & Tires"
+            }
+        }
+    },
+    "menu-item#category--pharmacy": {
+        "title": "desktop menu item category pharmacy",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Pharmacy, Health and Wellness",
+                "text": "Pharmacy, Health and Wellness"
+            }
+        }
+    },
+    "menu-item#category--personal-care": {
+        "title": "desktop menu item category personal care",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Personal Care",
+                "text": "Personal Care"
+            }
+        }
+    },
+    "menu-item#category--beauty": {
+        "title": "desktop menu item categorybeauty",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Beauty",
+                "text": "Beauty"
+            }
+        }
+    },
+    "menu-item#category--pets": {
+        "title": "desktop menu item category pets",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Pets",
+                "text": "Pets"
+            }
+        }
+    },
+    "menu-item#category--home-improvement": {
+        "title": "desktop menu item category home improvement",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Home Improvement",
+                "text": "Home Improvement"
+            }
+        }
+    },
+    "menu-item#category--patio": {
+        "title": "desktop menu item category patio",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Patio & Garden",
+                "text": "Patio & Garden"
+            }
+        }
+    },
+    "menu-item#category--household": {
+        "title": "desktop menu item category household",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Household Essentials",
+                "text": "Household Essentials"
+            }
+        }
+    }
+}

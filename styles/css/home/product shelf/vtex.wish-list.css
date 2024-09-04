@@ -1,0 +1,37 @@
+.wishlistIconContainer :global(.vtex-button) {
+    width        : 44px;
+    height       : 32px;
+    padding      : 6px 12px;
+    padding-left : 8px;
+    border-radius: 4px;
+    border       : 2px solid #1D2734;
+    display      : flex;
+    align-items  : center;
+}
+
+.wishlistIconContainer {
+    display        : flex;
+    flex-direction : row;
+    justify-content: flex-end;
+    align-items    : center;
+}
+
+.wishlistIconContainer :global(.vtex-button__label) {
+    padding      : 0px;
+    padding-right: 2px;
+}
+
+.wishlistIconContainer :global(.vtex-button):hover {
+    background-color: transparent;
+    border          : 2px solid #1D2734
+}
+
+.outline {
+    outline-color: #1D2734 !important;
+}
+
+.wishlistIcon :global(.vtex-wish-list-1-x-outline) {
+    background   : url(assets/svg/heart.svg) !important;
+    outline-color: #1D2734;
+    color        : #1D2734;
+}

@@ -1,0 +1,38 @@
+.summarySmallDisclaimer {
+    display: none;
+}
+
+.price {
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align : right;
+}
+
+.summaryItemLabel {
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align : left;
+
+}
+
+.summaryItemContainer:last-child .summaryItemLabel {
+    font-family: Lexend;
+    font-size  : 16px !important;
+    font-weight: 600 !important;
+    line-height: 19.2px;
+    text-align : left;
+    color      : #E31616;
+}
+
+.summaryItemContainer:last-child .price {
+    font-family: Lexend;
+    font-size  : 16px !important;
+    font-weight: 600 !important;
+    line-height: 19.2px;
+    text-align : right;
+    color      : #E31616;
+}

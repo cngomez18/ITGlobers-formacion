@@ -1,0 +1,33 @@
+{
+    "minicart-summary": {
+        "title": "global minicart summary",
+        "blocks": [
+            "checkout-summary.compact#minicart"
+        ]
+    },
+    "minicart-checkout-button": {
+        "title": "global minicart checkout btn",
+        "props": {
+            "finishShoppingButtonLink": "/checkout/#/orderform"
+        }
+    },
+    "checkout-summary.compact#minicart": {
+        "title": "global minicart checkout summary",
+        "children": [
+            "summary-totalizers#minicart"
+        ],
+        "props": {
+            "totalizersToShow": [
+                "Items",
+                "Discounts"
+            ]
+        }
+    },
+    "summary-totalizers#minicart": {
+        "title": "global minicart summary totalizer",
+        "props": {
+            "showTotal": true,
+            "showDeliveryTotal": false
+        }
+    }
+}

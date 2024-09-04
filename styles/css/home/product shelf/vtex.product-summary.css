@@ -1,0 +1,87 @@
+.description {
+    width             : Hug (51px)px;
+    height            : Fixed (212px)px;
+    font-family       : Lexend;
+    font-size         : 14px;
+    font-weight       : 400;
+    line-height       : 16.8px;
+    text-align        : left;
+    overflow          : hidden;
+    text-overflow     : ellipsis;
+    display           : -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp        : 3;
+    -webkit-box-orient: vertical;
+}
+
+.priceContainer :global(.vtex-store-components-3-x-sellingPrice) {
+    font-family: Lexend;
+    font-size  : 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    padding    : 0px;
+    margin     : 0px;
+}
+
+:global(.vtex-product-summary-2-x-priceContainer) {
+    text-align : left !important;
+    align-items: start;
+}
+
+.element--global__home__shelf :global(.vtex-button) {
+    background-color: #F5F4F6;
+}
+
+.price_listPriceContainer {
+    padding   : 0px;
+    margin    : 0px;
+    text-align: left;
+}
+
+.price_sellingPriceContainer {
+    padding   : 0px;
+    margin    : 0px;
+    text-align: left;
+}
+
+.container {
+    width  : Fixed (212px)px;
+    height : Hug (378px)px;
+    gap    : 12px;
+    opacity: 0px;
+}
+
+@media (max-width:375px) {
+    .container {
+        width : Fixed (160.96px)px;
+        height: Hug (291.63px)px;
+    }
+
+    .description {
+        width      : Hug (38.72px)px;
+        height     : Fixed (160.96px)px;
+        gap        : 7.59px;
+        opacity    : 0px;
+        font-size  : 12px;
+        line-height: 12.76px;
+    }
+
+    .priceContainer :global(.vtex-product-summary-2-x-price_listPriceContainer) {
+        font-family: Lexend;
+        font-size  : 15px !important;
+        font-weight: 600;
+        line-height: 21.87px;
+        text-align : left;
+        padding    : 0px;
+    }
+
+    .priceContainer :global(.vtex-store-components-3-x-sellingPrice) {
+        font-family: Lexend;
+        font-size  : 15px !important;
+        font-weight: 600;
+        line-height: 21.87px;
+        text-align : left;
+        padding    : 0px;
+    }
+
+}

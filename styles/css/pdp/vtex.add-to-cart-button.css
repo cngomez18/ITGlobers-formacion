@@ -1,0 +1,42 @@
+.buttonText--pdp__cart-btn {
+    font-family   : Lexend;
+    font-size     : 14px;
+    font-weight   : 400;
+    line-height   : 17.5px;
+    text-align    : center;
+    color         : white;
+    text-transform: none !important;
+}
+
+.buttonDataContainer--pdp__cart-btn {
+    width           : 312px !important;
+    height          : 48px !important;
+    padding         : 10px;
+    border-radius   : 4px;
+    border          : 1px solid #492A77;
+    background-color: #492A77;
+}
+
+.buttonText--pdp__cart-btn::before {
+    content       : url('assets/svg/white-cart-btn.svg');
+    color         : white;
+    display       : inline-block;
+    padding-right : 3px;
+    vertical-align: middle;
+    font-weight   : 900;
+    height        : 20px;
+    width         : 20px;
+}
+
+@media (max-width: 768px) {
+    .buttonDataContainer--pdp__cart-btn {
+        width : 160px !important;
+        height: 48px !important;
+    }
+
+    .buttonText--pdp__cart-btn {
+        overflow: hidden;
+        width   : 85px;
+        height  : 18px;
+    }
+}

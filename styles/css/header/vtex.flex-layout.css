@@ -1,0 +1,24 @@
+.flexColChild--col__navbar {
+    width: 100%;
+}
+
+.flexRowContent--row__desktop {
+    gap          : 5px;
+    padding-left : 48px;
+    padding-right: 48px;
+    max-width    : 1280px;
+
+}
+
+.flexRow--row__desktop {
+    height: 56px;
+}
+
+@media (max-width: 1100px) {
+    .flexRowContent--row__desktop {
+        gap          : 5px;
+        padding-left : 0px;
+        padding-right: 0px;
+        max-width    : 1000px;
+    }
+}

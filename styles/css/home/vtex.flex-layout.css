@@ -1,5 +1,75 @@
+.flexCol--global__slider__info-card {
+    background-color: #FFFFFF;
+    justify-content : space-between;
+    width           : 324px;
+    height          : 336.46px;
+    gap             : 0px;
+    border-radius   : 12px;
 
-.flexColChild--banner__two--title{
-    background-color: #F0F0F2;
-    ;
+}
+
+.flexColChild--global__slider__info-card {
+    padding: 0px 0px 0px 0px;
+}
+
+.flexColChild--flex-col--center {
+    display      : grid;
+    justify-items: center;
+}
+
+.flexRow--row--amazing-text-center {
+    display      : grid;
+    justify-items: start;
+    position     : relative;
+    right        : 40%;
+}
+
+@media (max-width:640px) {
+    .flexRow--row--amazing-text-center {
+        display      : grid;
+        justify-items: start;
+        position     : relative;
+        right        : 35%;
+    }
+}
+
+@media (max-width:425px) {
+    .flexRow--row--amazing-text-center {
+        display      : grid;
+        justify-items: start;
+        position     : relative;
+        right        : 30%;
+    }
+}
+
+@media (max-width:375px) {
+    .flexCol--global__slider__info-card {
+        max-width      : 242px !important;
+        height         : 240.11px !important;
+        border-radius  : 8px;
+        justify-content: space-between;
+
+    }
+
+    .flexCol--global__home__info-card--prize-holder {
+        padding-top: 10px;
+        max-height : 40px;
+    }
+
+}
+
+@media (min-width:375px) and (max-width: 1260px) {
+    .flexCol--global__slider__info-card {
+        max-width      : 325px !important;
+        max-height     : 330px !important;
+        border-radius  : 8px;
+        justify-content: space-between;
+
+    }
+
+    .flexCol--global__home__info-card--prize-holder {
+        padding-top: 8px;
+        max-height : 40px;
+    }
+
 }

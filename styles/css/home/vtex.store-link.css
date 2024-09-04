@@ -1,0 +1,43 @@
+.buttonLink {
+    max-width       : 134px;
+    height          : 43px;
+    padding         : 8px;
+    padding-right   : 20px;
+    border-radius   : 40px;
+    border          : 0.86px;
+    border-color    : #1D2734;
+    background-color: #1D2734;
+}
+
+.label--global__info-card {
+    color         : white;
+    font-family   : Lexend;
+    font-size     : 12px;
+    font-weight   : 400;
+    text-align    : center;
+    text-transform: capitalize;
+    padding       : 0px;
+    margin        : 0px;
+}
+
+.childrenContainer {
+    color     : white;
+    text-align: left;
+    padding   : 0px;
+    margin    : 0px;
+    border    : 0px;
+}
+
+@media (max-width:375px) {
+    .buttonLink {
+        max-width    : 100px !important;
+        height       : 32px !important;
+        padding      : 6.45px;
+        border-radius: 40px;
+    }
+
+    .label--global__info-card {
+        font-size: 10px !important;
+    }
+
+}

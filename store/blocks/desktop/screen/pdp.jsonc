@@ -1,0 +1,9 @@
+{
+    "responsive-layout.desktop#product-detail-page": {
+        "title": "PDP layout desktop screen",
+        "children": [
+            "flex-layout.row#product-main",
+            "flex-layout.row#product-specifications"
+        ]
+    }
+}

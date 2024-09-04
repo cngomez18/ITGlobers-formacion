@@ -1,0 +1,23 @@
+{
+    "flex-layout.row#global__home__text--amazing-product": {
+        "title": "global home flex row text subtitle amazing product",
+        "props": {
+            "blockClass": [
+                "row--amazing-text-center"
+            ]
+        },
+        "children": [
+            "rich-text#global__home__text--amazing-product"
+        ]
+    },
+    "rich-text#global__home__text--amazing-product": {
+        "title": "global home text subtitle amazing product",
+        "props": {
+            "text": "An amazing product",
+            "font": "t-heading-4",
+            "blockClass": [
+                "global__home__text--amazing-product"
+            ]
+        }
+    }
+}

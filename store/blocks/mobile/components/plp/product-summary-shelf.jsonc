@@ -1,0 +1,104 @@
+{
+    "list-context.product-list#plp__shelf-mobile": {
+        "title": "list context product list PLP mobile",
+        "blocks": [
+            "product-summary.shelf#plp__shelf-mobile"
+        ],
+        "children": []
+    },
+    "product-summary.shelf#plp__shelf-mobile": {
+        "title": "product summary shelf PLP mobile",
+        "props": {
+            "blockClass": [
+                "plp__shelf-mobile"
+            ]
+        },
+        "children": [
+            "product-summary-image#plp__shelf-mobile",
+            "product-summary-description#plp__shelf-mobile",
+            "product-summary-price#plp__shelf-mobile",
+            "vtex.product-highlights@2.x:product-highlights#plp__shelf-mobile"
+        ]
+    },
+    "product-summary-description#plp__shelf-mobile": {
+        "title": "mobile plp product shelf--product description",
+        "props": {
+            "blockClass": [
+                "plp__shelf-mobile"
+            ]
+        }
+    },
+    "product-summary-image#plp__shelf-mobile": {
+        "title": "mobile plp product shelf--product img",
+        "props": {
+            "showBadge": false,
+            "width": "135px",
+            "height": "106px",
+            "blockClass": [
+                "plp__shelf-mobile"
+            ]
+        }
+    },
+    "product-summary-price#plp__shelf-mobile": {
+        "title": "mobile plp product shelf--product price",
+        "props": {
+            "showInstallments": false,
+            "showListPrice": true,
+            "showLabels": false,
+            "blockClass": [
+                "plp__shelf-mobile"
+            ]
+        }
+    },
+    "product-price-savings#plp__shelf-mobile": {
+        "title": "mobile plp product shelf--product price saving",
+        "props": {
+            "markers": [
+                "highlight"
+            ],
+            "message": "{savingsPercentage} OFF",
+            "percentageStyle": "compact",
+            "font": "t-Lexend-400",
+            "icon": false,
+            "blockClass": [
+                "plp__shelf"
+            ]
+        }
+    },
+    "vtex.product-highlights@2.x:product-highlights#plp__shelf-mobile": {
+        "title": "mobile product shelf--highlights",
+        "props": {
+            "type": "collection",
+            "filter": {
+                "type": "show",
+                "highlightNames": [
+                    "Envío Gratis"
+                ]
+            }
+        },
+        "children": [
+            "product-highlight-wrapper#plp__shelf-mobile"
+        ]
+    },
+    "product-highlight-wrapper#plp__shelf-mobile": {
+        "title": "mobile product shelf--highlights wrapper",
+        "children": [
+            "product-highlight-text#plp__shelf-mobile",
+            "icon#flash"
+        ],
+        "props": {
+            "blockClass": [
+                "plp__shelf"
+            ]
+        }
+    },
+    "product-highlight-text#plp__shelf-mobile": {
+        "title": "mobile product shelf--highlights text",
+        "props": {
+            "message": "{highlightName}",
+            "blockClass": [
+                "plp__shelf"
+            ]
+        }
+    }
+}
