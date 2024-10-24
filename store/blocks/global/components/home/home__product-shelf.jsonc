@@ -13,10 +13,11 @@
         "children": [
             "flex-layout.row#global__shelf--badges",
             "product-summary-image",
-            "product-summary-description",
+            "product-summary-name",
             "product-summary-space",
             "product-summary-price",
             "vtex.product-highlights@2.x:product-highlights",
+            "product-summary-space",
             "add-to-cart-button"
         ],
         "props": {
@@ -120,8 +121,8 @@
         "props": {
             "itemsPerPage": {
                 "desktop": 5,
-                "tablet": 2,
-                "phone": 1
+                "tablet": 3,
+                "phone": 2
             },
             "infinite": true,
             "showNavigationArrows": "desktopOnly",

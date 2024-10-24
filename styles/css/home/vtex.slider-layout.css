@@ -125,10 +125,14 @@
 
 @media (max-width: 580px) {
     .paginationDotsContainer {
-        left           : 100px;
         justify-content: center;
         width          : 200px;
-        overflow       : hidden;
+        overflow       : auto;
+        margin         : 0 auto;
+    }
+
+    ::-webkit-scrollbar {
+        display: none !important;
     }
 }
 
