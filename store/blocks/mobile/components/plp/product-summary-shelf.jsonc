@@ -14,8 +14,26 @@
             ]
         },
         "children": [
-            "product-summary-image#plp__shelf-mobile",
-            "product-summary-description#plp__shelf-mobile",
+            "flex-layout.row#plp__shelf-mobile"    
+        ]
+    },
+    "flex-layout.row#plp__shelf-mobile": {
+        "title": "mobile plp shelf row",
+        "children": [
+            "flex-layout.col#plp__shelf-mobile-img",
+            "flex-layout.col#plp__shelf-mobile-text"
+        ]
+    },
+    "flex-layout.col#plp__shelf-mobile-img": {
+        "title": "mobile plp shelf col img",
+        "children": [
+            "product-summary-image#plp__shelf-mobile"
+        ]
+    },
+    "flex-layout.col#plp__shelf-mobile-text": {
+        "title": "mobile plp shelf col text",
+        "children": [
+            "product-summary-name#plp__shelf",
             "product-summary-price#plp__shelf-mobile",
             "vtex.product-highlights@2.x:product-highlights#plp__shelf-mobile"
         ]

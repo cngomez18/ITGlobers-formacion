@@ -141,6 +141,32 @@
     color      : #1D2734;
 }
 
+.orderByOptionItem{
+    font-family: Lexend;
+    font-size  : 12px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.accordionFilterItemTitle{
+    font-family: Lexend;
+    font-size  : 16px;
+    font-weight: 600;
+}
+
+:global(.vtex-checkbox__label){
+    font-family: Lexend;
+    font-size  : 14px;
+} 
+
+.filterIcon{
+    padding-top: 5px;
+}
+
+.filterPopupArrowIcon {
+    padding-top: 10px;
+}
+
 .filterPopupButton {
     width           : 110px;
     height          : 40px;
@@ -158,6 +184,21 @@
     font-weight: 400;
     line-height: 15px;
     text-align : center;
+}
+
+.filterClearButtonWrapper :global(.vtex-button){
+    font-family: Lexend;
+    font-weight: 400;
+}
+
+.filterApplyButtonWrapper :global(.vtex-button){
+    font-family: Lexend;
+    font-weight: 400;
+    border: none;
+}
+
+.galleryItem--two{
+    padding: 10px 0;
 }
 
 @media (max-width:645px) {

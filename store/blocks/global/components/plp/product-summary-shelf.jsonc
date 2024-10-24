@@ -14,14 +14,32 @@
             ]
         },
         "children": [
-            "product-summary-image#plp__shelf",
-            "product-summary-description#plp__shelf",
+            "flex-layout.row#plp__shelf"
+        ]
+    },
+    "flex-layout.row#plp__shelf": {
+        "title": "global plp shelf row",
+        "children": [
+            "flex-layout.col#plp__shelf-img",
+            "flex-layout.col#plp__shelf-text"
+        ]
+    },
+    "flex-layout.col#plp__shelf-img": {
+        "title": "global plp shelf col img",
+        "children": [
+            "product-summary-image#plp__shelf"
+        ]
+    },
+    "flex-layout.col#plp__shelf-text": {
+        "title": "global plp shelf col text",
+        "children": [
+            "product-summary-name#plp__shelf",
             "product-summary-price#plp__shelf",
             "vtex.product-highlights@2.x:product-highlights#plp__shelf"
         ]
     },
-    "product-summary-description#plp__shelf": {
-        "title": "global plp product shelf--product description",
+    "product-summary-name#plp__shelf": {
+        "title": "global plp product shelf--product name",
         "props": {
             "blockClass": [
                 "plp__shelf"

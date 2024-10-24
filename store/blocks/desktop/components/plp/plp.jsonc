@@ -52,6 +52,7 @@
         "title": "left col breadcrumb title products List desktop",
         "children": [
             "breadcrumb.search",
+            "flex-layout.row#spacer",
             "search-title.v2",
             "search-products-count-per-page"
         ],

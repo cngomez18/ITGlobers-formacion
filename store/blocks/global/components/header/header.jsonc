@@ -5,6 +5,12 @@
             "width": "grow"
         }
     },
+    "flex-layout.row#spacer": {
+        "title": "global row spacer",
+        "props": {
+            "paddingTop": "7"
+        }
+    },
     "logo": {
         "title": "logo global ",
         "props": {
