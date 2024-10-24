@@ -52,8 +52,10 @@
     }
 
     .flexCol--global__home__info-card--prize-holder {
-        padding-top: 10px;
-        max-height : 40px;
+        padding-top: 5px;
+        max-height: 40px;
+        position: absolute;
+        right: calc(-70%);
     }
 
 }

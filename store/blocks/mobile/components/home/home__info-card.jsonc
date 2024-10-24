@@ -5,6 +5,7 @@
             "flex-layout.col#mobile__info-card"
         ],
         "props": {
+            "marginTop": 8,
             "top": "168px"
         }
     },

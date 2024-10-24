@@ -44,7 +44,9 @@
     "image#global__info-card--prize": {
         "title": "global prize img info-card",
         "props": {
-            "src": "assets/img/home/global__home__info-card--prize.png"
+            "src": "assets/img/home/global__home__info-card--prize.png",
+            "maxHeight": "40px",
+            "maxWidth": "40px"
         }
     },
     "link#global__info-card-button": {
