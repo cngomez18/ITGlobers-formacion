@@ -2,7 +2,7 @@
     background-color: #FFFFFF;
     justify-content : space-between;
     width           : 324px;
-    height          : 336.46px;
+    max-height      : 340px;
     gap             : 0px;
     border-radius   : 12px;
 
@@ -63,8 +63,8 @@
 @media (min-width:375px) and (max-width: 1260px) {
     .flexCol--global__slider__info-card {
         max-width      : 325px !important;
-        max-height     : 330px !important;
-        border-radius  : 8px;
+        /*max-height     : 330px !important;
+        border-radius  : 8px;*/
         justify-content: space-between;
 
     }
