@@ -8,10 +8,21 @@
 
 @media (max-width: 375px) {
     .flexRowContent--plp__flex--main-row-mobile {
-        align-items   : center;
-        flex-wrap     : wrap;
-        flex-direction: column;
-        gap           : 10px;
-        display       : flex;
+        align-items    : center;
+        flex-direction : row;
+        gap            : 2px;
+        display        : flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 359px) {
+    .flexRowContent--plp__flex--main-row-mobile {
+        align-items    : center;
+        flex-direction : column;
+        gap            : 5px;
+        flex-wrap      : wrap;
+        display        : flex;
+        justify-content: space-evenly;
     }
 }

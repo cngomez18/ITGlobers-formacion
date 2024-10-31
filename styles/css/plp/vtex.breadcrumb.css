@@ -9,3 +9,7 @@
 .container{
     position: absolute;
 }
+
+.link{
+    text-transform: lowercase;
+}
