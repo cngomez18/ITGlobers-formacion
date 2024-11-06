@@ -16,6 +16,7 @@
 
 .nameContainer {
     padding: inherit;
+    justify-content: flex-start
 }
 
 .priceContainer {
