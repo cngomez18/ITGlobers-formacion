@@ -5,7 +5,7 @@
     max-height      : 340px;
     gap             : 0px;
     border-radius   : 12px;
-
+    padding-bottom  : 10px;
 }
 
 .flexColChild--global__slider__info-card {
