@@ -31,5 +31,13 @@
             "maxWidth": 280,
             "placeholder": "Search products..."
         }
+    },
+    "search-bar#mobile": {
+        "title": "mobile search bar",
+        "props": {
+            "compactMode": true,
+            "maxWidth": 280,
+            "placeholder": "Search products..."
+        }
     }
 }
