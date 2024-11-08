@@ -43,7 +43,7 @@
             "showNavigationArrows": false,
             "showPaginationDots": false,
             "thumbnailsOrientation": "horizontal",
-            "thumbnailMaxHeight": "76px",
+            //"thumbnailMaxHeight": "76px",
             "blockClass": [
                 "pdp__image--mobile"
             ]
