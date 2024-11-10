@@ -1,3 +1,11 @@
+.wrapper--sticky-header{
+    height: 100% !important;
+}
+
+.wrapper--sticky-header-desktop{
+    height: 100% !important;
+}
+
 .container--sticky-header {
     background-color: #FFFFFF;
     height          : 168px;

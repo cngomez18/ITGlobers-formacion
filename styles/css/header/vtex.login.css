@@ -37,17 +37,18 @@
 
 .content {
     background-color: #F5F4F6;
-    width           : 423px;
-    height          : 303px;
     border-radius   : 0px 0px 8px 8px;
     padding-bottom  : 8px;
 }
 
-.loginOptionsContainer {
+.contentForm {
+    min-width: 58%;
+}
+/*.loginOptionsContainer {
     position: absolute;
     bottom  : -1px;
     left    : 27px;
-}
+}*/
 
 .formTitle {
     font-family: Lexend;
@@ -231,10 +232,6 @@
     border     : 0px;
 }
 
-.content--emailAndPassword {
-    width : 423px;
-    height: 375px;
-}
 
 .dontHaveAccount {
     width        : 368px;
@@ -287,7 +284,7 @@
 }
 
 .codeConfirmation .formTitle h3 {
-    content: "camibo?"
+    content: "cambio?"
 }
 
 .inputContainerPassword div {
@@ -296,7 +293,7 @@
     font-weight: 300;
     line-height: 16px;
     text-align : left;
-    color      : #0C2340;
+    color      : #f3f3f3;
 }
 
 .forgotPasswordForm .formSubtitle {
@@ -315,15 +312,15 @@
     text-align : center;
 }
 
-@media (max-width:600px) {
-    .loginOptionsContainer {
+
+@media (max-width:900px) {
+    /*.loginOptionsContainer {
         position: relative;
         bottom  : -1px;
         left    : 0%;
+        
+        }*/
+        .content {
+            flex-wrap: wrap;
+        }
     }
-
-    .content {
-        position: relative;
-        top     : 300px
-    }
-}

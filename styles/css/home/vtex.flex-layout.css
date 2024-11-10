@@ -1,7 +1,7 @@
 .flexCol--global__slider__info-card {
     background-color: #FFFFFF;
     justify-content : space-between;
-    width           : 324px;
+    max-width       : 324px;
     max-height      : 340px;
     gap             : 0px;
     border-radius   : 12px;
@@ -45,7 +45,7 @@
 @media (max-width:375px) {
     .flexCol--global__slider__info-card {
         max-width      : 242px !important;
-        height         : 240.11px !important;
+        max-height     : 240.11px !important;
         border-radius  : 8px;
         justify-content: space-between;
 
@@ -53,21 +53,14 @@
 
     .flexCol--global__home__info-card--prize-holder {
         padding-top: 5px;
-        max-height: 40px;
-        position: absolute;
-        right: calc(-70%);
+        max-height : 40px;
+        position   : absolute;
+        right      : calc(-70%);
     }
 
 }
 
 @media (min-width:375px) and (max-width: 1260px) {
-    .flexCol--global__slider__info-card {
-        max-width      : 325px !important;
-        /*max-height     : 330px !important;
-        border-radius  : 8px;*/
-        justify-content: space-between;
-
-    }
 
     .flexCol--global__home__info-card--prize-holder {
         padding-top: 8px;
