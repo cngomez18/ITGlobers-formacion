@@ -1,13 +1,19 @@
 :global(.vtex-mega-menu-2-x-menuContainerVertical li:first-child::after) {
-    content : url(/arquivos/itg-menu.png);
-    position: absolute;
-    top     : 13%;
-    left    : 10px;
+    background-image: url(/arquivos/itg-menu.png);
+    content         : "";
+    display         : inline-block;
+    width           : 20px;
+    height          : 22px;
+    background-size : 100%;
 }
 
 :global(.vtex-mega-menu-2-x-menuContainerVertical li:first-child) {
-    padding-left: 20px;
-    border-bottom: 1px solid #F5F4F6 !important;
+    padding-left   : 10px;
+    border-bottom  : 1px solid #F5F4F6 !important;
+    flex-direction : row-reverse;
+    display        : flex;
+    justify-content: flex-end;
+    align-items    : center;
 }
 
 /*
