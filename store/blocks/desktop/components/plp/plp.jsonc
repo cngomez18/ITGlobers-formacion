@@ -5,7 +5,7 @@
             "flex-layout.col#container__result--desktop"
         ],
         "props": {
-            "marginTop": 6,
+      //      "marginTop": 6,
             "marginBottom": 6,
             "preventVerticalStretch": true,
             "blockClass": [
@@ -35,7 +35,7 @@
             "flex-layout.col#container__result--order"
         ],
         "props": {
-            "marginTop": 8
+       //     "marginTop": 8
         }
     },
     "flex-layout.row#container__result--filter-content": {
@@ -52,6 +52,7 @@
         "title": "left col breadcrumb title products List desktop",
         "children": [
             "breadcrumb.search",
+            "flex-layout.row#spacer",
             "search-title.v2",
             "search-products-count-per-page"
         ],

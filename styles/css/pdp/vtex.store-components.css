@@ -131,6 +131,10 @@
     max-height: 76px;
 }
 
+.carouselGaleryThumbs--pdp__image--mobile{
+    display: block;
+}
+
 @media (min-width:1071px) and (max-width:1279px) {
     .container {
         max-width: 98%;

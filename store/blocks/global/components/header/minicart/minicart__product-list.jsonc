@@ -43,7 +43,7 @@
     "product-list-image": {
         "title": "global minicart product list image",
         "props": {
-            "width": 140
+            "width": 130
         }
     },
     "flex-layout.col#main-container.mobile": {

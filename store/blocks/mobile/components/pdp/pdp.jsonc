@@ -2,9 +2,9 @@
     "flex-layout.row#mobile__product--container": {
         "title": "Mobile product Detail main row container",
         "props": {
-            "marginTop": 9,
+            //"marginTop": 9,
             "marginBottom": 7,
-            "paddingTop": 7,
+            //"paddingTop": 7,
             "paddingBottom": 7,
             "blockClass": [
                 "pdp__flex--mobile-main-row"
@@ -43,7 +43,7 @@
             "showNavigationArrows": false,
             "showPaginationDots": false,
             "thumbnailsOrientation": "horizontal",
-            "thumbnailMaxHeight": "76px",
+            //"thumbnailMaxHeight": "76px",
             "blockClass": [
                 "pdp__image--mobile"
             ]

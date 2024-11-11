@@ -1,4 +1,4 @@
-.description {
+.brandName {
     width             : Hug (51px)px;
     height            : Fixed (212px)px;
     font-family       : Lexend;
@@ -12,6 +12,17 @@
     -webkit-line-clamp: 3;
     line-clamp        : 3;
     -webkit-box-orient: vertical;
+}
+
+.nameContainer {
+    padding: inherit;
+    justify-content: flex-start
+}
+
+.priceContainer {
+    text-align: left !important;
+    align-items: start;
+    padding: 5px 0;
 }
 
 .priceContainer :global(.vtex-store-components-3-x-sellingPrice) {
@@ -53,31 +64,34 @@
 
 @media (max-width:375px) {
     .container {
-        width : Fixed (160.96px)px;
-        height: Hug (291.63px)px;
+        width : 160.96px;
+        min-height: 291.63px;
+    }
+
+    .image{
+        max-height: 106px !important;
+        max-width: 135px !important;
     }
 
     .description {
-        width      : Hug (38.72px)px;
-        height     : Fixed (160.96px)px;
-        gap        : 7.59px;
-        opacity    : 0px;
+        width      : 160px;
+        height     : 40px;
         font-size  : 12px;
         line-height: 12.76px;
     }
 
     .priceContainer :global(.vtex-product-summary-2-x-price_listPriceContainer) {
         font-family: Lexend;
-        font-size  : 15px !important;
+        font-size  : 12px !important;
         font-weight: 600;
-        line-height: 21.87px;
+        line-height: 12.70px;
         text-align : left;
         padding    : 0px;
     }
 
     .priceContainer :global(.vtex-store-components-3-x-sellingPrice) {
         font-family: Lexend;
-        font-size  : 15px !important;
+        font-size  : 20px !important;
         font-weight: 600;
         line-height: 21.87px;
         text-align : left;

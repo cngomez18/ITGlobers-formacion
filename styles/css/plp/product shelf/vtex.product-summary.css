@@ -1,37 +1,15 @@
-.element--plp__shelf {
-    display              : grid;
-    grid-template-columns: 1fr 1fr;
-    gap                  : 8px;
-    align-items          : start;
+.brandName--plp__shelf {
+    font-family: Lexend;
+    font-size  : 12px;
+    font-weight: 400;
+    line-height: 12.76px;
+    text-align : left;
 }
 
-.container--plp__shelf {
-    max-height: 120px;
-    max-width : 290px;
-    gap       : 2px;
-}
-
-.description--plp__shelf {
-    grid-column       : 2 / 3;
-    grid-row          : 1 / 2;
-    width             : auto;
-    height            : auto;
-    font-family       : Lexend;
-    font-size         : 12px;
-    font-weight       : 400;
-    line-height       : 16.8px;
-    text-align        : left;
-    overflow          : hidden;
-    text-overflow     : ellipsis;
-    display           : -webkit-box;
-    -webkit-line-clamp: 2;
-    line-clamp        : 2;
-    -webkit-box-orient: vertical;
-}
 
 .priceContainer--plp__shelf :global(.vtex-store-components-3-x-sellingPrice) {
     font-family: Lexend;
-    font-size  : 14px;
+    font-size  : 14px !important;
     font-weight: 600;
     padding    : 0px;
     margin     : 0px;
@@ -46,31 +24,23 @@
 }
 
 .priceContainer--plp__shelf {
-    grid-column: 2 / 3;
-    grid-row   : 2 / 3;
-    padding    : 0px;
-    margin-top : 5px;
+    padding   : 0px;
+    margin-top: 5px;
 }
 
 .imageWrapper--plp__shelf {
-    grid-column: 1 / 2;
-    grid-row   : 1 / 4;
-    width      : 135px;
-    height     : 106px;
+    max-width : 240px;
+    max-height: 110px;
 }
 
-.productHighlightWrapper--plp__shelf {
-    grid-column: 2 / 3;
-    grid-row   : 3 / 4;
-}
 
 .container--plp__shelf-mobile {
-    max-width: 50% !important;
+    max-width: 80% !important;
 }
 
 .priceContainer--plp__shelf-mobile :global(.vtex-store-components-3-x-sellingPrice) {
     font-family: Lexend;
-    font-size  : 14px;
+    font-size  : 14px !important;
     font-weight: 600;
     line-height: 25px;
     padding    : 0px;
@@ -84,10 +54,4 @@
     line-height: 25px;
     padding    : 0px;
     margin     : 0px;
-}
-
-@media (min-width: 470px) {
-    .container--plp__shelf-mobile {
-        max-width: 40% !important;
-    }
 }

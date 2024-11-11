@@ -5,6 +5,12 @@
             "width": "grow"
         }
     },
+    "flex-layout.row#spacer": {
+        "title": "global row spacer",
+        "props": {
+            "paddingTop": "7"
+        }
+    },
     "logo": {
         "title": "logo global ",
         "props": {
@@ -22,6 +28,14 @@
     "search-bar": {
         "title": "global search bar",
         "props": {
+            "maxWidth": 280,
+            "placeholder": "Search products..."
+        }
+    },
+    "search-bar#mobile": {
+        "title": "mobile search bar",
+        "props": {
+            "compactMode": true,
             "maxWidth": 280,
             "placeholder": "Search products..."
         }

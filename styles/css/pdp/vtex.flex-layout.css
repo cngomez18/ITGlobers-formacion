@@ -1,5 +1,5 @@
 .flexRowContent--pdp__btn :global(.vtex-button__label) {
-    padding         : 0px;
+    padding         : 0px !important;
     background-color: transparent !important;
 }
 
@@ -24,9 +24,10 @@
 }
 
 .flexRowContent--pdp__btn {
-    display        : flex;
-    justify-content: left;
-    column-gap     : 10px;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+    align-items: flex-start;
 }
 
 .flexRowContent--pdp__price {

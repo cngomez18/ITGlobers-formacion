@@ -9,6 +9,7 @@
     border-radius: 3.78px;
     border       : 0.95px solid #E7E7E7;
     padding      : 3px;
+    object-fit   : contain;
 }
 
 .productName {
@@ -66,13 +67,12 @@
     border-radius: 0px 3.78px 3.78px 0px;
 }
 
-.quantitySelectorContainer {
-    width : 137.06px;
-    height: 45.37px;
+.quantitySelectorWrapper{
+    width: 120px;
 }
 
 .inputContainer {
-    width  : 15px !important;
+    width  : 10px !important;
     height : auto;
     padding: 0px !important;
 }

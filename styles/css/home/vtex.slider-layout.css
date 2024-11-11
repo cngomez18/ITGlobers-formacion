@@ -1,3 +1,7 @@
+.sliderTrack--global__product-shelf {
+    gap: 2px;
+}
+
 .paginationDot {
     width           : 44px !important;
     height          : 40px !important;
@@ -105,6 +109,13 @@
     }
 }
 
+@media screen and (min-width: 641px){
+    .sliderTrack--global__product-shelf {
+        gap: 10px;
+    }
+    
+}
+
 @media (max-width:640px) {
     .sliderLayoutContainer--global__product-shelf {
         max-width     : 425px;
@@ -125,10 +136,14 @@
 
 @media (max-width: 580px) {
     .paginationDotsContainer {
-        left           : 100px;
         justify-content: center;
         width          : 200px;
-        overflow       : hidden;
+        overflow       : auto;
+        margin         : 0 auto;
+    }
+
+    ::-webkit-scrollbar {
+        display: none !important;
     }
 }
 

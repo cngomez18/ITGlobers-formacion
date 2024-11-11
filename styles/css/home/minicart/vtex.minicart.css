@@ -51,7 +51,7 @@
 }
 
 .minicartCheckoutButton :global(.vtex-button) {
-    width           : 368px;
+    /*width           : 368px;*/
     height          : 48px;
     border-radius   : 40px;
     border          : 1px;
@@ -69,7 +69,8 @@
 }
 
 .minicartSummary {
-    width           : 368px;
+    max-width       : 368px;
+    min-width       : 280px;
     height          : 126px;
     left            : 4%;
     padding         : 24px;
@@ -91,9 +92,9 @@
         padding-left: 2%;
     }
 
-    .minicartCheckoutButton :global(.vtex-button) {
+    /*.minicartCheckoutButton :global(.vtex-button) {
         width: 345px;
-    }
+    }*/
 
     .minicartSummary {
         left: 0px;

@@ -5,3 +5,11 @@
     line-height: 17.07px;
     text-align : left;
 }
+
+.container{
+    position: absolute;
+}
+
+.link{
+    text-transform: lowercase;
+}

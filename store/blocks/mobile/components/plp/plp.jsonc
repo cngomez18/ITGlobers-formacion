@@ -5,13 +5,14 @@
             "flex-layout.col#container__result--mobile"
         ],
         "props": {
-            "marginTop": 9
+           // "marginTop": 9
         }
     },
     "flex-layout.col#container__result--mobile": {
         "title": "mobile main col container",
         "children": [
             "flex-layout.row#container__result--breadcrumb",
+            "flex-layout.row#spacer",
             "flex-layout.row#container__result--title",
             "flex-layout.row#container__result--filters",
             "flex-layout.row#container__result--content"

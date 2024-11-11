@@ -14,7 +14,7 @@
         "children": [
             "flex-layout.col#mobile__drawer",
             "flex-layout.col#mobile__logo",
-            "search-bar",
+            "search-bar#mobile",
             "minicart.v2",
             "login"
         ],
