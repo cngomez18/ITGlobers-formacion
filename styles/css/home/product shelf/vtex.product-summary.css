@@ -15,14 +15,14 @@
 }
 
 .nameContainer {
-    padding: inherit;
+    padding        : inherit;
     justify-content: flex-start
 }
 
 .priceContainer {
-    text-align: left !important;
+    text-align : left !important;
     align-items: start;
-    padding: 5px 0;
+    padding    : 5px 0;
 }
 
 .priceContainer :global(.vtex-store-components-3-x-sellingPrice) {
@@ -64,13 +64,13 @@
 
 @media (max-width:375px) {
     .container {
-        width : 160.96px;
+        width     : 160.96px;
         min-height: 291.63px;
     }
 
-    .image{
+    .image {
         max-height: 106px !important;
-        max-width: 135px !important;
+        max-width : 135px !important;
     }
 
     .description {

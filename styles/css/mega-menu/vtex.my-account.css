@@ -15,14 +15,3 @@
     justify-content: flex-end;
     align-items    : center;
 }
-
-/*
-class="vtex-mega-menu-2-x-styledLinkContainer pv5 mh5"
-vtex-mega-menu-2-x-styledLinkText flex justify-between items-center
-class="vtex-mega-menu-2-x-styledLinkContent flex justify-between"
-vtex-mega-menu-2-x-menuItemVertical bb b--light-gray bt
-vtex-mega-menu-2-x-styledLinkText flex justify-between items-center
-div:last-child::before
-:global(.vtex-mega-menu-2-x-menuContainerVertical li:first-child::before)
-
-:global(vtex-mega-menu-2-x-styledLinkContent :first-child)

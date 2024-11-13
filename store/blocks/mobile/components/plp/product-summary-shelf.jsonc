@@ -14,7 +14,7 @@
             ]
         },
         "children": [
-            "flex-layout.row#plp__shelf-mobile"    
+            "flex-layout.row#plp__shelf-mobile"
         ]
     },
     "flex-layout.row#plp__shelf-mobile": {

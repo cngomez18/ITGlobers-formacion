@@ -19,7 +19,6 @@
 }
 
 .filterTitleSpan {
-    /* titulo del filtro*/
     font-family: Lexend;
     font-size  : 14px;
     font-weight: 400;
@@ -28,7 +27,6 @@
 }
 
 .filterItem {
-    /*filtros*/
     font-family: Lexend;
     font-size  : 12px;
     font-weight: 300;
@@ -141,25 +139,25 @@
     color      : #1D2734;
 }
 
-.orderByOptionItem{
+.orderByOptionItem {
     font-family: Lexend;
     font-size  : 12px;
     font-weight: 600;
     line-height: 25px;
 }
 
-.accordionFilterItemTitle{
+.accordionFilterItemTitle {
     font-family: Lexend;
     font-size  : 16px;
     font-weight: 600;
 }
 
-:global(.vtex-checkbox__label){
+:global(.vtex-checkbox__label) {
     font-family: Lexend;
     font-size  : 14px;
-} 
+}
 
-.filterIcon{
+.filterIcon {
     padding-top: 5px;
 }
 
@@ -186,18 +184,18 @@
     text-align : center;
 }
 
-.filterClearButtonWrapper :global(.vtex-button){
+.filterClearButtonWrapper :global(.vtex-button) {
     font-family: Lexend;
     font-weight: 400;
 }
 
-.filterApplyButtonWrapper :global(.vtex-button){
+.filterApplyButtonWrapper :global(.vtex-button) {
     font-family: Lexend;
     font-weight: 400;
-    border: none;
+    border     : none;
 }
 
-.galleryItem--two{
+.galleryItem--two {
     padding: 10px 0;
 }
 

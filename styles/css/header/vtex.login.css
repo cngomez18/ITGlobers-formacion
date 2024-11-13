@@ -44,11 +44,6 @@
 .contentForm {
     min-width: 58%;
 }
-/*.loginOptionsContainer {
-    position: absolute;
-    bottom  : -1px;
-    left    : 27px;
-}*/
 
 .formTitle {
     font-family: Lexend;
@@ -314,13 +309,7 @@
 
 
 @media (max-width:900px) {
-    /*.loginOptionsContainer {
-        position: relative;
-        bottom  : -1px;
-        left    : 0%;
-        
-        }*/
-        .content {
-            flex-wrap: wrap;
-        }
+    .content {
+        flex-wrap: wrap;
     }
+}
