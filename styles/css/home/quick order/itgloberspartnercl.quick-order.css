@@ -1,0 +1,59 @@
+/*
+.quick-order--container
+.quick-order--title
+.quick-order--form
+.quick-order--label
+.quick-order--input
+.quick-order--btn
+.quick-order--notfound
+*/
+
+.quick-order--container {
+    padding         : 40px 20px;
+    max-width       : 350px;
+    max-height      : 500px;
+    font-family     : Lexend;
+    gap             : 10px;
+    background-color: white;
+    border-radius   : 12px;
+}
+
+.quick-order--title {
+    font-size  : 24px;
+    font-weight: 600;
+}
+
+.quick-order--form {
+    display       : flex;
+    gap           : 15px;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.quick-order--input {
+    font-family     : Lexend;
+    font-weight     : 400;
+    width           : 300px;
+    height          : 35px;
+    gap             : 10px;
+    border-radius   : 4px;
+    background-color: #F5F4F6;
+    border          : 2px solid #1D2734;
+}
+
+.quick-order--btn {
+    font-family     : Lexend;
+    font-weight     : 400;
+    width           : 300px;
+    height          : 35px;
+    border-radius   : 4px;
+    border          : 2px solid #1D2734;
+    background-color: #F5F4F6;
+}
+
+.quick-order--notfound {
+    font-family: Lexend;
+    font-size  : 20px;
+    font-weight: 600;
+    color      : #dd1659;
+}

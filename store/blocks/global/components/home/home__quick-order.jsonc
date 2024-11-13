@@ -1,0 +1,13 @@
+{
+    "flex-layout.row#global__quick-order": {
+        "props": {
+            "horizontalAlign": "center",
+            "preserveLayoutOnMobile": true,
+            "marginTop": 4,
+            "marginBottom": 4
+        },
+        "children": [
+            "quick-order"
+        ]
+    }
+}
