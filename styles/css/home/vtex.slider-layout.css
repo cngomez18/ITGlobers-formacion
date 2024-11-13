@@ -109,11 +109,11 @@
     }
 }
 
-@media screen and (min-width: 641px){
+@media screen and (min-width: 641px) {
     .sliderTrack--global__product-shelf {
         gap: 10px;
     }
-    
+
 }
 
 @media (max-width:640px) {

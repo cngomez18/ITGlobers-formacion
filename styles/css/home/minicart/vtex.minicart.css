@@ -51,7 +51,6 @@
 }
 
 .minicartCheckoutButton :global(.vtex-button) {
-    /*width           : 368px;*/
     height          : 48px;
     border-radius   : 40px;
     border          : 1px;
@@ -91,10 +90,6 @@
     .minicartCheckoutButton {
         padding-left: 2%;
     }
-
-    /*.minicartCheckoutButton :global(.vtex-button) {
-        width: 345px;
-    }*/
 
     .minicartSummary {
         left: 0px;

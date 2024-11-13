@@ -10,7 +10,7 @@
         ]
     },
     "flex-layout.row#desktop": {
-        "title": " desktop row navbar flex-layout",
+        "title": " desktop row navbar",
         "props": {
             "horizontalAlign": "center",
             "verticalAlign": "center",
@@ -26,34 +26,26 @@
             "flex-layout.col#desktop__menu-logo-search--holder",
             "flex-layout.col#desktop__navbar--col",
             "flex-layout.col#desktop__minicart-login--holder"
-            /*"flex-layout.col#desktop__menu--holder",
-            "flex-layout.col#desktop__logo",
-            "search-bar",
-            "flex-layout.col#desktop__navbar--col",
-            "minicart.v2",
-            "login"*/
         ]
     },
-    "flex-layout.col#desktop__menu-logo-search--holder":{
-        "children":[
+    "flex-layout.col#desktop__menu-logo-search--holder": {
+        "title": " desktop col menu & search container row ",
+        "children": [
             "flex-layout.row#desktop__menu-logo-search--holder"
         ]
     },
-    "flex-layout.col#desktop__minicart-login--holder":{
-        "children":[
+    "flex-layout.col#desktop__minicart-login--holder": {
+        "title": " desktop col minicart login container row ",
+        "children": [
             "flex-layout.row#desktop__minicart-login--holder"
         ]
     },
-
     "flex-layout.row#desktop__menu-logo-search--holder": {
-        "title": " desktop col drawer menu logo search holder flex-layout",
+        "title": " desktop logo menu & search container row",
         "props": {
             "verticalAlign": "middle",
             "colSizing": "auto",
-            "horizontalAlign": "left",
-            "blockClass": [
-                //"desktop__menu--holder"
-            ]
+            "horizontalAlign": "left"
         },
         "children": [
             "vtex.menu@2.x:menu#desktop__menu",
@@ -62,43 +54,14 @@
         ]
     },
     "flex-layout.row#desktop__minicart-login--holder": {
-        "title": " desktop col drawer minicart login holder flex-layout",
-        "props": {
-            "verticalAlign": "middle",
-            "horizontalAlign": "center",
-            "blockClass": [
-                //"desktop__menu--holder"
-            ]
-        },
-        "children": [
-            "minicart.v2",
-            "login"
-        ]
-    },
-
-
-
-    "flex-layout.col#desktop__menu--holder": {
-        "title": " desktop col drawer menu holder flex-layout",
-        "props": {
-            "verticalAlign": "middle",
-            "horizontalAlign": "center",
-            "blockClass": [
-                "desktop__menu--holder"
-            ]
-        },
-        "children": [
-            "vtex.menu@2.x:menu#desktop__menu"
-        ]
-    },
-    "flex-layout.col#desktop__logo": {
-        "title": " desktop col logo flex-layout",
+        "title": " desktop minicart login container row ",
         "props": {
             "verticalAlign": "middle",
             "horizontalAlign": "center"
         },
         "children": [
-            "logo"
+            "minicart.v2",
+            "login"
         ]
     },
     "flex-layout.col#desktop__navbar--col": {

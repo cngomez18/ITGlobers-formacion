@@ -24,10 +24,10 @@
 }
 
 .flexRowContent--pdp__btn {
-    display: flex;
+    display        : flex;
     justify-content: space-around;
-    column-gap: 10px;
-    align-items: flex-start;
+    column-gap     : 10px;
+    align-items    : flex-start;
 }
 
 .flexRowContent--pdp__price {

@@ -1,5 +1,6 @@
 {
     "flex-layout.row#global__quick-order": {
+        "title": "global home quick-order container row",
         "props": {
             "horizontalAlign": "center",
             "preserveLayoutOnMobile": true,

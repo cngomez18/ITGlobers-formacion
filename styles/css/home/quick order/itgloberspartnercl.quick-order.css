@@ -1,13 +1,3 @@
-/*
-.quick-order--container
-.quick-order--title
-.quick-order--form
-.quick-order--label
-.quick-order--input
-.quick-order--btn
-.quick-order--notfound
-*/
-
 .quick-order--container {
     padding         : 40px 20px;
     max-width       : 350px;
@@ -16,6 +6,8 @@
     gap             : 10px;
     background-color: white;
     border-radius   : 12px;
+    box-shadow      : 9px 9px 18px #898989,
+                     -9px -9px 18px #ffffff;
 }
 
 .quick-order--title {

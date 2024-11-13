@@ -3,10 +3,7 @@
         "title": "mobile main row container",
         "children": [
             "flex-layout.col#container__result--mobile"
-        ],
-        "props": {
-           // "marginTop": 9
-        }
+        ]
     },
     "flex-layout.col#container__result--mobile": {
         "title": "mobile main col container",

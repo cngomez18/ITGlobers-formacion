@@ -5,7 +5,6 @@
             "flex-layout.col#container__result--desktop"
         ],
         "props": {
-      //      "marginTop": 6,
             "marginBottom": 6,
             "preventVerticalStretch": true,
             "blockClass": [
@@ -33,10 +32,7 @@
         "children": [
             "flex-layout.col#container__result--breadcrumb-title-found",
             "flex-layout.col#container__result--order"
-        ],
-        "props": {
-       //     "marginTop": 8
-        }
+        ]
     },
     "flex-layout.row#container__result--filter-content": {
         "title": "middle row filter search content product List desktop",

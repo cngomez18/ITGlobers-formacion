@@ -3,11 +3,7 @@
         "title": "mobile home info-card ",
         "children": [
             "flex-layout.col#mobile__info-card"
-        ],
-        "props": {
-            //"marginTop": 8,
-            //"top": "168px"
-        }
+        ]
     },
     "flex-layout.col#mobile__info-card": {
         "title": "mobile home info-card img col",
